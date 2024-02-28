@@ -1,11 +1,11 @@
 import { colors, lighten } from '@/common/colors'
 import { useDeck } from '@/context/useDeck'
-import type { Rarity } from '@/data/cards'
+import { RARITY, type Rarity } from '@/data/cards'
 import { chain, sumBy } from 'lodash'
 import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts'
 import { gray } from 'tailwindcss/colors'
 
-export const rarities: Rarity[] = ['basic', 'common', 'rare', 'epic', 'legendary']
+export const rarities: Rarity[] = Object.values(RARITY)
 export const CardRarityChart = () => {
   const { cards } = useDeck()
   const grouped = chain(cards)

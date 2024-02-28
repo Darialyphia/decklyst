@@ -1,4 +1,4 @@
-import type { Faction, Rarity } from '@/data/cards'
+import { RARITY, type Faction, type Rarity } from '@/data/cards'
 
 export const colors: Record<Faction | Rarity, string> = {
   lyonar: '#e5c56d',
@@ -7,14 +7,14 @@ export const colors: Record<Faction | Rarity, string> = {
   abyssian: '#bf20e1',
   magmar: '#3db586',
   vanar: '#2ba3db',
-
   neutral: '#f5f5f5',
-  common: '#e5e5e5',
-  token: '#e5e5e5',
-  basic: '#d4d4d4',
-  rare: '#396cfd',
-  epic: '#bf20e1',
-  legendary: '#e39f28',
+
+  [RARITY.COMMON]: '#e5e5e5',
+  [RARITY.TOKEN]: '#e5e5e5',
+  [RARITY.BASIC]: '#d4d4d4',
+  [RARITY.RARE]: '#396cfd',
+  [RARITY.EPIC]: '#bf20e1',
+  [RARITY.LEGENDARY]: '#e39f28',
 }
 
 export const lighten = (color: string, percent: number) => {

@@ -2,7 +2,7 @@ import { CardSprite } from '@/components/CardSprite'
 import type { CardHandler } from '@/components/Deckbuilder/CardList'
 import { ManaIcon } from '@/components/DeckInfograph/ManaIcon'
 import type { CardData } from '@/data/cards'
-import { cardsById, highlightKeywords } from '@/data/cards'
+import { cardsById, highlightKeywords, RARITY } from '@/data/cards'
 import cx from 'classnames'
 import dynamic from 'next/dynamic'
 import type { FC } from 'react'
@@ -150,7 +150,7 @@ export const Card: FC<{
         {card.cardType === 'Minion' && <CardAttack card={card} />}
         <img
           src={`/assets/icons/rarity/collection_card_rarity_${
-            card.rarity === 'token' ? 'basic' : card.rarity
+            card.rarity === RARITY.TOKEN ? RARITY.BASIC.toLowerCase() : card.rarity.toLowerCase()
           }.png`}
           width="64"
           alt={card.rarity}

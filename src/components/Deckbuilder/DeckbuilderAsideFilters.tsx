@@ -1,7 +1,7 @@
 import { useCardFilters } from '@/context/useCardFilters'
 import { useDeck } from '@/context/useDeck'
 import type { CardType, Rarity } from '@/data/cards'
-import { keywords } from '@/data/cards'
+import { keywords, RARITY } from '@/data/cards'
 import { Switch } from '@headlessui/react'
 import cx from 'classnames'
 import { range, startCase } from 'lodash'
@@ -10,7 +10,7 @@ import { ManaIcon } from '../DeckInfograph/ManaIcon'
 import { Filter } from '../Filter'
 import { ArtifactIcon, MinionIcon, SpellIcon } from '../Icons'
 
-const rarities: Rarity[] = ['basic', 'common', 'rare', 'epic', 'legendary']
+const rarities: Rarity[] = Object.values(RARITY)
 const cardTypes: CardType[] = ['Minion', 'Spell', 'Artifact']
 export const DeckbuilderAsideFilters: FC = () => {
   const { faction } = useDeck()
@@ -63,7 +63,7 @@ export const DeckbuilderAsideFilters: FC = () => {
               {({ checked }) => (
                 <>
                   <img
-                    src={`/assets/icons/rarity/collection_card_rarity_${value}.png`}
+                    src={`/assets/icons/rarity/collection_card_rarity_${value.toLowerCase()}.png`}
                     width="64"
                     className={cx(
                       checked
