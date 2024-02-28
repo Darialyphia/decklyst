@@ -12,7 +12,6 @@ export const CardSprite: FC<{
   style?: (size: { width: number; height: number }) => CSSProperties
 }> = ({ card, animated, centered, scale, className, style }) => {
   const { data, isSuccess } = useSpriteQuery(card.id, animated)
-
   const src = data?.src
   const width = (data?.width ?? 0) * (scale ?? 1)
   const height = (data?.height ?? 0) * (scale ?? 1)
