@@ -10,7 +10,7 @@ import { ManaIcon } from '../DeckInfograph/ManaIcon'
 import { Filter } from '../Filter'
 import { ArtifactIcon, MinionIcon, SpellIcon } from '../Icons'
 
-const rarities: Rarity[] = Object.values(RARITY)
+const rarities: Rarity[] = Object.values(RARITY).filter((rarity) => rarity !== RARITY.TOKEN)
 const cardTypes: CardType[] = ['Minion', 'Spell', 'Artifact']
 export const DeckbuilderAsideFilters: FC = () => {
   const { faction } = useDeck()
