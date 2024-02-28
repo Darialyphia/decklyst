@@ -22,9 +22,21 @@ const Home: NextPage<Props> = ({ starterDecklysts }) => {
       <div className="content-container mt-16 flex flex-col px-6 lg:mt-32 lg:px-24">
         <h1 className="mb-3 text-center text-5xl leading-tight text-gray-100">
           <span className="inline-block whitespace-nowrap">Welcome to&nbsp;</span>
-          <span className="font-thin text-accent-400">Decklyst</span>
+          <span className="font-thin text-accent-400">Re-Decklyst</span>
         </h1>
         <p className="text-center text-xl text-gray-300">Your Duelyst 2 deck companion</p>
+        <p className="text-md text-center text-gray-300">
+          This is a fork of{' '}
+          <a
+            target="_blank"
+            href="https://decklyst.vercel.app/"
+            rel="noreferrer"
+            className="underline"
+          >
+            Decklyst
+          </a>{' '}
+          as it does not seem to be maintained anymore
+        </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-x-12 gap-y-4 sm:flex-row">
           <Link className="btn btn--large bg-accent-700" href="/decks">
             Browse decks
