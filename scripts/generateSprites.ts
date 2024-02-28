@@ -1,8 +1,8 @@
 import fs from 'fs-extra'
-import type { CardJSON } from 'generateCardsJson'
 import fetch from 'node-fetch'
 import path from 'path'
 import sharp from 'sharp'
+import type { CardJSON } from './generateCardsJson'
 
 const blacklist = [20452]
 
