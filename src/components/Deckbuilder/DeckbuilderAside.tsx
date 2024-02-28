@@ -18,6 +18,7 @@ import { DeckDiffDialog } from './DeckDiffDialog'
 import { DeckTitleInput } from './DeckTitleInput'
 import { SaveDeckDialog } from './SaveDeckDialog'
 
+import { MAX_CARDS_PER_DECK, MIN_CARDS_PER_DECK } from '@/utils/config'
 import { Tab } from '@headlessui/react'
 import { DeckStats } from '../DeckDetails/DeckDetailsAside'
 
@@ -107,8 +108,10 @@ export const DeckbuilderAside: FC<{ baseDeck?: DeckExpanded }> = ({ baseDeck }) 
                     <span className={`text-${deck.faction}`}>{deck.counts.total}</span>/
                     <span
                       className={cx({
-                        'text-red-600': deck.counts.total > 40,
-                        [`text-${deck.faction}`]: deck.counts.total === 40,
+                        'text-red-600': deck.counts.total > MAX_CARDS_PER_DECK,
+                        [`text-${deck.faction}`]:
+                          deck.counts.total >= MIN_CARDS_PER_DECK &&
+                          deck.counts.total <= MAX_CARDS_PER_DECK,
                       })}
                     >
                       40
