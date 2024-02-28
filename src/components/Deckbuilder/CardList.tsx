@@ -2,7 +2,7 @@ import { Card } from '@/components/Deckbuilder/Card'
 import { useCardFilters } from '@/context/useCardFilters'
 import { useDeck } from '@/context/useDeck'
 import type { CardData } from '@/data/cards'
-import { cardCompareFn, cards } from '@/data/cards'
+import { cardCompareFn, cards, RARITY } from '@/data/cards'
 import type { FC } from 'react'
 import { useMemo } from 'react'
 
@@ -18,7 +18,9 @@ export const CardList: FC<{
   const filteredCards = useMemo(
     () =>
       cards
-        .filter((card) => card.cardType !== 'General' && card.rarity !== 'token')
+        .filter((card) => {
+          return card.cardType !== 'General' && card.rarity !== RARITY.TOKEN
+        })
         .filter((card) => (faction ? card.faction === faction : true))
         .filter((card) =>
           mana?.length ? mana.includes(card.mana) || (mana.includes(9) && card.mana > 9) : true,

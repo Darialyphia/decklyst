@@ -3,8 +3,17 @@ export const allCards: CardData[] = require('./carddata.json')
 
 const tokenSpells = [20424]
 
+export const RARITY = {
+  BASIC: 'Basic',
+  COMMON: 'Common',
+  RARE: 'Rare',
+  EPIC: 'Epic',
+  LEGENDARY: 'Legendary',
+  TOKEN: 'Token',
+} as const satisfies Record<string, Rarity>
+
 export const cards = allCards.filter(
-  (card) => card.rarity !== 'token' && !tokenSpells.includes(card.id),
+  (card) => card.rarity !== RARITY.TOKEN && !tokenSpells.includes(card.id),
 )
 
 export interface CardData {
@@ -28,7 +37,7 @@ export interface CardData {
 
 export type CardSet = 'Core Set'
 export type CardType = 'Artifact' | 'General' | 'Minion' | 'Spell'
-export type Rarity = 'basic' | 'common' | 'epic' | 'legendary' | 'rare' | 'token'
+export type Rarity = 'Basic' | 'Common' | 'Epic' | 'Legendary' | 'Rare' | 'Token'
 export type Faction =
   | 'lyonar'
   | 'songhai'
@@ -113,13 +122,13 @@ export const highlightKeywords = memoize((description?: string) => {
 
 export const rarityCraftingCost = (rarity: Rarity) => {
   switch (rarity) {
-    case 'common':
+    case RARITY.COMMON:
       return 40
-    case 'rare':
+    case RARITY.RARE:
       return 100
-    case 'epic':
+    case RARITY.EPIC:
       return 350
-    case 'legendary':
+    case RARITY.LEGENDARY:
       return 900
     default:
       return 0
