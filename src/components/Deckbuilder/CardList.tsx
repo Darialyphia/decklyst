@@ -7,7 +7,9 @@ import type { FC } from 'react'
 import { useMemo } from 'react'
 
 export type CardHandler = (card: CardData, all?: boolean) => void
-
+const IGNORED_IDS = [
+  20452, // duplicate Rasha's curse
+]
 export const CardList: FC<{
   onSelectCard: CardHandler
   onDeselectCard: CardHandler
@@ -21,6 +23,7 @@ export const CardList: FC<{
         .filter((card) => {
           return card.cardType !== 'General' && card.rarity !== RARITY.TOKEN
         })
+        .filter((card) => !IGNORED_IDS.includes(card.id))
         .filter((card) => (faction ? card.faction === faction : true))
         .filter((card) =>
           mana?.length ? mana.includes(card.mana) || (mana.includes(9) && card.mana > 9) : true,
