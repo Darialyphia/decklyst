@@ -25,7 +25,6 @@ export const AuthorCombobox: FC<{
     return authors?.find((author) => author.id === value)?.name ?? ''
   }
 
-  console.log({ value })
   return (
     <Combobox value={value} onChange={onChange} as="div" className="combobox">
       <div className="combobox-input">

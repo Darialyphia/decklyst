@@ -1,3 +1,4 @@
+import { TRPCError } from '@trpc/server'
 import { z } from 'zod'
 import { snapshot } from '../../model/snapshot'
 import { proc, router } from '../trpc'
@@ -23,7 +24,7 @@ export const deckImageRouter = router({
       const decklyst =
         (sharecode ? await ctx.decklyst.findByCode(sharecode) : null) ??
         (await ctx.decklyst.ensureByCode(code))
-
+      console.log(renderOnly)
       if (!decklyst) return null
 
       sharecode = decklyst.sharecode
@@ -38,7 +39,11 @@ export const deckImageRouter = router({
           image = await snapshot(sharecode)
         } catch (err) {
           image = null
-          console.error('Failed to render deck image', sharecode, err)
+          throw new TRPCError({
+            message: 'Failed to render deck image',
+            code: 'BAD_REQUEST',
+            cause: err,
+          })
         }
         await ctx.deckImage.finishRendering(sharecode, image)
       }
