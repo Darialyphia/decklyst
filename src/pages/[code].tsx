@@ -29,9 +29,7 @@ export const getServerSideProps = async (ctx: GetServerSidePropsContext<{ code?:
   //       }
   //     : { notFound: true }
   // } catch (err) {
-  //   if (err instanceof TRPCError) {
-  //     console.log('is trpc error')
-  //   }
+
   //   return { redirect: { destination: '/decks/invalid', permanent: false } }
   // }
 }

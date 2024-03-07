@@ -11,8 +11,10 @@ export const remoteSnapshotUrl = (deckcode: string) =>
     env.REMOTE_SNAPSHOT_URL ?? 'https://duelyst-deck-renderer.azurewebsites.net'
   }/api/render?deckcode=${encodeURIComponent(deckcode)}`
 
-export const snapshot = (code: string) =>
-  env.VERCEL === '1' ? snapshotBrowserless(code) : snapshotLocal(code)
+export const snapshot = (code: string) => {
+  return snapshotLocal(code)
+  // return env.VERCEL === '1' ? snapshotBrowserless(code) : snapshotLocal(code)
+}
 
 export const snapshotLocal = async (code: string) => {
   const puppeteer = require('puppeteer')

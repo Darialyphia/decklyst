@@ -4,8 +4,6 @@ import tailwindConfig from '../../tailwind.config.js' // Fix the path
 const config = resolveConfig(tailwindConfig)
 
 export const theme = config.theme as unknown as Theme
-// ;(typeof window !== undefined && (window as any)).__TW_THEME__ = theme
-// console.log('theme', theme)
 
 export interface Theme {
   container: Container

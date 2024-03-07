@@ -24,7 +24,7 @@ export const deckImageRouter = router({
       const decklyst =
         (sharecode ? await ctx.decklyst.findByCode(sharecode) : null) ??
         (await ctx.decklyst.ensureByCode(code))
-      console.log(renderOnly)
+
       if (!decklyst) return null
 
       sharecode = decklyst.sharecode
