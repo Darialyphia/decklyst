@@ -8,7 +8,8 @@ import { useMemo } from 'react'
 
 export type CardHandler = (card: CardData, all?: boolean) => void
 const IGNORED_IDS = [
-  20452, // duplicate Rasha's curse
+  20452, // duplicate Rasha's curse,
+  20521, // Blink: generated card
 ]
 export const CardList: FC<{
   onSelectCard: CardHandler
@@ -41,7 +42,7 @@ export const CardList: FC<{
         .sort(cardCompareFn),
     [faction, mana, rarity, cardType, keywordRegex, query],
   )
-
+  console.log(filteredCards)
   return (
     <div className="mx-4 mt-8 flex flex-wrap justify-center gap-12">
       {filteredCards.map((card) => {
