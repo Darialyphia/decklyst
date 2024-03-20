@@ -1,7 +1,7 @@
 import { memoize, partition, sortBy } from 'lodash'
 export const allCards: CardData[] = require('./carddata.json')
 
-const tokenSpells = [20424]
+const tokenSpells = [20424, 20521]
 
 export const RARITY = {
   BASIC: 'Basic',
