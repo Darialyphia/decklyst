@@ -212,7 +212,6 @@ export const decklystRouter = router({
       const existingDecklyst = sharecode
         ? await ctx.decklyst.findUnique({ where: { sharecode } })
         : null
-      console.log(existingDecklyst)
       if (existingDecklyst && existingDecklyst.authorId !== ctx.session?.user?.id) {
         throw new TRPCError({ message: 'Unauthorized', code: 'UNAUTHORIZED' })
       }
