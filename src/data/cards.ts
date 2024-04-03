@@ -4,12 +4,12 @@ export const allCards: CardData[] = require('./carddata.json')
 const tokenSpells = [20424, 20521]
 
 export const RARITY = {
-  BASIC: 'Basic',
-  COMMON: 'Common',
-  RARE: 'Rare',
-  EPIC: 'Epic',
-  LEGENDARY: 'Legendary',
-  TOKEN: 'Token',
+  BASIC: 'basic',
+  COMMON: 'common',
+  RARE: 'rare',
+  EPIC: 'epic',
+  LEGENDARY: 'legendary',
+  TOKEN: 'token',
 } as const satisfies Record<string, Rarity>
 
 export const cards = allCards.filter(
@@ -37,7 +37,7 @@ export interface CardData {
 
 export type CardSet = 'Core Set'
 export type CardType = 'Artifact' | 'General' | 'Minion' | 'Spell'
-export type Rarity = 'Basic' | 'Common' | 'Epic' | 'Legendary' | 'Rare' | 'Token'
+export type Rarity = 'basic' | 'common' | 'epic' | 'legendary' | 'rare' | 'token'
 export type Faction =
   | 'lyonar'
   | 'songhai'

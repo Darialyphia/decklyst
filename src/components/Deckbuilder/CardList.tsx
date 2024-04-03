@@ -41,7 +41,7 @@ export const CardList: FC<{
         .sort(cardCompareFn),
     [faction, mana, rarity, cardType, keywordRegex, query],
   )
-  console.log(filteredCards)
+
   return (
     <div className="mx-4 mt-8 flex flex-wrap justify-center gap-12">
       {filteredCards.map((card) => {
