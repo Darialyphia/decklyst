@@ -5,6 +5,7 @@ import { Dialog, RadioGroup } from '@headlessui/react'
 import { Archetype, Privacy } from '@prisma/client'
 import cx from 'classnames'
 import { startCase } from 'lodash'
+import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/router'
 import type { FC, ReactNode } from 'react'
 import { useCallback, useEffect, useState } from 'react'
@@ -39,16 +40,26 @@ export const SaveDeckDialog: FC<{
   const [archetype, setArchetype] = useState<Archetype | null>(
     (baseDeck?.meta?.archetype as Archetype) ?? null,
   )
-  const [privacy, setPrivacy] = useState<Privacy>(baseDeck?.meta?.privacy ?? 'unlisted')
+  const authenticated = useSession()?.status === 'authenticated'
+
+  const [privacy, setPrivacy] = useState<Privacy>(
+    baseDeck?.meta?.privacy ?? authenticated ? 'unlisted' : 'public',
+  )
   const [tags, setTags] = useState<string[]>(baseDeck?.meta?.tags ?? [])
 
   useEffect(() => {
     if (open) {
       setArchetype(baseDeck?.meta?.archetype ?? null)
-      setPrivacy(baseDeck?.meta?.privacy ?? 'unlisted')
+      setPrivacy(baseDeck?.meta?.privacy ?? authenticated ? 'unlisted' : 'public')
       setTags(baseDeck?.meta?.tags ?? [])
     }
-  }, [baseDeck?.meta?.archetype, baseDeck?.meta?.privacy, baseDeck?.meta?.tags, open])
+  }, [
+    authenticated,
+    baseDeck?.meta?.archetype,
+    baseDeck?.meta?.privacy,
+    baseDeck?.meta?.tags,
+    open,
+  ])
 
   const createSaveHandler =
     (update: boolean = false) =>
@@ -69,6 +80,10 @@ export const SaveDeckDialog: FC<{
     onClose()
   }, [onClose, isSaving])
 
+  const privacyOptions = Object.values(Privacy).filter((option) => {
+    if (authenticated) return true
+    return option !== Privacy.private
+  })
   return (
     <OuterTransition show={open}>
       <Dialog onClose={handleClose} className="relative z-50">
@@ -87,7 +102,7 @@ export const SaveDeckDialog: FC<{
                 <RadioGroup value={privacy} onChange={setPrivacy}>
                   <FormControl label={<RadioGroup.Label>Privacy</RadioGroup.Label>}>
                     <div className="flex justify-center gap-x-1 py-2">
-                      {Object.values(Privacy).map((value) => (
+                      {privacyOptions.map((value) => (
                         <RadioGroup.Option key={value} value={value} className="">
                           {({ checked }) => (
                             <span
@@ -102,12 +117,18 @@ export const SaveDeckDialog: FC<{
                         </RadioGroup.Option>
                       ))}
                     </div>
-                    <div className="text-xs text-gray-400">
+                    <p className="text-xs text-gray-400">
                       {privacy === 'private' && 'Private decks are not visible to other users'}
                       {privacy === 'unlisted' &&
                         'Unlisted decks are hidden from the deck library but can be shared'}
                       {privacy === 'public' && 'Public decks are visible to all users'}
-                    </div>
+                    </p>
+                    {!authenticated && privacy === 'unlisted' && (
+                      <p className="text-xs text-amber-500">
+                        You&apos;re not logged in, so don&apos;t forget to keep your deck url safe
+                        after saving!
+                      </p>
+                    )}
                   </FormControl>
                 </RadioGroup>
                 <FormControl label="Archetype">

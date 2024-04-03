@@ -7,8 +7,6 @@ import type { DeckExpanded } from '@/data/deck'
 import { createDeckDiff } from '@/hooks/useDeckDiff'
 import cx from 'classnames'
 import { noop } from 'lodash'
-import { useSession } from 'next-auth/react'
-import Link from 'next/link'
 import type { FC } from 'react'
 import { Fragment, useMemo, useState } from 'react'
 import { Aside } from '../Aside'
@@ -30,7 +28,6 @@ export const DeckbuilderAside: FC<{ baseDeck?: DeckExpanded }> = ({ baseDeck }) 
   )
   const [, { clear }] = useDeckcode()
   const [activeDialog, setActiveDialog] = useState<'diff' | 'save' | null>(null)
-  const authenticated = useSession()?.status === 'authenticated'
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(deck.deckcode!)
@@ -117,19 +114,10 @@ export const DeckbuilderAside: FC<{ baseDeck?: DeckExpanded }> = ({ baseDeck }) 
                       40
                     </span>
                   </div>
-                  {authenticated ? (
-                    <button className={cx('btn px-2 py-1')} onClick={() => setActiveDialog('save')}>
-                      <SaveIcon /> Save
-                    </button>
-                  ) : (
-                    <Link
-                      href={{ pathname: '/[code]', query: { code: deck.deckcode } }}
-                      prefetch={false}
-                      className={cx('btn px-2 py-1')}
-                    >
-                      <SaveIcon /> Save
-                    </Link>
-                  )}
+
+                  <button className={cx('btn px-2 py-1')} onClick={() => setActiveDialog('save')}>
+                    <SaveIcon /> Save
+                  </button>
                 </div>
                 <div className="flex border-t border-alt-700 bg-alt-1000">
                   <OneTimeButton
@@ -168,14 +156,13 @@ export const DeckbuilderAside: FC<{ baseDeck?: DeckExpanded }> = ({ baseDeck }) 
           deckDiff={deckDiff}
         />
       )}
-      {authenticated && (
-        <SaveDeckDialog
-          key={baseDeck?.deckcode}
-          open={activeDialog === 'save'}
-          onClose={() => setActiveDialog(null)}
-          baseDeck={baseDeck}
-        />
-      )}
+
+      <SaveDeckDialog
+        key={baseDeck?.deckcode}
+        open={activeDialog === 'save'}
+        onClose={() => setActiveDialog(null)}
+        baseDeck={baseDeck}
+      />
     </>
   )
 }
