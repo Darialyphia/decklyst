@@ -8,7 +8,8 @@ type ResponseData = {
 }
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<ResponseData>) {
-  const { redirect, code, public: isPublic } = req.query
+  if (req.method !== 'POST') return res.status(404).json({ message: 'Not found ' })
+  const { redirect, code, public: isPublic } = req.body
   if (!code) return res.status(400).json({ message: 'No code provided' })
   if (Array.isArray(code))
     return res.status(400).json({ message: 'Please only provide one deck code.' })

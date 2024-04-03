@@ -14,8 +14,6 @@ const t = initTRPC.context<Context>().create({
 export const router = t.router
 export const proc = t.procedure
 
-console.log(t)
-
 /**
  * Reusable middleware to ensure
  * users are logged in

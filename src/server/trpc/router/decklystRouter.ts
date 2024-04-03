@@ -23,7 +23,6 @@ export const decklystRouter = router({
       const isSSG = input.ssrSecret === env.SSR_SECRET
 
       let decklyst = await ctx.decklyst.findByCode(input.code, input.scope === 'user')
-
       if (decklyst === null && isSSG) {
         const deck = validateDeckcode(input.code) ? createDeckExpanded(input.code) : null
 
