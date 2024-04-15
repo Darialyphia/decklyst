@@ -473,7 +473,7 @@
     "id": 81,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Whenever a unit is healed, put an Afterglow into your hand and summon a 1/3 Recruit on a random nearby space.",
+    "description": "Whenever a minion is healed, put an Afterglow into your hand and summon a 1/3 Recruit on a random nearby space.",
     "relatedCards": [20402, 80],
     "resource": {
       "breathing": "resources/card_gifs/f1ProminenceBreathing.gif",
@@ -930,7 +930,7 @@
       "damage": "resources/card_gifs/f2KataraHit.gif",
       "death": "resources/card_gifs/f2KataraDeath.gif"
     },
-    "mana": 2,
+    "mana": 3,
     "attack": 2,
     "health": 3,
     "cardType": "Minion",
@@ -2046,7 +2046,7 @@
     },
     "mana": 5,
     "attack": 5,
-    "health": 5,
+    "health": 4,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 4
@@ -2537,7 +2537,7 @@
     },
     "mana": 3,
     "attack": 2,
-    "health": 4,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 5
@@ -3314,7 +3314,7 @@
     },
     "mana": 9,
     "attack": 5,
-    "health": 6,
+    "health": 7,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 6
@@ -6669,11 +6669,11 @@
     "factionId": 100
   },
   {
-    "name": "Eternity Sage Smarty",
+    "name": "Eternity Sage",
     "id": 11308,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Opening Gambit: Equip Smarty's Core.\nDying Wish: Destroy a random artifact equipped to resummon this on the same space.",
+    "description": "Opening Gambit: Equip the Eternity Core.\nDying Wish: Destroy a random ally artifact to resummon this on the same space.",
     "relatedCards": [30132],
     "resource": {
       "breathing": "resources/card_gifs/neutralRubyRifterBreathing.gif",
@@ -6761,7 +6761,7 @@
     "id": 11312,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "Opening Gambit and Dying Wish: Randomly permute the costs of cards in all action bars.",
+    "description": "Opening Gambit and Dying Wish: Shuffle the base mana costs of cards in each action bar.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralGamblerBreathing.gif",
@@ -6783,7 +6783,7 @@
     "id": 20402,
     "faction": "lyonar",
     "rarity": "token",
-    "description": "Heal an allied minion for 2.",
+    "description": "This card cannot be replaced and disappears at the end of your turn.\nHeal an allied minion for 2.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconAfterglowIdle.gif",
@@ -8597,13 +8597,13 @@
     "id": 20525,
     "faction": "abyssian",
     "rarity": "legendary",
-    "description": "Equip a Hex Charm artifact to the opponent General.",
+    "description": "Equip a Hex Charm artifact to the enemy General.",
     "relatedCards": [30124],
     "resource": {
       "idle": "resources/card_gifs/iconD2ShadowBlossomIdle.gif",
       "active": "resources/card_gifs/iconD2ShadowBlossomActive.gif"
     },
-    "mana": 1,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 4
@@ -8632,8 +8632,8 @@
     "description": "Summon a column of 1/3 Recruits.",
     "relatedCards": [80],
     "resource": {
-      "idle": "resources/card_gifs/iconD2SkyPhalanxIdle.gif",
-      "active": "resources/card_gifs/iconD2SkyPhalanxActive.gif"
+      "idle": "resources/card_gifs/iconD2AfterblazeIdle.gif",
+      "active": "resources/card_gifs/iconD2AfterblazeActive.gif"
     },
     "mana": 6,
     "cardType": "Spell",
@@ -9075,7 +9075,7 @@
     "factionId": 3
   },
   {
-    "name": "Grandfather Clock",
+    "name": "Mjllenniumnir",
     "id": 30121,
     "faction": "vanar",
     "rarity": "epic",
@@ -9110,7 +9110,7 @@
     "name": "Hex Charm",
     "id": 30124,
     "faction": "abyssian",
-    "rarity": "legendary",
+    "rarity": "token",
     "description": "This does not lose durability during your opponent's turn. At the start of your turn, your General takes 1 damage and creates an enemy Shadow Creep tile under it.",
     "relatedCards": [20525],
     "resource": {
@@ -9171,11 +9171,11 @@
     "factionId": 2
   },
   {
-    "name": "Smarty's Core",
+    "name": "Eternity Core",
     "id": 30132,
     "faction": "neutral",
     "rarity": "token",
-    "description": "This cannot lose durability when you take damage.\nYour General has +1/+0",
+    "description": "Timelss\nYour General has +1/+0",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconneutralGoldenHammerIdle.gif",

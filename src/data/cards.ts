@@ -109,6 +109,7 @@ export const keywords = [
   'rebirth',
   'grow',
   'deathwatch',
+  'timeless',
 ]
 
 export const highlightKeywords = memoize((description?: string) => {
