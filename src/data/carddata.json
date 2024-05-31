@@ -407,7 +407,7 @@
     "id": 78,
     "faction": "lyonar",
     "rarity": "legendary",
-    "description": "Zeal: The first time you cast a spell with this in Zeal each turn, put a 1 cost copy of that spell into your action bar until the end of your turn.",
+    "description": "Zeal: When you play a spell, put a 1 cost copy of that spell into your action bar until the end of your turn. (once per turn)",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1LeovoyantBreathing.gif",
@@ -473,7 +473,7 @@
     "id": 81,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Whenever a unit is healed, put an Afterglow into your hand and summon a 1/3 Recruit on a random nearby space.",
+    "description": "Whenever a minion is healed, put an Afterglow into your action bar and summon a 1/3 Recruit on a random nearby space.",
     "relatedCards": [20402, 80],
     "resource": {
       "breathing": "resources/card_gifs/f1ProminenceBreathing.gif",
@@ -738,9 +738,9 @@
       "damage": "resources/card_gifs/f2DeathPhantomDamage.gif",
       "death": "resources/card_gifs/f2DeathPhantomDeath.gif"
     },
-    "mana": 3,
+    "mana": 2,
     "attack": 1,
-    "health": 5,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "f2_deathphantom",
@@ -920,7 +920,7 @@
     "id": 179,
     "faction": "songhai",
     "rarity": "common",
-    "description": "After an ally attacks, put a Blink into your action bar.",
+    "description": "The first time an ally attacks each turn, put a Blink into your action bar.",
     "relatedCards": [20521],
     "resource": {
       "breathing": "resources/card_gifs/f2KataraBreathing.gif",
@@ -986,7 +986,7 @@
     "id": 183,
     "faction": "songhai",
     "rarity": "token",
-    "description": "This disappears when it takes damage.",
+    "description": "Provoke\nThis disappears when it is attacked.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f2GradmasterZendoRoninShadeBreathing.gif",
@@ -1042,7 +1042,7 @@
     },
     "mana": 3,
     "attack": 1,
-    "health": 4,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 2
@@ -1125,7 +1125,7 @@
     "id": 267,
     "faction": "vetruvian",
     "rarity": "epic",
-    "description": "Nearby enemies have -1/-0.",
+    "description": "Opening Gambit: Give a nearby minion -4/-0 until your next turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3SandhowlerBreathing.gif",
@@ -1308,7 +1308,7 @@
     "id": 275,
     "faction": "vetruvian",
     "rarity": "rare",
-    "description": "Opening Gambit: Give a nearby minion -2/-0 until your next turn.",
+    "description": "Nearby enemies have -1/-0.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3NighfallMechanistBreathing.gif",
@@ -1320,7 +1320,7 @@
     },
     "mana": 2,
     "attack": 2,
-    "health": 3,
+    "health": 2,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "f3_palacetrinketeer",
@@ -1521,7 +1521,7 @@
     "id": 287,
     "faction": "vetruvian",
     "rarity": "rare",
-    "description": "Rush, Blast\nDeals no damage to Generals.",
+    "description": "Rush, Blast\nThis cannot attack Generals.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3IncineraBreathing.gif",
@@ -1707,7 +1707,7 @@
     "id": 370,
     "faction": "abyssian",
     "rarity": "common",
-    "description": "Opening Gambit: Set the enemy General's Attack to 0 this turn.",
+    "description": "Dying Wish: If it's your turn, heal your General for 3. Otherwise deal 3 damage to the enemy General.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f4SirenBreathing.gif",
@@ -2034,7 +2034,7 @@
     "id": 389,
     "faction": "abyssian",
     "rarity": "epic",
-    "description": "Opening Gambit: Allied Shadow Creep tiles heal allies one space away for 3 and deal 3 damage to enemies one space away.",
+    "description": "Opening Gambit: Allied Shadow Creep tiles heal allies one space away for 2 and deal 2 damage to enemies one space away.",
     "relatedCards": [40019],
     "resource": {
       "breathing": "resources/card_gifs/f4HorrorBursterBreathing.gif",
@@ -2046,7 +2046,7 @@
     },
     "mana": 5,
     "attack": 5,
-    "health": 5,
+    "health": 4,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 4
@@ -2537,7 +2537,7 @@
     },
     "mana": 3,
     "attack": 2,
-    "health": 4,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 5
@@ -2547,8 +2547,8 @@
     "id": 482,
     "faction": "magmar",
     "rarity": "common",
-    "description": "Opening Gambit: Summon two Hatchling Eggs nearby your general.",
-    "relatedCards": [483],
+    "description": "Opening Gambit: Summon a Young Silithar Egg nearby your general.",
+    "relatedCards": [470],
     "resource": {
       "breathing": "resources/card_gifs/f5ProgenitorBreathing.gif",
       "idle": "resources/card_gifs/f5ProgenitorIdle.gif",
@@ -2565,7 +2565,7 @@
     "factionId": 5
   },
   {
-    "name": "Hatchling",
+    "name": "Young Silithar",
     "id": 483,
     "faction": "magmar",
     "rarity": "token",
@@ -3181,7 +3181,7 @@
     "id": 592,
     "faction": "vanar",
     "rarity": "common",
-    "description": "Airdrop",
+    "description": "Airdrop\n Opening Gambit: Stun a nearby minion.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f6SnowWyvernBreathing.gif",
@@ -3314,7 +3314,7 @@
     },
     "mana": 9,
     "attack": 5,
-    "health": 6,
+    "health": 7,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 6
@@ -3759,7 +3759,7 @@
     "id": 11177,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Your spells cost 1 less to play.",
+    "description": "The first 3 spells you play each turn cost 1 less to play.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralArtifactHunterBreathing.gif",
@@ -3828,7 +3828,7 @@
     "id": 11180,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "When you play a spell, allied Arcanysts gain +0/+2.",
+    "description": "When you play a spell, other allied Arcanysts gain +0/+2.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralOwlbeastMageBreathing.gif",
@@ -4125,7 +4125,7 @@
     "id": 11193,
     "faction": "neutral",
     "rarity": "common",
-    "description": "Provoke\nAt the end of your turn, give nearby allied minions +0/+1.",
+    "description": "Provoke",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralPrimusShieldmasterBreathing.gif",
@@ -4136,7 +4136,7 @@
       "death": "resources/card_gifs/neutralPrimusShieldmasterDeath.gif"
     },
     "mana": 4,
-    "attack": 2,
+    "attack": 3,
     "health": 6,
     "cardType": "Minion",
     "tribes": [],
@@ -5177,7 +5177,7 @@
     "id": 11239,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Players draw 1 fewer card at the end of their turn.",
+    "description": "Opening Gambit: Until your next turn, both players draw 2 fewer cards at the end of their turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralSpelljammerBreathing.gif",
@@ -5291,7 +5291,7 @@
     "id": 11244,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Prevent all healing.",
+    "description": "Opening Gambit: During your opponent's next turn, after they play 3 cards, end the turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralDeathblighterBreathing.gif",
@@ -5475,7 +5475,7 @@
     "id": 11252,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "Airdrop\nOpening Gambit: Spend your remaining mana. This gains +1/+1 for each mana spent.",
+    "description": "Opening Gambit: Spend your remaining mana. This gains +1/+1 for each mana spent.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralMoebiusBreathing.gif",
@@ -5485,8 +5485,8 @@
       "damage": "resources/card_gifs/neutralMoebiusHit.gif",
       "death": "resources/card_gifs/neutralMoebiusDeath.gif"
     },
-    "mana": 1,
-    "attack": 1,
+    "mana": 0,
+    "attack": 0,
     "health": 1,
     "cardType": "Minion",
     "tribes": [],
@@ -5682,8 +5682,8 @@
     "id": 11261,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Airdrop\nOpening Gambit: Teleport nearby units to random spaces.",
-    "relatedCards": [],
+    "description": "Airdrop\nOpening Gambit: Summon two Ruby, Emerald, and Sapphire auras on nearby spaces.",
+    "relatedCards": [40016, 40018, 40017],
     "resource": {
       "breathing": "resources/card_gifs/neutralPaddoBreathing.gif",
       "idle": "resources/card_gifs/neutralPaddoIdle.gif",
@@ -5693,8 +5693,8 @@
       "death": "resources/card_gifs/neutralPaddoDeath.gif"
     },
     "mana": 7,
-    "attack": 12,
-    "health": 6,
+    "attack": 7,
+    "health": 8,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "neutral_paddo",
@@ -5820,7 +5820,7 @@
     "id": 11267,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "When you play a non-token spell, summon a Spellspark on a random nearby space.",
+    "description": "When you play a spell, summon a Spellspark on a random nearby space.",
     "relatedCards": [11268],
     "resource": {
       "breathing": "resources/card_gifs/neutralFirestarterBreathing.gif",
@@ -6049,7 +6049,7 @@
     "id": 11277,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "At the start of each turn, switch the positions of both Generals.",
+    "description": "When you replace this card, this and other Astral Crusader cards in your action bar and deck cost 2 less and gain +2/+2.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralAstralCrusaderBreathing.gif",
@@ -6059,9 +6059,9 @@
       "damage": "resources/card_gifs/neutralAstralCrusaderHit.gif",
       "death": "resources/card_gifs/neutralAstralCrusaderDeath.gif"
     },
-    "mana": 7,
-    "attack": 6,
-    "health": 12,
+    "mana": 10,
+    "attack": 5,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "neutral_astralcrusader",
@@ -6669,11 +6669,11 @@
     "factionId": 100
   },
   {
-    "name": "Eternity Sage Smarty",
+    "name": "Eternity Sage",
     "id": 11308,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Opening Gambit: Equip Smarty's Core.\nDying Wish: Destroy a random artifact equipped to resummon this on the same space.",
+    "description": "Opening Gambit: Equip the Eternity Core.\nDying Wish: Destroy a random ally artifact to resummon this on the same space.",
     "relatedCards": [30132],
     "resource": {
       "breathing": "resources/card_gifs/neutralRubyRifterBreathing.gif",
@@ -6761,7 +6761,7 @@
     "id": 11312,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "Opening Gambit and Dying Wish: Randomly permute the costs of cards in all action bars.",
+    "description": "Opening Gambit and Dying Wish: Shuffle the base mana costs of cards in each action bar.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralGamblerBreathing.gif",
@@ -6783,7 +6783,7 @@
     "id": 20402,
     "faction": "lyonar",
     "rarity": "token",
-    "description": "Heal an allied minion for 2.",
+    "description": "This card cannot be replaced and disappears at the end of your turn.\nHeal an allied minion for 2.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconAfterglowIdle.gif",
@@ -7020,7 +7020,7 @@
     "id": 20417,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Give an allied minion \"This has Veil during your opponent's turn\".",
+    "description": "Give an allied minion \"Prevent the next time this would take damage or be destroyed\".",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2AegisBarrierIdle.gif",
@@ -8198,7 +8198,7 @@
       "idle": "resources/card_gifs/iconD2NaturalSelectionIdle.gif",
       "active": "resources/card_gifs/iconD2NaturalSelectionActive.gif"
     },
-    "mana": 2,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f5_d2_naturalselection",
@@ -8597,13 +8597,13 @@
     "id": 20525,
     "faction": "abyssian",
     "rarity": "legendary",
-    "description": "Equip a Hex Charm artifact to the opponent General.",
-    "relatedCards": [30124],
+    "description": "Equip a Hex Charm artifact to the enemy General.",
+    "relatedCards": [30124, 40019],
     "resource": {
       "idle": "resources/card_gifs/iconD2ShadowBlossomIdle.gif",
       "active": "resources/card_gifs/iconD2ShadowBlossomActive.gif"
     },
-    "mana": 1,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 4
@@ -8632,8 +8632,8 @@
     "description": "Summon a column of 1/3 Recruits.",
     "relatedCards": [80],
     "resource": {
-      "idle": "resources/card_gifs/iconD2SkyPhalanxIdle.gif",
-      "active": "resources/card_gifs/iconD2SkyPhalanxActive.gif"
+      "idle": "resources/card_gifs/iconD2AfterblazeIdle.gif",
+      "active": "resources/card_gifs/iconD2AfterblazeActive.gif"
     },
     "mana": 6,
     "cardType": "Spell",
@@ -8826,13 +8826,13 @@
     "id": 30106,
     "faction": "songhai",
     "rarity": "common",
-    "description": "When you play a spell, your General deals 1 damage to the enemy General.",
+    "description": "When you play a spell, your General gains +1/+0 until your next turn.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2BloodLeechMaskIdle.gif",
       "active": "resources/card_gifs/iconD2BloodLeechMaskActive.gif"
     },
-    "mana": 2,
+    "mana": 1,
     "cardType": "Artifact",
     "tribes": [],
     "spriteName": "artifact_f2_d2_bloodleechmask",
@@ -9075,7 +9075,7 @@
     "factionId": 3
   },
   {
-    "name": "Grandfather Clock",
+    "name": "Mjllenniumnir",
     "id": 30121,
     "faction": "vanar",
     "rarity": "epic",
@@ -9110,7 +9110,7 @@
     "name": "Hex Charm",
     "id": 30124,
     "faction": "abyssian",
-    "rarity": "legendary",
+    "rarity": "token",
     "description": "This does not lose durability during your opponent's turn. At the start of your turn, your General takes 1 damage and creates an enemy Shadow Creep tile under it.",
     "relatedCards": [20525],
     "resource": {
@@ -9127,7 +9127,7 @@
     "id": 30126,
     "faction": "lyonar",
     "rarity": "epic",
-    "description": "Timeless\nAfter you cast a nonzero cost spell, summon a Recruit behind your General with Attack and Health equal to the cost of that spell.",
+    "description": "Timeless\nAfter you play a nonzero cost spell, summon a Recruit behind your General with Attack and Health equal to the cost of that spell.",
     "relatedCards": [80],
     "resource": {
       "idle": "resources/card_gifs/iconD2IronBannerIdle.gif",
@@ -9171,11 +9171,11 @@
     "factionId": 2
   },
   {
-    "name": "Smarty's Core",
+    "name": "Eternity Core",
     "id": 30132,
     "faction": "neutral",
     "rarity": "token",
-    "description": "This cannot lose durability when you take damage.\nYour General has +1/+0",
+    "description": "Timeless\nYour General has +1/+0",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconneutralGoldenHammerIdle.gif",
