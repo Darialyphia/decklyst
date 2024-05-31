@@ -930,7 +930,7 @@
       "damage": "resources/card_gifs/f2KataraHit.gif",
       "death": "resources/card_gifs/f2KataraDeath.gif"
     },
-    "mana": 2,
+    "mana": 3,
     "attack": 2,
     "health": 3,
     "cardType": "Minion",
