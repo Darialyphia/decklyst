@@ -491,6 +491,28 @@
     "factionId": 1
   },
   {
+    "name": "Auroara",
+    "id": 82,
+    "faction": "lyonar",
+    "rarity": "epic",
+    "description": "When you summon a minion with 2 or less Attack, this gains +2/+0.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f1AuroraLionessBreathing.gif",
+      "idle": "resources/card_gifs/f1AuroraLionessIdle.gif",
+      "walk": "resources/card_gifs/f1AuroraLionessRun.gif",
+      "attack": "resources/card_gifs/f1AuroraLionessAttack.gif",
+      "damage": "resources/card_gifs/f1AuroraLionessHit.gif",
+      "death": "resources/card_gifs/f1AuroraLionessDeath.gif"
+    },
+    "mana": 3,
+    "attack": 1,
+    "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 1
+  },
+  {
     "name": "Kaleos Xaan",
     "id": 161,
     "faction": "songhai",
@@ -930,7 +952,7 @@
       "damage": "resources/card_gifs/f2KataraHit.gif",
       "death": "resources/card_gifs/f2KataraDeath.gif"
     },
-    "mana": 3,
+    "mana": 2,
     "attack": 2,
     "health": 3,
     "cardType": "Minion",
@@ -1043,6 +1065,28 @@
     "mana": 3,
     "attack": 1,
     "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 2
+  },
+  {
+    "name": "Onyx Jaguar",
+    "id": 187,
+    "faction": "songhai",
+    "rarity": "epic",
+    "description": "After an allied minion moves or teleports, it gains +1/+1.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f2OnyxJaguarBreathing.gif",
+      "idle": "resources/card_gifs/f2OnyxJaguarIdle.gif",
+      "walk": "resources/card_gifs/f2OnyxJaguarRun.gif",
+      "attack": "resources/card_gifs/f2OnyxJaguarAttack.gif",
+      "damage": "resources/card_gifs/f2OnyxJaguarHit.gif",
+      "death": "resources/card_gifs/f2OnyxJaguarDeath.gif"
+    },
+    "mana": 5,
+    "attack": 3,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 2
@@ -2289,7 +2333,7 @@
     "id": 468,
     "faction": "magmar",
     "rarity": "common",
-    "description": "Opening Gambit: Give a nearby minion +2/+1.",
+    "description": "Opening Gambit: Give a nearby minion +2/+2.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5PrimordialGazerBreathing.gif",
@@ -2631,6 +2675,50 @@
     "factionId": 5
   },
   {
+    "name": "Oropsisaur",
+    "id": 486,
+    "faction": "magmar",
+    "rarity": "legendary",
+    "description": "Grow: +1/+1.\nWhen another allied minion with Grow survives damage, that minion grows.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f5AnkylosBreathing.gif",
+      "idle": "resources/card_gifs/f5AnkylosIdle.gif",
+      "walk": "resources/card_gifs/f5AnkylosRun.gif",
+      "attack": "resources/card_gifs/f5AnkylosAttack.gif",
+      "damage": "resources/card_gifs/f5AnkylosHit.gif",
+      "death": "resources/card_gifs/f5AnkylosDeath.gif"
+    },
+    "mana": 3,
+    "attack": 2,
+    "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 5
+  },
+  {
+    "name": "Rancour",
+    "id": 487,
+    "faction": "magmar",
+    "rarity": "common",
+    "description": "When your General takes damage, this gains that much attack.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f5RancourBreathing.gif",
+      "idle": "resources/card_gifs/f5RancourIdle.gif",
+      "walk": "resources/card_gifs/f5RancourRun.gif",
+      "attack": "resources/card_gifs/f5RancourAttack.gif",
+      "damage": "resources/card_gifs/f5RancourHit.gif",
+      "death": "resources/card_gifs/f5RancourDeath.gif"
+    },
+    "mana": 2,
+    "attack": 1,
+    "health": 3,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 5
+  },
+  {
     "name": "Faie Bloodwing",
     "id": 568,
     "faction": "vanar",
@@ -2697,7 +2785,7 @@
     },
     "mana": 2,
     "attack": 3,
-    "health": 3,
+    "health": 2,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 6
@@ -3364,6 +3452,50 @@
     "factionId": 6
   },
   {
+    "name": "Disciple of Yggdra",
+    "id": 602,
+    "faction": "vanar",
+    "rarity": "legendary",
+    "description": "When an enemy is Stunned, transform this into Yggdra's Voracity.",
+    "relatedCards": [603],
+    "resource": {
+      "breathing": "resources/card_gifs/f6YnuytWarlockBreathing.gif",
+      "idle": "resources/card_gifs/f6YnuytWarlockIdle.gif",
+      "walk": "resources/card_gifs/f6YnuytWarlockRun.gif",
+      "attack": "resources/card_gifs/f6YnuytWarlockAttack.gif",
+      "damage": "resources/card_gifs/f6YnuytWarlockHit.gif",
+      "death": "resources/card_gifs/f6YnuytWarlockDeath.gif"
+    },
+    "mana": 3,
+    "attack": 2,
+    "health": 3,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 6
+  },
+  {
+    "name": "Yggdra's Voracity",
+    "id": 603,
+    "faction": "vanar",
+    "rarity": "token",
+    "description": "When an enemy is Stunned, fully heal this.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f6YnuytUnleashedBreathing.gif",
+      "idle": "resources/card_gifs/f6YnuytUnleashedIdle.gif",
+      "walk": "resources/card_gifs/f6YnuytUnleashedRun.gif",
+      "attack": "resources/card_gifs/f6YnuytUnleashedAttack.gif",
+      "damage": "resources/card_gifs/f6YnuytUnleashedHit.gif",
+      "death": "resources/card_gifs/f6YnuytUnleashedDeath.gif"
+    },
+    "mana": 3,
+    "attack": 5,
+    "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 6
+  },
+  {
     "name": "Dragonlark",
     "id": 11160,
     "faction": "neutral",
@@ -3759,7 +3891,7 @@
     "id": 11177,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "The first 3 spells you play each turn cost 1 less to play.",
+    "description": "Your spells cost 1 less. (3 per turn)",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralArtifactHunterBreathing.gif",
@@ -5291,7 +5423,7 @@
     "id": 11244,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Opening Gambit: During your opponent's next turn, after they play 3 cards, end the turn.",
+    "description": "Prevent all healing.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralDeathblighterBreathing.gif",
@@ -5682,8 +5814,8 @@
     "id": 11261,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Airdrop\nOpening Gambit: Summon two Ruby, Emerald, and Sapphire auras on nearby spaces.",
-    "relatedCards": [40016, 40018, 40017],
+    "description": "Airdrop\nOpening Gambit: Teleport nearby units to random spaces.",
+    "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralPaddoBreathing.gif",
       "idle": "resources/card_gifs/neutralPaddoIdle.gif",
@@ -5693,8 +5825,8 @@
       "death": "resources/card_gifs/neutralPaddoDeath.gif"
     },
     "mana": 7,
-    "attack": 7,
-    "health": 8,
+    "attack": 12,
+    "health": 6,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "neutral_paddo",
@@ -6049,7 +6181,7 @@
     "id": 11277,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "When you replace this card, this and other Astral Crusader cards in your action bar and deck cost 2 less and gain +2/+2.",
+    "description": "At the start of each turn, switch the positions of both Generals.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralAstralCrusaderBreathing.gif",
@@ -6059,9 +6191,9 @@
       "damage": "resources/card_gifs/neutralAstralCrusaderHit.gif",
       "death": "resources/card_gifs/neutralAstralCrusaderDeath.gif"
     },
-    "mana": 10,
-    "attack": 5,
-    "health": 5,
+    "mana": 7,
+    "attack": 6,
+    "health": 12,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "neutral_astralcrusader",
@@ -6539,7 +6671,7 @@
     "id": 11300,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Opening Gambit: Teleport the minion directly in front of this backward 1 space. If a unit occupies that space, deal 2 damage to both instead.",
+    "description": "Opening Gambit: Teleport the unit directly in front of this backward 1 space. If another unit occupies that space, deal 2 damage to both instead.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/temporalSageLilyBreathing.gif",
@@ -7195,7 +7327,7 @@
       "idle": "resources/card_gifs/iconD2SpiralTechniqueIdle.gif",
       "active": "resources/card_gifs/iconD2SpiralTechniqueActive.gif"
     },
-    "mana": 7,
+    "mana": 8,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f2_d2_spiraltechnique",
@@ -7308,7 +7440,7 @@
     "id": 20434,
     "faction": "songhai",
     "rarity": "epic",
-    "description": "Switch the positions of two minions.",
+    "description": "Switch the positions of two minions with the same owner.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2JuxtapositionIdle.gif",
@@ -7875,7 +8007,7 @@
       "idle": "resources/card_gifs/iconD2DarkSeedIdle.gif",
       "active": "resources/card_gifs/iconD2DarkSeedActive.gif"
     },
-    "mana": 4,
+    "mana": 5,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f4_d2_darkseed",
@@ -7920,7 +8052,7 @@
     "id": 20471,
     "faction": "abyssian",
     "rarity": "common",
-    "description": "Give an enemy minion -2/-0. Give allied minions nearby it +2/+0.",
+    "description": "Give allied minions +2/+0 until your next turn.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2SoulShatterPactIdle.gif",
@@ -8073,7 +8205,7 @@
     "id": 20480,
     "faction": "magmar",
     "rarity": "common",
-    "description": "Give a minion +2/+1.",
+    "description": "Give a minion +2/+2.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2GreaterFortitudeIdle.gif",
@@ -8521,7 +8653,7 @@
       "idle": "resources/card_gifs/iconD2SpiritOfTheWildIdle.gif",
       "active": "resources/card_gifs/iconD2SpiritOfTheWildActive.gif"
     },
-    "mana": 4,
+    "mana": 5,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f6_d2_spiritofthewild",
@@ -8735,6 +8867,70 @@
     "cardType": "Spell",
     "tribes": [],
     "factionId": 6
+  },
+  {
+    "name": "Pandamonium",
+    "id": 20542,
+    "faction": "songhai",
+    "rarity": "rare",
+    "description": "Transform all minions into Panddo until the end of the turn.",
+    "relatedCards": [167],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2PandamoniumIdle.gif",
+      "active": "resources/card_gifs/iconD2PandamoniumActive.gif"
+    },
+    "mana": 4,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 2
+  },
+  {
+    "name": "Equality Constraint",
+    "id": 20543,
+    "faction": "vetruvian",
+    "rarity": "common",
+    "description": "Set a minion's Health equal to its Attack.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2MatchTwoIdle.gif",
+      "active": "resources/card_gifs/iconD2MatchTwoActive.gif"
+    },
+    "mana": 1,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 3
+  },
+  {
+    "name": "Synaptic Arbitrage",
+    "id": 20544,
+    "faction": "vetruvian",
+    "rarity": "epic",
+    "description": "Your opponent takes control of an allied minion. You take control of enemy minions with less Attack nearby it.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2ThoughtExchangeIdle.gif",
+      "active": "resources/card_gifs/iconD2ThoughtExchangeActive.gif"
+    },
+    "mana": 4,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 3
+  },
+  {
+    "name": "Void Steal",
+    "id": 20545,
+    "faction": "abyssian",
+    "rarity": "common",
+    "description": "Give an enemy minion -3/-0. Give allied minions nearby it +3/+0.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2VoidStealIdle.gif",
+      "active": "resources/card_gifs/iconD2VoidStealActive.gif"
+    },
+    "mana": 3,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 4
   },
   {
     "name": "Skywind Glaives",
@@ -9185,5 +9381,53 @@
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 100
+  },
+  {
+    "name": "Sunbond Pavise",
+    "id": 30133,
+    "faction": "lyonar",
+    "rarity": "rare",
+    "description": "Allied minions directly above and below your General have +2/+0 and Provoke.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2BigShieldActive.gif",
+      "active": "resources/card_gifs/iconD2BigShieldActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 1
+  },
+  {
+    "name": "Mindlathe",
+    "id": 30134,
+    "faction": "abyssian",
+    "rarity": "legendary",
+    "description": "After your General damages a minion, activate and take control of it until the end of the turn.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2MindlatheIdle.gif",
+      "active": "resources/card_gifs/iconD2MindlatheActive.gif"
+    },
+    "mana": 3,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 4
+  },
+  {
+    "name": "Iceshatter Gauntlet",
+    "id": 30135,
+    "faction": "vanar",
+    "rarity": "rare",
+    "description": "When your General attacks a Stunned minion, destroy it before it counterattacks.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2IceshatterGauntletIdle.gif",
+      "active": "resources/card_gifs/iconD2IceshatterGauntletActive.gif"
+    },
+    "mana": 1,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 6
   }
 ]
