@@ -31,7 +31,7 @@
     "id": 61,
     "faction": "lyonar",
     "rarity": "common",
-    "description": "Opening Gambit: Give allies directly in front and behind your general +1/+1.",
+    "description": "Opening Gambit: Give allies directly in front and behind your General +1/+1.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1SilverguardSquireBreathing.gif",
@@ -1587,7 +1587,7 @@
     "id": 288,
     "faction": "vetruvian",
     "rarity": "rare",
-    "description": "Gateway\nOpening Gambit: Destroy a minion.\nDying Wish: Resummon it on this space for its owner.",
+    "description": "Gateway\nOpening Gambit: Destroy a minion.\nDying Wish: Summon it on this space for its owner.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3DuplicatorObelyskBreathing.gif",
@@ -1888,7 +1888,7 @@
     "id": 376,
     "faction": "abyssian",
     "rarity": "rare",
-    "description": "Opening Gambit: Destroy a nearby minion with 3 or less Attack.",
+    "description": "Opening Gambit: Destroy a nearby minion that costs 3 or less.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f4NightsorrowBreathing.gif",
@@ -2569,7 +2569,7 @@
     "id": 480,
     "faction": "magmar",
     "rarity": "rare",
-    "description": "At the end of your turn, give your general +2/+0 until they move or teleport.",
+    "description": "At the end of your turn, give your General +2/+0 until they move or teleport.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5OmniseerBreathing.gif",
@@ -2591,7 +2591,7 @@
     "id": 482,
     "faction": "magmar",
     "rarity": "common",
-    "description": "Opening Gambit: Summon a Young Silithar Egg nearby your general.",
+    "description": "Opening Gambit: Summon a Young Silithar Egg nearby your General.",
     "relatedCards": [470],
     "resource": {
       "breathing": "resources/card_gifs/f5ProgenitorBreathing.gif",
@@ -5860,7 +5860,7 @@
     "id": 11263,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "After this moves, give nearby allied minions +1/+1.",
+    "description": "After this moves or teleports, give nearby allied minions +1/+1.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralWindRunnerBreathing.gif",
@@ -6671,7 +6671,7 @@
     "id": 11300,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Opening Gambit: Teleport the unit directly in front of this backward 1 space. If another unit occupies that space, deal 2 damage to both instead.",
+    "description": "Opening Gambit: Teleport the unit directly in front of this 1 space in that direction. If a unit is on that space, deal 2 damage to both of them instead.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/temporalSageLilyBreathing.gif",
@@ -6783,7 +6783,7 @@
     "id": 11307,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Opening Gambit: Destroy a nearby allied minion, then resummon it on that space and give it +1/+1.",
+    "description": "Opening Gambit: Destroy a nearby allied minion, then summon it on that space and give it +1/+1.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralTimekeeperBreathing.gif",
@@ -6805,7 +6805,7 @@
     "id": 11308,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Opening Gambit: Equip the Eternity Core.\nDying Wish: Destroy a random ally artifact to resummon this on the same space.",
+    "description": "Opening Gambit: Equip an Eternity Core.\nDying Wish: Destroy a random allied artifact to summon this on this space.",
     "relatedCards": [30132],
     "resource": {
       "breathing": "resources/card_gifs/neutralRubyRifterBreathing.gif",
@@ -6815,7 +6815,7 @@
       "damage": "resources/card_gifs/neutralRubyRifterHit.gif",
       "death": "resources/card_gifs/neutralRubyRifterDeath.gif"
     },
-    "mana": 7,
+    "mana": 6,
     "attack": 5,
     "health": 7,
     "cardType": "Minion",
@@ -9403,7 +9403,7 @@
     "id": 30134,
     "faction": "abyssian",
     "rarity": "legendary",
-    "description": "After your General damages a minion, activate and take control of it until the end of the turn.",
+    "description": "After your General damages a minion, activate and take control of it until the end of your turn.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2MindlatheIdle.gif",
