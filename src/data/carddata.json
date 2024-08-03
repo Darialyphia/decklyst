@@ -513,6 +513,28 @@
     "factionId": 1
   },
   {
+    "name": "Sunforge Advance",
+    "id": 83,
+    "faction": "lyonar",
+    "rarity": "common",
+    "description": "When this attacks, add a True Strike to your action bar.",
+    "relatedCards": [20412],
+    "resource": {
+      "breathing": "resources/card_gifs/f1SunforgeLancerBreathing.gif",
+      "idle": "resources/card_gifs/f1SunforgeLancerIdle.gif",
+      "walk": "resources/card_gifs/f1SunforgeLancerRun.gif",
+      "attack": "resources/card_gifs/f1SunforgeLancerAttack.gif",
+      "damage": "resources/card_gifs/f1SunWispHit.gif",
+      "death": "resources/card_gifs/f1SunforgeLancerDeath.gif"
+    },
+    "mana": 4,
+    "attack": 3,
+    "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 1
+  },
+  {
     "name": "Kaleos Xaan",
     "id": 161,
     "faction": "songhai",
@@ -1092,6 +1114,28 @@
     "factionId": 2
   },
   {
+    "name": "Umbral Stalker",
+    "id": 188,
+    "faction": "songhai",
+    "rarity": "common",
+    "description": "After this moves or teleports, it gains \"this cannot be attacked\" until it attacks or the start of your turn.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f2ManakiteDrifterBreathing.gif",
+      "idle": "resources/card_gifs/f2ManakiteDrifterIdle.gif",
+      "walk": "resources/card_gifs/f2ManakiteDrifterRun.gif",
+      "attack": "resources/card_gifs/f2ManakiteDrifterAttack.gif",
+      "damage": "resources/card_gifs/f2ManakiteDrifterHit.gif",
+      "death": "resources/card_gifs/f2ManakiteDrifterDeath.gif"
+    },
+    "mana": 3,
+    "attack": 3,
+    "health": 4,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 2
+  },
+  {
     "name": "Zirix Starstrider",
     "id": 264,
     "faction": "vetruvian",
@@ -1605,6 +1649,28 @@
     "factionId": 3
   },
   {
+    "name": "Soul Arbiter",
+    "id": 289,
+    "faction": "vetruvian",
+    "rarity": "epic",
+    "description": "Your effects that add to the Attack or Health of enemies or subtract from the Attack or Health of allies do the opposite instead.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f3SakkakBreathing.gif",
+      "idle": "resources/card_gifs/f3SakkakIdle.gif",
+      "walk": "resources/card_gifs/f3SakkakRun.gif",
+      "attack": "resources/card_gifs/f3SakkakAttack.gif",
+      "damage": "resources/card_gifs/f3SakkakHit.gif",
+      "death": "resources/card_gifs/f3SakkakDeath.gif"
+    },
+    "mana": 4,
+    "attack": 4,
+    "health": 4,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 3
+  },
+  {
     "name": "Lilithe Blightchaser",
     "id": 364,
     "faction": "abyssian",
@@ -2113,6 +2179,28 @@
     "mana": 0,
     "attack": 0,
     "health": 1,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 4
+  },
+  {
+    "name": "Marrowgrinder",
+    "id": 391,
+    "faction": "abyssian",
+    "rarity": "rare",
+    "description": "This can move onto allied minions to destroy them. When it does, draw a card and heal your General for 2.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f4UnderworldBruteBreathing.gif",
+      "idle": "resources/card_gifs/f4UnderworldBruteIdle.gif",
+      "walk": "resources/card_gifs/f4UnderworldBruteRun.gif",
+      "attack": "resources/card_gifs/f4UnderworldBruteAttack.gif",
+      "damage": "resources/card_gifs/f4UnderworldBruteHit.gif",
+      "death": "resources/card_gifs/f4UnderworldBruteDeath.gif"
+    },
+    "mana": 5,
+    "attack": 5,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 4
@@ -2714,6 +2802,28 @@
     "mana": 2,
     "attack": 1,
     "health": 3,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 5
+  },
+  {
+    "name": "Matron of the Hunt",
+    "id": 488,
+    "faction": "magmar",
+    "rarity": "rare",
+    "description": "Opening Gambit: Deal 1 damage to nearby allies and give them \"this can move an addition space\" until the end of the turn.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f5MolokiHuntressBreathing.gif",
+      "idle": "resources/card_gifs/f5MolokiHuntressIdle.gif",
+      "walk": "resources/card_gifs/f5MolokiHuntressRun.gif",
+      "attack": "resources/card_gifs/f5MolokiHuntressAttack.gif",
+      "damage": "resources/card_gifs/f5MolokiHuntressHit.gif",
+      "death": "resources/card_gifs/f5MolokiHuntressDeath.gif"
+    },
+    "mana": 4,
+    "attack": 4,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 5
@@ -3491,6 +3601,28 @@
     "mana": 3,
     "attack": 5,
     "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 6
+  },
+  {
+    "name": "Permafrost Paragon",
+    "id": 604,
+    "faction": "vanar",
+    "rarity": "rare",
+    "description": "Allied Walls joined to this have +1/+1 for each allied Wall joined to this.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f6AuroraGuardianBreathing.gif",
+      "idle": "resources/card_gifs/f6AuroraGuardianIdle.gif",
+      "walk": "resources/card_gifs/f6AuroraGuardianRun.gif",
+      "attack": "resources/card_gifs/f6AuroraGuardianAttack.gif",
+      "damage": "resources/card_gifs/f6AuroraGuardianHit.gif",
+      "death": "resources/card_gifs/f6AuroraGuardianDeath.gif"
+    },
+    "mana": 6,
+    "attack": 3,
+    "health": 8,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 6
@@ -6911,6 +7043,50 @@
     "factionId": 100
   },
   {
+    "name": "Manabinder",
+    "id": 11313,
+    "faction": "neutral",
+    "rarity": "common",
+    "description": "Players have 1 less mana.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralSapphireSeerBreathing.gif",
+      "idle": "resources/card_gifs/neutralSapphireSeerIdle.gif",
+      "walk": "resources/card_gifs/neutralSapphireSeerRun.gif",
+      "attack": "resources/card_gifs/neutralSapphireSeerAttack.gif",
+      "damage": "resources/card_gifs/neutralSapphireSeerHit.gif",
+      "death": "resources/card_gifs/neutralSapphireSeerDeath.gif"
+    },
+    "mana": 3,
+    "attack": 3,
+    "health": 4,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Tempting Mantella",
+    "id": 11314,
+    "faction": "neutral",
+    "rarity": "common",
+    "description": "Provoke\nWhen a minion damages this, destroy that minion.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralGoldenMantellaBreathing.gif",
+      "idle": "resources/card_gifs/neutralGoldenMantellaIdle.gif",
+      "walk": "resources/card_gifs/neutralGoldenMantellaRun.gif",
+      "attack": "resources/card_gifs/neutralGoldenMantellaAttack.gif",
+      "damage": "resources/card_gifs/neutralGoldenMantellaHit.gif",
+      "death": "resources/card_gifs/neutralGoldenMantellaDeath.gif"
+    },
+    "mana": 3,
+    "attack": 0,
+    "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
     "name": "Afterglow",
     "id": 20402,
     "faction": "lyonar",
@@ -8933,6 +9109,70 @@
     "factionId": 4
   },
   {
+    "name": "Penance",
+    "id": 20548,
+    "faction": "lyonar",
+    "rarity": "epic",
+    "description": "Deal damage to all minions equal to an allied minion's Health.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2LucentBeamIdle.gif",
+      "active": "resources/card_gifs/iconD2LucentBeamActive.gif"
+    },
+    "mana": 3,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 1
+  },
+  {
+    "name": "Counterpoise",
+    "id": 20549,
+    "faction": "vetruvian",
+    "rarity": "common",
+    "description": "Give a minion -2/+2.\nGive a minion +2/-2.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2AstralPhasingIdle.gif",
+      "active": "resources/card_gifs/iconD2AstralPhasingActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 3
+  },
+  {
+    "name": "Predation",
+    "id": 20551,
+    "faction": "magmar",
+    "rarity": "common",
+    "description": "An allied unit fights an enemy minion nearby it.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2EndureTheBeastlandsIdle.gif",
+      "active": "resources/card_gifs/iconD2EndureTheBeastlandsActive.gif"
+    },
+    "mana": 1,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 5
+  },
+  {
+    "name": "Solidify",
+    "id": 20552,
+    "faction": "vanar",
+    "rarity": "common",
+    "description": "Give your transformed and token minions +1/+1 and Provoke until your next turn.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2VespyrMightIdle.gif",
+      "active": "resources/card_gifs/iconD2VespyrMightActive.gif"
+    },
+    "mana": 1,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 6
+  },
+  {
     "name": "Skywind Glaives",
     "id": 30101,
     "faction": "lyonar",
@@ -9259,7 +9499,7 @@
     "id": 30120,
     "faction": "vetruvian",
     "rarity": "legendary",
-    "description": "Timeless\nAt the start of your turn and when this is equipped, summon Wind Dervishes in front of and behind your General.",
+    "description": "Timeless\nWhen this is equipped and at the start of your turn, summon Wind Dervishes in front of and behind your General.",
     "relatedCards": [274],
     "resource": {
       "idle": "resources/card_gifs/iconD2ThunderclapIdle.gif",
@@ -9429,5 +9669,37 @@
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 6
+  },
+  {
+    "name": "Mask of Dominion",
+    "id": 30136,
+    "faction": "songhai",
+    "rarity": "rare",
+    "description": "Your General has +2/+0 while a unit is behind them. When your General moves, the unit behind them moves to the space they were in.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2GorehornMaskIdle.gif",
+      "active": "resources/card_gifs/iconD2GorehornMaskActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 2
+  },
+  {
+    "name": "Skinsolder Amulet",
+    "id": 30137,
+    "faction": "abyssian",
+    "rarity": "rare",
+    "description": "When this is equipped and at the start of your turn, put a Malice into your action bar.",
+    "relatedCards": [20550, 392],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2RageChakramIdle.gif",
+      "active": "resources/card_gifs/iconD2RageChakramActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 4
   }
 ]
