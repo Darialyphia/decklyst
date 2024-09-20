@@ -1128,9 +1128,9 @@
       "damage": "resources/card_gifs/f2ManakiteDrifterHit.gif",
       "death": "resources/card_gifs/f2ManakiteDrifterDeath.gif"
     },
-    "mana": 3,
-    "attack": 3,
-    "health": 4,
+    "mana": 4,
+    "attack": 4,
+    "health": 6,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 2
@@ -2199,8 +2199,8 @@
       "death": "resources/card_gifs/f4UnderworldBruteDeath.gif"
     },
     "mana": 5,
-    "attack": 5,
-    "health": 5,
+    "attack": 4,
+    "health": 8,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 4
@@ -2247,9 +2247,9 @@
       "damage": "resources/card_gifs/f5EarthwalkerDamage.gif",
       "death": "resources/card_gifs/f5EarthwalkerDeath.gif"
     },
-    "mana": 3,
+    "mana": 2,
     "attack": 2,
-    "health": 4,
+    "health": 2,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "f5_earthwalker",
@@ -6428,7 +6428,7 @@
     "id": 11282,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "When this attacks or counterattacks an enemy minion, deal excess damage dealt to the enemy General.",
+    "description": "When this deals damage while attacking or counterattacking an enemy minion, excess damage is dealt to the enemy General.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralWarTalonBreathing.gif",
@@ -7527,17 +7527,17 @@
     "factionId": 2
   },
   {
-    "name": "Inner Focus",
+    "name": "Assassination Protocol",
     "id": 20429,
     "faction": "songhai",
     "rarity": "rare",
-    "description": "Activate an allied minion with 3 or less Attack.",
+    "description": "Activate an allied minion. It cannot damage or attack Generals this turn.",
     "relatedCards": [],
     "resource": {
-      "idle": "resources/card_gifs/iconD2InnerFocusIdle.gif",
-      "active": "resources/card_gifs/iconD2InnerFocusActive.gif"
+      "idle": "resources/card_gifs/iconD2GoGetEmIdle.gif",
+      "active": "resources/card_gifs/iconD2GoGetEmActive.gif"
     },
-    "mana": 0,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f2_d2_inner_focus",
@@ -8506,7 +8506,7 @@
       "idle": "resources/card_gifs/iconD2NaturalSelectionIdle.gif",
       "active": "resources/card_gifs/iconD2NaturalSelectionActive.gif"
     },
-    "mana": 1,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f5_d2_naturalselection",
@@ -9113,7 +9113,7 @@
     "id": 20548,
     "faction": "lyonar",
     "rarity": "epic",
-    "description": "Deal damage to all minions equal to an allied minion's Health.",
+    "description": "Deal damage to all minions equal to an allied non-Structure minion's Health.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2LucentBeamIdle.gif",
@@ -9171,6 +9171,22 @@
     "cardType": "Spell",
     "tribes": [],
     "factionId": 6
+  },
+  {
+    "name": "Inner Focus",
+    "id": 20553,
+    "faction": "songhai",
+    "rarity": "rare",
+    "description": "Activate an allied minion with 3 or less Attack.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2InnerFocusIdle.gif",
+      "active": "resources/card_gifs/iconD2InnerFocusActive.gif"
+    },
+    "mana": 0,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 2
   },
   {
     "name": "Skywind Glaives",
@@ -9499,7 +9515,7 @@
     "id": 30120,
     "faction": "vetruvian",
     "rarity": "legendary",
-    "description": "Timeless\nWhen this is equipped and at the start of your turn, summon Wind Dervishes in front of and behind your General.",
+    "description": "Timeless\nWhen this is equipped and at the start of your turn, summon Wind Dervishes directly in front of and directly behind your General.",
     "relatedCards": [274],
     "resource": {
       "idle": "resources/card_gifs/iconD2ThunderclapIdle.gif",
@@ -9563,7 +9579,7 @@
     "id": 30126,
     "faction": "lyonar",
     "rarity": "epic",
-    "description": "Timeless\nAfter you play a nonzero cost spell, summon a Recruit behind your General with Attack and Health equal to the cost of that spell.",
+    "description": "Timeless\nAfter you play a nonzero cost spell, summon a Recruit directly behind your General with Attack and Health equal to the cost of that spell.",
     "relatedCards": [80],
     "resource": {
       "idle": "resources/card_gifs/iconD2IronBannerIdle.gif",
@@ -9675,7 +9691,7 @@
     "id": 30136,
     "faction": "songhai",
     "rarity": "rare",
-    "description": "Your General has +2/+0 while a unit is behind them. When your General moves, the unit behind them moves to the space they were in.",
+    "description": "Your General has +2/+0 while a unit is directly behind them. When your General moves, the unit directly behind them moves to the space they were in.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2GorehornMaskIdle.gif",
@@ -9701,5 +9717,21 @@
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 4
+  },
+  {
+    "name": "Unbounded Energy Amulet",
+    "id": 270100,
+    "faction": "songhai",
+    "rarity": "basic",
+    "description": "After your General moves or teleports, summon an Afterimage on the space it moved from.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2EnergyAmuletIdle.gif",
+      "active": "resources/card_gifs/iconD2EnergyAmuletActive.gif"
+    },
+    "mana": 4,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 2
   }
 ]
