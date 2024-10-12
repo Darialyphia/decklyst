@@ -407,7 +407,7 @@
     "id": 78,
     "faction": "lyonar",
     "rarity": "legendary",
-    "description": "Zeal: When you play a spell, put a 1 cost copy of that spell into your action bar until the end of your turn. (once per turn)",
+    "description": "Zeal: When you play a spell, put a 1 cost Fading copy of that spell into your action bar until the end of your turn. (once per turn)",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1LeovoyantBreathing.gif",
@@ -473,7 +473,7 @@
     "id": 81,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Whenever a minion is healed, put an Afterglow into your action bar and summon a 1/3 Recruit on a random nearby space.",
+    "description": "Whenever a minion is healed, put a Fading Afterglow into your action bar and summon a 1/3 Recruit on a random nearby space.",
     "relatedCards": [20402, 80],
     "resource": {
       "breathing": "resources/card_gifs/f1ProminenceBreathing.gif",
@@ -517,7 +517,7 @@
     "id": 83,
     "faction": "lyonar",
     "rarity": "common",
-    "description": "When this attacks, add a True Strike to your action bar.",
+    "description": "When this attacks, add a Fading True Strike to your action bar. It costs one less.",
     "relatedCards": [20412],
     "resource": {
       "breathing": "resources/card_gifs/f1SunforgeLancerBreathing.gif",
@@ -528,7 +528,7 @@
       "death": "resources/card_gifs/f1SunforgeLancerDeath.gif"
     },
     "mana": 4,
-    "attack": 3,
+    "attack": 4,
     "health": 5,
     "cardType": "Minion",
     "tribes": [],
@@ -670,7 +670,7 @@
     },
     "mana": 3,
     "attack": 3,
-    "health": 3,
+    "health": 4,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "f2_tank",
@@ -1476,7 +1476,7 @@
       "death": "resources/card_gifs/f3PortalGuardianDeath.gif"
     },
     "mana": 3,
-    "attack": 1,
+    "attack": 0,
     "health": 7,
     "cardType": "Minion",
     "tribes": [],
@@ -1631,7 +1631,7 @@
     "id": 288,
     "faction": "vetruvian",
     "rarity": "rare",
-    "description": "Gateway\nOpening Gambit: Destroy a minion.\nDying Wish: Summon it on this space for its owner.",
+    "description": "Gateway\nOpening Gambit: Remove a minion from the board.\nDying Wish: Summon it on this space for its owner.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3DuplicatorObelyskBreathing.gif",
@@ -1817,7 +1817,7 @@
     "id": 370,
     "faction": "abyssian",
     "rarity": "common",
-    "description": "Dying Wish: If it's your turn, heal your General for 3. Otherwise deal 3 damage to the enemy General.",
+    "description": "Dying Wish: If it's your turn, heal your General for 2. Otherwise deal 2 damage to the enemy General.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f4SirenBreathing.gif",
@@ -1908,7 +1908,7 @@
     "id": 374,
     "faction": "abyssian",
     "rarity": "common",
-    "description": "Opening Gambit: Summon a Wraithling directly behind this.",
+    "description": "Opening Gambit: Summon a Wraithling on a nearby space.",
     "relatedCards": [372],
     "resource": {
       "breathing": "resources/card_gifs/f4GloomchaserBreathing.gif",
@@ -2154,8 +2154,8 @@
       "damage": "resources/card_gifs/f4HorrorBursterHit.gif",
       "death": "resources/card_gifs/f4HorrorBursterDeath.gif"
     },
-    "mana": 5,
-    "attack": 5,
+    "mana": 4,
+    "attack": 4,
     "health": 4,
     "cardType": "Minion",
     "tribes": [],
@@ -3389,9 +3389,9 @@
       "damage": "resources/card_gifs/f6SnowWyvernDamage.gif",
       "death": "resources/card_gifs/f6SnowWyvernDeath.gif"
     },
-    "mana": 5,
-    "attack": 10,
-    "health": 4,
+    "mana": 4,
+    "attack": 4,
+    "health": 6,
     "cardType": "Minion",
     "tribes": ["Vespyr"],
     "spriteName": "f6_snowwyvern",
@@ -4596,7 +4596,7 @@
     "id": 11202,
     "faction": "neutral",
     "rarity": "common",
-    "description": "Veil",
+    "description": "Veil, Provoke",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralWhistlingBladeBreathing.gif",
@@ -4607,8 +4607,8 @@
       "death": "resources/card_gifs/neutralWhistlingBladeDeath.gif"
     },
     "mana": 7,
-    "attack": 3,
-    "health": 13,
+    "attack": 5,
+    "health": 10,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "neutral_monsterwhistlingblade",
@@ -4780,7 +4780,7 @@
     "id": 11210,
     "faction": "neutral",
     "rarity": "legendary",
-    "description": "Dying Wish: Summon a copy of this on a random space.",
+    "description": "Dying Wish: Summon a copy of this behind your General.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1SunstoneMaidenBreathing.gif",
@@ -4790,7 +4790,7 @@
       "damage": "resources/card_gifs/f1SunstoneMaidenDamage.gif",
       "death": "resources/card_gifs/f1SunstoneMaidenDeath.gif"
     },
-    "mana": 3,
+    "mana": 2,
     "attack": 1,
     "health": 1,
     "cardType": "Minion",
@@ -7091,7 +7091,7 @@
     "id": 20402,
     "faction": "lyonar",
     "rarity": "token",
-    "description": "This card cannot be replaced and disappears at the end of your turn.\nHeal an allied minion for 2.",
+    "description": "Fading\nHeal an allied minion for 2.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconAfterglowIdle.gif",
@@ -7311,13 +7311,13 @@
     "id": 20416,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Give a minion +Attack equal to its Health.",
+    "description": "Set a minion's attack equal to its Health.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2DivineBondIdle.gif",
       "active": "resources/card_gifs/iconD2DivineBondActive.gif"
     },
-    "mana": 3,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f1_d2_divinebond",
@@ -7328,7 +7328,7 @@
     "id": 20417,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Give an allied minion \"Prevent the next time this would take damage or be destroyed\".",
+    "description": "Give an allied minion a Shield.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2AegisBarrierIdle.gif",
@@ -7554,7 +7554,7 @@
       "idle": "resources/card_gifs/iconD2OnyxbearSealIdle.gif",
       "active": "resources/card_gifs/iconD2OnyxbearSealActive.gif"
     },
-    "mana": 3,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f2_d2_onyxbearseal",
@@ -8687,7 +8687,7 @@
     "id": 20498,
     "faction": "vanar",
     "rarity": "epic",
-    "description": "Give an allied minion +2/+0. This turn, give it \"This takes no damage\".",
+    "description": "This turn, give a unit +2/+0 and \"This takes no damage\".",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2UnstoppableForceIdle.gif",
@@ -8857,7 +8857,7 @@
     "id": 20521,
     "faction": "songhai",
     "rarity": "token",
-    "description": "This card cannot be replaced and disappears at the end of your turn.\nTeleport an allied minion up to 2 spaces.",
+    "description": "Fading\nTeleport an allied minion up to 2 spaces.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconBlinkIdle.gif",
@@ -9007,7 +9007,7 @@
       "idle": "resources/card_gifs/iconD2SphereOfDarknessIdle.gif",
       "active": "resources/card_gifs/iconD2SphereOfDarknessActive.gif"
     },
-    "mana": 2,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 4
@@ -9145,7 +9145,7 @@
     "id": 20551,
     "faction": "magmar",
     "rarity": "common",
-    "description": "An allied unit fights an enemy minion nearby it.",
+    "description": "An allied unit fights a nearby enemy unit.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2EndureTheBeastlandsIdle.gif",
@@ -9465,7 +9465,7 @@
     "id": 30117,
     "faction": "vanar",
     "rarity": "rare",
-    "description": "At the end of your turn, your General deals 2 damage to nearby enemy minions.",
+    "description": "At the end of your turn, your General deals 2 damage to nearby enemies.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2ColdbiterIdle.gif",
