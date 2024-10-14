@@ -6,7 +6,10 @@ import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 import type { CardJSON } from './generateCardsJson'
 
-const blacklist = [20452]
+const blacklist = [
+  20452, // rasha's curse duplicate
+  20553, // Inner focus has been removed but it's still in the D2 API response :yussy:
+]
 const trimExtension = (str: string) => str.split('.')[0]
 
 async function main() {

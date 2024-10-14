@@ -10,6 +10,7 @@ export type CardHandler = (card: CardData, all?: boolean) => void
 const IGNORED_IDS = [
   20452, // duplicate Rasha's curse,
   30124, // Hex Charm
+  20553, // Inner focus has been removed but it's still in the D2 API response :yussy:
 ]
 export const CardList: FC<{
   onSelectCard: CardHandler

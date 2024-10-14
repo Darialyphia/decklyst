@@ -407,7 +407,7 @@
     "id": 78,
     "faction": "lyonar",
     "rarity": "legendary",
-    "description": "Zeal: When you play a spell, put a 1 cost Fading copy of that spell into your action bar until the end of your turn. (once per turn)",
+    "description": "Zeal: When you play a spell, put a 1 cost Fading copy of that spell into your action bar. (once per turn)",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1LeovoyantBreathing.gif",
@@ -2154,8 +2154,8 @@
       "damage": "resources/card_gifs/f4HorrorBursterHit.gif",
       "death": "resources/card_gifs/f4HorrorBursterDeath.gif"
     },
-    "mana": 4,
-    "attack": 4,
+    "mana": 5,
+    "attack": 5,
     "health": 4,
     "cardType": "Minion",
     "tribes": [],
@@ -9007,7 +9007,7 @@
       "idle": "resources/card_gifs/iconD2SphereOfDarknessIdle.gif",
       "active": "resources/card_gifs/iconD2SphereOfDarknessActive.gif"
     },
-    "mana": 1,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 4
@@ -9145,7 +9145,7 @@
     "id": 20551,
     "faction": "magmar",
     "rarity": "common",
-    "description": "An allied unit fights a nearby enemy unit.",
+    "description": "An allied unit attacks a nearby enemy minion.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2EndureTheBeastlandsIdle.gif",
@@ -9171,22 +9171,6 @@
     "cardType": "Spell",
     "tribes": [],
     "factionId": 6
-  },
-  {
-    "name": "Inner Focus",
-    "id": 20553,
-    "faction": "songhai",
-    "rarity": "rare",
-    "description": "Activate an allied minion with 3 or less Attack.",
-    "relatedCards": [],
-    "resource": {
-      "idle": "resources/card_gifs/iconD2InnerFocusIdle.gif",
-      "active": "resources/card_gifs/iconD2InnerFocusActive.gif"
-    },
-    "mana": 0,
-    "cardType": "Spell",
-    "tribes": [],
-    "factionId": 2
   },
   {
     "name": "Skywind Glaives",
