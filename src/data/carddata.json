@@ -1897,7 +1897,7 @@
     },
     "mana": 2,
     "attack": 2,
-    "health": 2,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "f4_darkspine",
@@ -2154,8 +2154,8 @@
       "damage": "resources/card_gifs/f4HorrorBursterHit.gif",
       "death": "resources/card_gifs/f4HorrorBursterDeath.gif"
     },
-    "mana": 5,
-    "attack": 5,
+    "mana": 4,
+    "attack": 4,
     "health": 4,
     "cardType": "Minion",
     "tribes": [],
@@ -2580,7 +2580,7 @@
     "id": 475,
     "faction": "magmar",
     "rarity": "legendary",
-    "description": "Rush\nThe next time an allied minion is summoned nearby this, give it Rush.",
+    "description": "Rush\nThe next time an allied minion is summoned nearby this, give it Rush. It cannot damage Generals this turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5VindicatorBreathing.gif",
@@ -2591,7 +2591,7 @@
       "death": "resources/card_gifs/f5VindicatorDeath.gif"
     },
     "mana": 3,
-    "attack": 1,
+    "attack": 2,
     "health": 3,
     "cardType": "Minion",
     "tribes": [],
@@ -4580,8 +4580,8 @@
       "idle": "resources/card_gifs/neutralLightningBeetleIdle.gif",
       "walk": "resources/card_gifs/neutralLightningBeetleRun.gif",
       "attack": "resources/card_gifs/neutralLightningBeetleAttack.gif",
-      "damage": "resources/card_gifs/neutralMercPirateBeastHit.gif",
-      "death": "resources/card_gifs/neutralMercPirateBeastDeath.gif"
+      "damage": "resources/card_gifs/neutralLightningBeetleHit.gif",
+      "death": "resources/card_gifs/neutralLightningBeetleDeath.gif"
     },
     "mana": 6,
     "attack": 6,
@@ -7531,13 +7531,13 @@
     "id": 20429,
     "faction": "songhai",
     "rarity": "rare",
-    "description": "Activate an allied minion. It cannot damage or attack Generals this turn.",
+    "description": "Activate an allied minion. It cannot damage Generals this turn.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2GoGetEmIdle.gif",
       "active": "resources/card_gifs/iconD2GoGetEmActive.gif"
     },
-    "mana": 1,
+    "mana": 0,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f2_d2_inner_focus",
@@ -7820,13 +7820,13 @@
     "id": 20446,
     "faction": "vetruvian",
     "rarity": "legendary",
-    "description": "Take another turn after this one.",
+    "description": "Destroy minions that were summoned since your last turn. End your turn.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2MaelstromIdle.gif",
       "active": "resources/card_gifs/iconD2MaelstromActive.gif"
     },
-    "mana": 9,
+    "mana": 4,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f3_d2_maelstrom",
@@ -8047,7 +8047,7 @@
       "idle": "resources/card_gifs/iconD2ShadowNovaIdle.gif",
       "active": "resources/card_gifs/iconD2ShadowNovaActive.gif"
     },
-    "mana": 5,
+    "mana": 4,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f4_d2_shadownova",
@@ -8262,13 +8262,13 @@
     "id": 20473,
     "faction": "abyssian",
     "rarity": "epic",
-    "description": "This turn, when a unit is destroyed, gain +1 mana.",
+    "description": "Destroy an allied minion. At the end of your turn, summon it on that space and give it +1/+1.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2ConsumingRebirthIdle.gif",
       "active": "resources/card_gifs/iconD2ConsumingRebirthActive.gif"
     },
-    "mana": 1,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f4_d2_consumingrebirth",
@@ -8911,7 +8911,7 @@
       "idle": "resources/card_gifs/iconD2ShadowBlossomIdle.gif",
       "active": "resources/card_gifs/iconD2ShadowBlossomActive.gif"
     },
-    "mana": 2,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 4
@@ -8981,17 +8981,17 @@
     "factionId": 5
   },
   {
-    "name": "Anachronize",
+    "name": "Blood Rage",
     "id": 20531,
     "faction": "magmar",
     "rarity": "epic",
-    "description": "Destroy minions that were summoned since your last turn. End your turn.",
+    "description": "Give a friendly minion +1/+1 for each time damage was dealt this turn.",
     "relatedCards": [],
     "resource": {
-      "idle": "resources/card_gifs/iconD2SaurianFinality2Idle.gif",
-      "active": "resources/card_gifs/iconD2SaurianFinality2Active.gif"
+      "idle": "resources/card_gifs/iconD2BloodrageIdle.gif",
+      "active": "resources/card_gifs/iconD2BloodrageActive.gif"
     },
-    "mana": 4,
+    "mana": 3,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 5
@@ -9007,7 +9007,7 @@
       "idle": "resources/card_gifs/iconD2SphereOfDarknessIdle.gif",
       "active": "resources/card_gifs/iconD2SphereOfDarknessActive.gif"
     },
-    "mana": 2,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 4
@@ -9145,7 +9145,7 @@
     "id": 20551,
     "faction": "magmar",
     "rarity": "common",
-    "description": "An allied unit attacks a nearby enemy minion.",
+    "description": "An allied unit fights a nearby enemy minion.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2EndureTheBeastlandsIdle.gif",
@@ -9347,13 +9347,13 @@
     "id": 30111,
     "faction": "abyssian",
     "rarity": "common",
-    "description": "When an enemy nearby your General is destroyed, summon a Wraithling on its space.",
+    "description": "When this is equipped and destroyed, summon a Wraithling directly above, below, in front and behind your General.",
     "relatedCards": [372],
     "resource": {
       "idle": "resources/card_gifs/iconD2HornForsakenIdle.gif",
       "active": "resources/card_gifs/iconD2HornForsakenActive.gif"
     },
-    "mana": 1,
+    "mana": 4,
     "cardType": "Artifact",
     "tribes": [],
     "spriteName": "artifact_f4_d2_hornofforsaken",
@@ -9449,7 +9449,7 @@
     "id": 30117,
     "faction": "vanar",
     "rarity": "rare",
-    "description": "At the end of your turn, your General deals 2 damage to nearby enemies.",
+    "description": "At the end of your turn, your General deals 2 damage to nearby enemy minions.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2ColdbiterIdle.gif",
@@ -9713,7 +9713,7 @@
       "idle": "resources/card_gifs/iconD2EnergyAmuletIdle.gif",
       "active": "resources/card_gifs/iconD2EnergyAmuletActive.gif"
     },
-    "mana": 4,
+    "mana": 3,
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 2
