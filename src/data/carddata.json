@@ -473,7 +473,7 @@
     "id": 81,
     "faction": "lyonar",
     "rarity": "rare",
-    "description": "Whenever a minion is healed, put a Fading Afterglow into your action bar and summon a 1/3 Recruit on a random nearby space.",
+    "description": "When a minion is healed, put a Fading Afterglow into your action bar and summon a 1/3 Recruit on a random nearby space.",
     "relatedCards": [20402, 80],
     "resource": {
       "breathing": "resources/card_gifs/f1ProminenceBreathing.gif",
@@ -495,7 +495,7 @@
     "id": 82,
     "faction": "lyonar",
     "rarity": "epic",
-    "description": "When you summon a minion with 2 or less Attack, this gains +2/+0.",
+    "description": "When you summon a minion with 2 or less base Attack, this gains +2/+0.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1AuroraLionessBreathing.gif",
@@ -530,6 +530,28 @@
     "mana": 4,
     "attack": 4,
     "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 1
+  },
+  {
+    "name": "Armorsmith",
+    "id": 84,
+    "faction": "lyonar",
+    "rarity": "rare",
+    "description": "Shield\nWhile this has Shield, your artifacts cost 2 less. When you equip an artifact, this loses Shield.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f1ScintillaBreathing.gif",
+      "idle": "resources/card_gifs/f1ScintillaIdle.gif",
+      "walk": "resources/card_gifs/f1ScintillaRun.gif",
+      "attack": "resources/card_gifs/f1ScintillaAttack.gif",
+      "damage": "resources/card_gifs/f1ScintillaHit.gif",
+      "death": "resources/card_gifs/f1ScintillaDeath.gif"
+    },
+    "mana": 3,
+    "attack": 3,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 1
@@ -1131,6 +1153,28 @@
     "mana": 4,
     "attack": 4,
     "health": 6,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 2
+  },
+  {
+    "name": "Ribbon Dancer",
+    "id": 200,
+    "faction": "songhai",
+    "rarity": "epic",
+    "description": "After every two cards you play in a turn, switch the positions of the units directly in front of and behind this.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f2WhiplashBreathing.gif",
+      "idle": "resources/card_gifs/f2WhiplashIdle.gif",
+      "walk": "resources/card_gifs/f2WhiplashRun.gif",
+      "attack": "resources/card_gifs/f2WhiplashAttack.gif",
+      "damage": "resources/card_gifs/f2WhiplashHit.gif",
+      "death": "resources/card_gifs/f2WhiplashDeath.gif"
+    },
+    "mana": 3,
+    "attack": 2,
+    "health": 5,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 2
@@ -2206,6 +2250,28 @@
     "factionId": 4
   },
   {
+    "name": "Xerroloth",
+    "id": 393,
+    "faction": "abyssian",
+    "rarity": "common",
+    "description": "At the start of your turn, this steals 3 Health from your General.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f4MegaFiendBreathing.gif",
+      "idle": "resources/card_gifs/f4MegaFiendIdle.gif",
+      "walk": "resources/card_gifs/f4MegaFiendRun.gif",
+      "attack": "resources/card_gifs/f4MegaFiendAttack.gif",
+      "damage": "resources/card_gifs/f4MegaFiendHit.gif",
+      "death": "resources/card_gifs/f4MegaFiendDeath.gif"
+    },
+    "mana": 4,
+    "attack": 6,
+    "health": 6,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 4
+  },
+  {
     "name": "Vaath the Immortal",
     "id": 459,
     "faction": "magmar",
@@ -2375,7 +2441,7 @@
     "id": 466,
     "faction": "magmar",
     "rarity": "epic",
-    "description": "At the end of your turn, deal 4 damage to a random unit. If the unit is allied, give it +4/+0.",
+    "description": "At the end of your turn, deal 4 damage to a random unit. If it is an ally, give it +4/+0.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5UnstableLeviathanBreathing.gif",
@@ -2723,7 +2789,7 @@
     "id": 484,
     "faction": "magmar",
     "rarity": "rare",
-    "description": "Opening Gambit: Activate the start of turn and end of turn effects of an allied minion.",
+    "description": "Opening Gambit: Activate the start of turn and end of turn effects of an ally.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5WildInceptorBreathing.gif",
@@ -2811,7 +2877,7 @@
     "id": 488,
     "faction": "magmar",
     "rarity": "rare",
-    "description": "Opening Gambit: Deal 1 damage to nearby allies and give them \"this can move an addition space\" until the end of the turn.",
+    "description": "Opening Gambit: Deal 1 damage to nearby allies and give them \"This can move an additional space\" until the end of the turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5MolokiHuntressBreathing.gif",
@@ -2824,6 +2890,28 @@
     "mana": 4,
     "attack": 4,
     "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 5
+  },
+  {
+    "name": "Spineback",
+    "id": 489,
+    "faction": "magmar",
+    "rarity": "common",
+    "description": "This can be played on a minion to give it +2/+3.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f5GroBreathing.gif",
+      "idle": "resources/card_gifs/f5GroIdle.gif",
+      "walk": "resources/card_gifs/f5GroRun.gif",
+      "attack": "resources/card_gifs/f5GroAttack.gif",
+      "damage": "resources/card_gifs/f5GroHit.gif",
+      "death": "resources/card_gifs/f5GroDeath.gif"
+    },
+    "mana": 2,
+    "attack": 2,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 5
@@ -3544,7 +3632,7 @@
     "id": 601,
     "faction": "vanar",
     "rarity": "rare",
-    "description": "Whenever this minion destroys an enemy, reactivate it.",
+    "description": "When this destroys an enemy, activate it.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f6SleetDasherBreathing.gif",
@@ -3623,6 +3711,28 @@
     "mana": 6,
     "attack": 3,
     "health": 8,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 6
+  },
+  {
+    "name": "Thicket Augur",
+    "id": 605,
+    "faction": "vanar",
+    "rarity": "common",
+    "description": "Provoke\nOpening Gambit: Give nearby allied minions \"Dying Wish: Summon a Treant on this space\".",
+    "relatedCards": [582],
+    "resource": {
+      "breathing": "resources/card_gifs/f6RootmancerBreathing.gif",
+      "idle": "resources/card_gifs/f6RootmancerIdle.gif",
+      "walk": "resources/card_gifs/f6RootmancerRun.gif",
+      "attack": "resources/card_gifs/f6RootmancerAttack.gif",
+      "damage": "resources/card_gifs/f6RootmancerHit.gif",
+      "death": "resources/card_gifs/f6RootmancerDeath.gif"
+    },
+    "mana": 2,
+    "attack": 1,
+    "health": 1,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 6
@@ -6198,7 +6308,7 @@
     "id": 11272,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Opening Gambit: Give all units \"This takes no damage from spells.\" until your next turn.",
+    "description": "Opening Gambit: Give all units \"This takes no damage from spells\" until your next turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralProphetWhitePalmBreathing.gif",
@@ -7082,6 +7192,50 @@
     "mana": 3,
     "attack": 0,
     "health": 5,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Battlefield Warden",
+    "id": 11316,
+    "faction": "neutral",
+    "rarity": "rare",
+    "description": "Minions cannot be played on this row or column.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralSoboroBreathing.gif",
+      "idle": "resources/card_gifs/neutralSoboroIdle.gif",
+      "walk": "resources/card_gifs/neutralSoboroRun.gif",
+      "attack": "resources/card_gifs/neutralSoboroAttack.gif",
+      "damage": "resources/card_gifs/neutralSoboroHit.gif",
+      "death": "resources/card_gifs/neutralSoboroDeath.gif"
+    },
+    "mana": 3,
+    "attack": 3,
+    "health": 3,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Recombobulus",
+    "id": 11320,
+    "faction": "neutral",
+    "rarity": "rare",
+    "description": "At the end of your turn, if you have any unspent mana, this gains +1/+2.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralHatredBreathing.gif",
+      "idle": "resources/card_gifs/neutralHatredIdle.gif",
+      "walk": "resources/card_gifs/neutralHatredRun.gif",
+      "attack": "resources/card_gifs/neutralHatredAttack.gif",
+      "damage": "resources/card_gifs/neutralHatredHit.gif",
+      "death": "resources/card_gifs/neutralHatredDeath.gif"
+    },
+    "mana": 2,
+    "attack": 2,
+    "health": 2,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 100
@@ -8823,7 +8977,7 @@
     "id": 20506,
     "faction": "vanar",
     "rarity": "legendary",
-    "description": "Activate allied units on your opponent's starting side of the battlefield.",
+    "description": "Activate allies on your opponent's starting side of the battlefield.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2SpiritOfTheWildIdle.gif",
@@ -9145,7 +9299,7 @@
     "id": 20551,
     "faction": "magmar",
     "rarity": "common",
-    "description": "An allied unit fights a nearby enemy minion.",
+    "description": "An ally fights a nearby enemy minion.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2EndureTheBeastlandsIdle.gif",
@@ -9171,6 +9325,38 @@
     "cardType": "Spell",
     "tribes": [],
     "factionId": 6
+  },
+  {
+    "name": "Firewhirl",
+    "id": 20557,
+    "faction": "songhai",
+    "rarity": "rare",
+    "description": "Rotate units in a 3x3 area a quarter turn around the center space and deal 1 damage to them.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2HollowVortexIdle.gif",
+      "active": "resources/card_gifs/iconD2HollowVortexActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 2
+  },
+  {
+    "name": "Dark Bargain",
+    "id": 20558,
+    "faction": "abyssian",
+    "rarity": "epic",
+    "description": "Bargain:\n- Summon Wraithlings directly above and below your General.\n- Deal 3 damage to an enemy minion.\n- Heal your General for 4.",
+    "relatedCards": [372],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2BloodEchoesIdle.gif",
+      "active": "resources/card_gifs/iconD2BloodEchoesActive.gif"
+    },
+    "mana": 1,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 4
   },
   {
     "name": "Skywind Glaives",
@@ -9703,6 +9889,22 @@
     "factionId": 4
   },
   {
+    "name": "Obdurator",
+    "id": 30142,
+    "faction": "vetruvian",
+    "rarity": "common",
+    "description": "Your Dervishes have +0/+1.\nWhen you summon a Dervish with 2 or less base Attack, transform it into an Iron Dervish.",
+    "relatedCards": [292],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2RepairStaffIdle.gif",
+      "active": "resources/card_gifs/iconD2RepairStaffActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 3
+  },
+  {
     "name": "Unbounded Energy Amulet",
     "id": 270100,
     "faction": "songhai",
@@ -9717,5 +9919,75 @@
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 2
+  },
+  {
+    "name": "Fatebinder",
+    "id": 310608,
+    "faction": "vetruvian",
+    "rarity": "rare",
+    "description": "This cannot attack or counterattack.\nThe minion on the opposite horizontal space has -Attack/-Health equal to this unit's Attack and Health.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/f3InsightCasterBreathing.gif",
+      "idle": "resources/card_gifs/f3InsightCasterIdle.gif",
+      "walk": "resources/card_gifs/f3InsightCasterRun.gif",
+      "attack": "resources/card_gifs/f3InsightCasterAttack.gif",
+      "damage": "resources/card_gifs/f3InsightCasterHit.gif",
+      "death": "resources/card_gifs/f3InsightCasterDeath.gif"
+    },
+    "mana": 3,
+    "attack": 2,
+    "health": 3,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 3
+  },
+  {
+    "name": "Rage Reactor",
+    "id": 310609,
+    "faction": "magmar",
+    "rarity": "rare",
+    "description": "Timeless\nAt the start of your turn, deal 2 damage to your General and give it +2/+0.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2RageReactorIdle.gif",
+      "active": "resources/card_gifs/iconD2RageReactorActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 5
+  },
+  {
+    "name": "Wanderlust",
+    "id": 310610,
+    "faction": "vanar",
+    "rarity": "common",
+    "description": "Teleport all units 1 space towards the enemy's starting side of the battlefield.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2IceHooksIdle.gif",
+      "active": "resources/card_gifs/iconD2IceHooksActive.gif"
+    },
+    "mana": 2,
+    "cardType": "Spell",
+    "tribes": [],
+    "factionId": 6
+  },
+  {
+    "name": "Halo Bulwark",
+    "id": 310611,
+    "faction": "lyonar",
+    "rarity": "common",
+    "description": "At the end of your turn, if you've played at least three cards this turn, transform allied minions directly above and below your General into Silverguard Knights.",
+    "relatedCards": [64],
+    "resource": {
+      "idle": "resources/card_gifs/iconD2HaloBulwarkIdle.gif",
+      "active": "resources/card_gifs/iconD2HaloBulwarkActive.gif"
+    },
+    "mana": 4,
+    "cardType": "Artifact",
+    "tribes": [],
+    "factionId": 1
   }
 ]
