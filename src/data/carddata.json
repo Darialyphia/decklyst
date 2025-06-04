@@ -261,7 +261,7 @@
     "id": 71,
     "faction": "lyonar",
     "rarity": "legendary",
-    "description": "Provoke\nOpening Gambit: Give a unit Celerity this turn.",
+    "description": "Provoke\nAllies can move an additional space.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f1ElyxStormbladeBreathing.gif",
@@ -271,7 +271,7 @@
       "damage": "resources/card_gifs/f1ElyxStormbladeDamage.gif",
       "death": "resources/card_gifs/f1ElyxStormbladeDeath.gif"
     },
-    "mana": 7,
+    "mana": 6,
     "attack": 7,
     "health": 7,
     "cardType": "Minion",
@@ -644,8 +644,8 @@
       "damage": "resources/card_gifs/f2MeleeDamage.gif",
       "death": "resources/card_gifs/f2MeleeDeath.gif"
     },
-    "mana": 2,
-    "attack": 2,
+    "mana": 1,
+    "attack": 1,
     "health": 3,
     "cardType": "Minion",
     "tribes": [],
@@ -1085,8 +1085,8 @@
       "death": "resources/card_gifs/f2SpellThiefDeath.gif"
     },
     "mana": 1,
-    "attack": 2,
-    "health": 1,
+    "attack": 1,
+    "health": 2,
     "cardType": "Minion",
     "tribes": ["Arcanyst"],
     "factionId": 2
@@ -1697,7 +1697,7 @@
     "id": 289,
     "faction": "vetruvian",
     "rarity": "epic",
-    "description": "Your effects that add to the Attack or Health of enemies or subtract from the Attack or Health of allies do the opposite instead.",
+    "description": "At the end of your turn, minions with modified Attack have their Health modified by the same value instead, and vice versa.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3SakkakBreathing.gif",
@@ -1707,9 +1707,9 @@
       "damage": "resources/card_gifs/f3SakkakHit.gif",
       "death": "resources/card_gifs/f3SakkakDeath.gif"
     },
-    "mana": 4,
-    "attack": 4,
-    "health": 4,
+    "mana": 3,
+    "attack": 3,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 3
@@ -2188,7 +2188,7 @@
     "id": 389,
     "faction": "abyssian",
     "rarity": "epic",
-    "description": "Opening Gambit: Allied Shadow Creep tiles heal allies one space away for 2 and deal 2 damage to enemies one space away.",
+    "description": "Opening Gambit: Allied Shadow Creep tiles deal 2 damage to enemies one space away.",
     "relatedCards": [40019],
     "resource": {
       "breathing": "resources/card_gifs/f4HorrorBursterBreathing.gif",
@@ -2198,9 +2198,9 @@
       "damage": "resources/card_gifs/f4HorrorBursterHit.gif",
       "death": "resources/card_gifs/f4HorrorBursterDeath.gif"
     },
-    "mana": 4,
-    "attack": 4,
-    "health": 4,
+    "mana": 3,
+    "attack": 3,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 4
@@ -2254,7 +2254,7 @@
     "id": 393,
     "faction": "abyssian",
     "rarity": "common",
-    "description": "At the start of your turn, this steals 3 Health from your General.",
+    "description": "At the start of your turn, this deals 3 damage to your General and heals for 3.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f4MegaFiendBreathing.gif",
@@ -2646,7 +2646,7 @@
     "id": 475,
     "faction": "magmar",
     "rarity": "legendary",
-    "description": "Rush\nThe next time an allied minion is summoned nearby this, give it Rush. It cannot damage Generals this turn.",
+    "description": "The next time an allied minion is summoned nearby this, give it Rush. It cannot damage Generals this turn.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5VindicatorBreathing.gif",
@@ -2656,7 +2656,7 @@
       "damage": "resources/card_gifs/f5VindicatorDamage.gif",
       "death": "resources/card_gifs/f5VindicatorDeath.gif"
     },
-    "mana": 3,
+    "mana": 2,
     "attack": 2,
     "health": 3,
     "cardType": "Minion",
@@ -2821,7 +2821,7 @@
       "damage": "resources/card_gifs/f5VisionarHit.gif",
       "death": "resources/card_gifs/f5VisionarDeath.gif"
     },
-    "mana": 8,
+    "mana": 7,
     "attack": 7,
     "health": 7,
     "cardType": "Minion",
@@ -3698,7 +3698,7 @@
     "id": 604,
     "faction": "vanar",
     "rarity": "rare",
-    "description": "Allied Walls joined to this have +1/+1 for each allied Wall joined to this.",
+    "description": "Allied Walls joined to this have +1/+0 for each allied Wall joined to this.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f6AuroraGuardianBreathing.gif",
@@ -4913,7 +4913,7 @@
     "id": 11211,
     "faction": "neutral",
     "rarity": "epic",
-    "description": "At the start of your turn, this gains +4/+0. Deal 4 damage to the enemy General.",
+    "description": "At the start of your turn, this gains +4/+0 and deals 4 damage to the enemy General.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralDarkNemesisBreathing.gif",
@@ -5200,7 +5200,7 @@
       "death": "resources/card_gifs/neutralDaggerKiriDeath.gif"
     },
     "mana": 5,
-    "attack": 2,
+    "attack": 3,
     "health": 8,
     "cardType": "Minion",
     "tribes": [],
@@ -5585,8 +5585,8 @@
       "death": "resources/card_gifs/neutralDilotasDeath.gif"
     },
     "mana": 4,
-    "attack": 6,
-    "health": 2,
+    "attack": 4,
+    "health": 3,
     "cardType": "Minion",
     "tribes": [],
     "spriteName": "neutral_dilotas_attack",
@@ -5609,7 +5609,7 @@
     },
     "mana": 3,
     "attack": 0,
-    "health": 10,
+    "health": 6,
     "cardType": "Minion",
     "tribes": [],
     "factionId": 100
@@ -6803,7 +6803,7 @@
     "id": 11295,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Opening Gambit: If you have played a spell this turn, deal 1 damage to a unit.",
+    "description": "Opening Gambit: If you have played a spell this turn, deal 2 damage to a unit.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralOwlScholarBreathing.gif",
@@ -6891,7 +6891,7 @@
     "id": 11299,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "At the end of each turn, this gains -0/-1 and heals both Generals for 1.",
+    "description": "At the end of each turn, this gains -0/-2 and heals both Generals for 2.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/isbeesMonumentBreathing.gif",
@@ -6901,7 +6901,7 @@
       "damage": "resources/card_gifs/isbeesMonumentHit.gif",
       "death": "resources/card_gifs/isbeesMonumentDeath.gif"
     },
-    "mana": 3,
+    "mana": 4,
     "attack": 0,
     "health": 12,
     "cardType": "Minion",
@@ -7025,7 +7025,7 @@
     "id": 11307,
     "faction": "neutral",
     "rarity": "rare",
-    "description": "Opening Gambit: Destroy a nearby allied minion, then summon it on that space and give it +1/+1.",
+    "description": "Opening Gambit: Summon a 1/1 copy of the last destroyed minion with Dying Wish directly behind this.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/neutralTimekeeperBreathing.gif",
@@ -7335,7 +7335,7 @@
       "idle": "resources/card_gifs/iconD2WarSurgeIdle.gif",
       "active": "resources/card_gifs/iconD2WarSurgeActive.gif"
     },
-    "mana": 2,
+    "mana": 1,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f1_d2_warsurge",
@@ -7736,7 +7736,7 @@
     "id": 20432,
     "faction": "songhai",
     "rarity": "rare",
-    "description": "Give an allied minion \"After this damages an enemy minion, destroy that minion\".",
+    "description": "Give an allied minion \"After this damages a minion, destroy that minion\".",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2DeathstrikeSealIdle.gif",
@@ -8055,7 +8055,7 @@
     "factionId": 3
   },
   {
-    "name": "Rasha's Curse",
+    "name": "Rasha's Blessing",
     "id": 20451,
     "faction": "vetruvian",
     "rarity": "rare",
@@ -8467,13 +8467,13 @@
     "id": 20476,
     "faction": "magmar",
     "rarity": "rare",
-    "description": "The next minion you play this turn costs 2 less. Deal 2 damage to it when played.",
+    "description": "At the start of your next turn, gain 2 mana that turn. It can exceed the mana limit.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2FlashReincarnationIdle.gif",
       "active": "resources/card_gifs/iconD2FlashReincarnationActive.gif"
     },
-    "mana": 0,
+    "mana": 2,
     "cardType": "Spell",
     "tribes": [],
     "spriteName": "icon_f5_d2_flashreincarnation",
@@ -9299,7 +9299,7 @@
     "id": 20551,
     "faction": "magmar",
     "rarity": "common",
-    "description": "An ally fights a nearby enemy minion.",
+    "description": "An ally and an enemy minion nearby it deal damage to each other equal to their attack.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2EndureTheBeastlandsIdle.gif",
@@ -9331,7 +9331,7 @@
     "id": 20557,
     "faction": "songhai",
     "rarity": "rare",
-    "description": "Rotate units in a 3x3 area a quarter turn around the center space and deal 1 damage to them.",
+    "description": "Teleport units in a 3x3 area 2 spaces clockwise around the center space and deal 1 damage to them.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2HollowVortexIdle.gif",
@@ -9908,9 +9908,9 @@
     "name": "Unbounded Energy Amulet",
     "id": 270100,
     "faction": "songhai",
-    "rarity": "basic",
+    "rarity": "epic",
     "description": "After your General moves or teleports, summon an Afterimage on the space it moved from.",
-    "relatedCards": [],
+    "relatedCards": [270101],
     "resource": {
       "idle": "resources/card_gifs/iconD2EnergyAmuletIdle.gif",
       "active": "resources/card_gifs/iconD2EnergyAmuletActive.gif"
@@ -9925,7 +9925,7 @@
     "id": 310608,
     "faction": "vetruvian",
     "rarity": "rare",
-    "description": "This cannot attack or counterattack.\nThe minion on the opposite horizontal space has -Attack/-Health equal to this unit's Attack and Health.",
+    "description": "At the end of your turn, give the minion on the opposite horizontal space -2/-2.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f3InsightCasterBreathing.gif",
@@ -9963,7 +9963,7 @@
     "id": 310610,
     "faction": "vanar",
     "rarity": "common",
-    "description": "Teleport all units 1 space towards the enemy's starting side of the battlefield.",
+    "description": "Teleport all enemies 1 space towards the enemy's starting side of the battlefield.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2IceHooksIdle.gif",
