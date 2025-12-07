@@ -2,6 +2,7 @@
   {
     "name": "Argeon Highmayne",
     "id": 60,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "basic",
     "description": "",
@@ -29,6 +30,7 @@
   {
     "name": "Silverguard Squire",
     "id": 61,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "",
@@ -52,6 +54,7 @@
   {
     "name": "Windblade Adept",
     "id": 62,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Zeal: +2/+0.",
@@ -75,6 +78,7 @@
   {
     "name": "Sunstone Templar",
     "id": 63,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Airdrop\nAllied minions have Airdrop when played.",
@@ -98,6 +102,7 @@
   {
     "name": "Silverguard Knight",
     "id": 64,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Provoke\nZeal: +2/+0.",
@@ -121,6 +126,7 @@
   {
     "name": "Arclyte Sentinel",
     "id": 65,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Opening Gambit: Give a nearby minion +2/-2.",
@@ -144,6 +150,7 @@
   {
     "name": "Second Sun",
     "id": 66,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Zeal: +8/+0.",
@@ -167,6 +174,7 @@
   {
     "name": "Lysian Brawler",
     "id": 67,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Airdrop, Celerity",
@@ -190,6 +198,7 @@
   {
     "name": "Lightchaser",
     "id": 68,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "When a unit is healed, this gains +2/+0.",
@@ -213,6 +222,7 @@
   {
     "name": "Suntide Maiden",
     "id": 69,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Zeal: At the end of your turn, this fully heals.",
@@ -236,6 +246,7 @@
   {
     "name": "Ironcliffe Guardian",
     "id": 70,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Airdrop, Provoke",
@@ -259,6 +270,7 @@
   {
     "name": "Elyx Stormblade",
     "id": 71,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "legendary",
     "description": "Provoke\nAllies can move an additional space.",
@@ -282,6 +294,7 @@
   {
     "name": "Grandmaster Z'ir",
     "id": 72,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "legendary",
     "description": "When your General is destroyed, this becomes your General.",
@@ -305,6 +318,7 @@
   {
     "name": "Azurite Lion",
     "id": 73,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Celerity",
@@ -328,6 +342,7 @@
   {
     "name": "Sunriser",
     "id": 74,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "After a unit is healed, deal 2 damage to nearby enemies.",
@@ -351,6 +366,7 @@
   {
     "name": "Zir'An Sunforge",
     "id": 75,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "basic",
     "description": "",
@@ -378,6 +394,7 @@
   {
     "name": "Brome Warcrest",
     "id": 76,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "basic",
     "description": "",
@@ -405,6 +422,7 @@
   {
     "name": "Echo Mage",
     "id": 78,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "legendary",
     "description": "Zeal: When you play a spell, put a 1 cost Fading copy of that spell into your action bar. (once per turn)",
@@ -427,6 +445,7 @@
   {
     "name": "Daybreaker",
     "id": 79,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "At the end of your turn, if you've played at least three cards this turn, give allied minions +1/+1.",
@@ -449,6 +468,7 @@
   {
     "name": "Recruit",
     "id": 80,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "token",
     "description": "",
@@ -471,6 +491,7 @@
   {
     "name": "Avatar of the Zenith",
     "id": 81,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "When a minion is healed, put a Fading Afterglow into your action bar and summon a 1/3 Recruit on a random nearby space.",
@@ -493,6 +514,7 @@
   {
     "name": "Auroara",
     "id": 82,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "When you summon a minion with 2 or less base Attack, this gains +2/+0.",
@@ -515,6 +537,7 @@
   {
     "name": "War Judicator",
     "id": 83,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Opening Gambit: Fill your action bar with True Strikes.\nZeal: The first True Strike you play each turn costs 0.",
@@ -537,6 +560,7 @@
   {
     "name": "Armorsmith",
     "id": 84,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Shield\nWhile this has Shield, your artifacts cost 2 less. When you equip an artifact, this loses Shield.",
@@ -559,6 +583,7 @@
   {
     "name": "Kaleos Xaan",
     "id": 161,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "basic",
     "description": "",
@@ -586,6 +611,7 @@
   {
     "name": "Heartseeker",
     "id": 162,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Ranged",
@@ -609,6 +635,7 @@
   {
     "name": "Widowmaker",
     "id": 163,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Ranged\nWhen this attacks, draw a card at the end of your turn.",
@@ -632,6 +659,7 @@
   {
     "name": "Kaido Assassin",
     "id": 164,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Backstab: 2.",
@@ -655,6 +683,7 @@
   {
     "name": "Scarlet Viper",
     "id": 165,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Flying\nBackstab: 3.",
@@ -678,6 +707,7 @@
   {
     "name": "Gore Horn",
     "id": 166,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Backstab: 2.\nAfter this attacks, it gains +1/+1.",
@@ -701,6 +731,7 @@
   {
     "name": "Panddo",
     "id": 167,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "token",
     "description": "This cannot be attacked.",
@@ -723,6 +754,7 @@
   {
     "name": "Jade Monk",
     "id": 168,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "This card costs 1 less for each spell you played this turn.",
@@ -746,6 +778,7 @@
   {
     "name": "Chakri Avatar",
     "id": 169,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "When you play a spell, this gains +1/+1.",
@@ -769,6 +802,7 @@
   {
     "name": "Four Winds Magus",
     "id": 170,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "When you play a spell, deal 1 damage to enemy General and heal your General for 1.",
@@ -792,6 +826,7 @@
   {
     "name": "Celestial Phantom",
     "id": 171,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "When this damages an enemy minion, destroy that minion.",
@@ -815,6 +850,7 @@
   {
     "name": "Storm Kage",
     "id": 172,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "legendary",
     "description": "When you play a spell that deals damage, put a Kage Lightning into your action bar.",
@@ -838,6 +874,7 @@
   {
     "name": "Hamon Bladeseeker",
     "id": 173,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "At the start of your turn, deal 2 damage to your General.",
@@ -861,6 +898,7 @@
   {
     "name": "Keshrai Fanblade",
     "id": 174,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Opening Gambit: Your opponent's spells cost 2 more until your next turn.",
@@ -884,6 +922,7 @@
   {
     "name": "Tusk Boar",
     "id": 175,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "legendary",
     "description": "Rush\nAt the start of your turn, return this to your action bar.",
@@ -907,6 +946,7 @@
   {
     "name": "Lantern Fox",
     "id": 176,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "When this takes damage, put a Phoenix Fire into your action bar.",
@@ -930,6 +970,7 @@
   {
     "name": "Reva Eventide",
     "id": 177,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "basic",
     "description": "",
@@ -957,6 +998,7 @@
   {
     "name": "Shidai Stormblossom",
     "id": 178,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "basic",
     "description": "",
@@ -984,6 +1026,7 @@
   {
     "name": "Thief of Moments",
     "id": 179,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "The first time an ally attacks each turn, put a Blink into your action bar.",
@@ -1006,6 +1049,7 @@
   {
     "name": "Flamewreath",
     "id": 180,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Rush\nAfter this moves or teleports, deal 1 damage to nearby enemies.",
@@ -1028,6 +1072,7 @@
   {
     "name": "Zendo, Ronin Lord",
     "id": 182,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "legendary",
     "description": "At the end of your turn, summon a Ronin Shade behind each enemy.",
@@ -1050,6 +1095,7 @@
   {
     "name": "Ronin Shade",
     "id": 183,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "token",
     "description": "Provoke\nThis disappears when it is attacked.",
@@ -1072,6 +1118,7 @@
   {
     "name": "Rhythmweaver",
     "id": 184,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "After this takes damage, draw a spell.",
@@ -1094,6 +1141,7 @@
   {
     "name": "Fluttercrane",
     "id": 186,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "After this moves or teleports, it gains +2/+0 if it has 2 or less attack and otherwise gains -2/-0 and you draw a card.",
@@ -1116,6 +1164,7 @@
   {
     "name": "Onyx Jaguar",
     "id": 187,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "After an allied minion moves or teleports, it gains +1/+1.",
@@ -1138,6 +1187,7 @@
   {
     "name": "Umbral Stalker",
     "id": 188,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "After this moves or teleports, it gains \"this cannot be attacked\" until it attacks or the start of your turn.",
@@ -1160,6 +1210,7 @@
   {
     "name": "Ribbon Dancer",
     "id": 200,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "After every two cards you play in a turn, switch the positions of the units directly in front of and behind this.",
@@ -1182,6 +1233,7 @@
   {
     "name": "Zirix Starstrider",
     "id": 264,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "basic",
     "description": "",
@@ -1209,6 +1261,7 @@
   {
     "name": "Wind Shrike",
     "id": 265,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Flying\nDying Wish: Equip a Staff Of Y'Kir to your General.",
@@ -1232,6 +1285,7 @@
   {
     "name": "Starfire Scarab",
     "id": 266,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Blast",
@@ -1255,6 +1309,7 @@
   {
     "name": "Sand Howler",
     "id": 267,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Nearby enemies have -1/-0.",
@@ -1278,6 +1333,7 @@
   {
     "name": "Dunecaster",
     "id": 268,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Opening Gambit: Give another Dervish +2/+2 and \"This does not disappear at the end of your turn\".",
@@ -1301,6 +1357,7 @@
   {
     "name": "Orb Weaver",
     "id": 269,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Opening Gambit: Summon an exact copy of this nearby.",
@@ -1324,6 +1381,7 @@
   {
     "name": "Pyromancer",
     "id": 270,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Blast",
@@ -1347,6 +1405,7 @@
   {
     "name": "Ethereal Obelysk",
     "id": 271,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Gateway",
@@ -1370,6 +1429,7 @@
   {
     "name": "Fireblaze Obelysk",
     "id": 272,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Gateway\nAllied Dervishes have +1/+0.",
@@ -1393,6 +1453,7 @@
   {
     "name": "Windstorm Obelysk",
     "id": 273,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Gateway\nAllied Dervishes can move an additional space.",
@@ -1416,6 +1477,7 @@
   {
     "name": "Wind Dervish",
     "id": 274,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "token",
     "description": "Rush\nAt the end of your turn, this disappears.",
@@ -1438,6 +1500,7 @@
   {
     "name": "Imperial Saboteur",
     "id": 275,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Opening Gambit: Give a nearby minion -2/-0 until your next turn.",
@@ -1461,6 +1524,7 @@
   {
     "name": "Mirage Master",
     "id": 276,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Opening Gambit: This transforms into an exact copy of another minion.",
@@ -1484,6 +1548,7 @@
   {
     "name": "Aymara Healer",
     "id": 277,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "legendary",
     "description": "Provoke\nDying Wish: Deal 5 damage to the enemy General and heal your General for 5.",
@@ -1507,6 +1572,7 @@
   {
     "name": "Portal Guardian",
     "id": 278,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Frenzy\nWhen you summon a minion, this gains +1/+0.",
@@ -1530,6 +1596,7 @@
   {
     "name": "Oserix",
     "id": 279,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "legendary",
     "description": "Your General deals double damage. Your General takes no damage on your turn.",
@@ -1553,6 +1620,7 @@
   {
     "name": "Scioness Sajj",
     "id": 280,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "basic",
     "description": "",
@@ -1580,6 +1648,7 @@
   {
     "name": "Ciphyron Ascendant",
     "id": 281,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "basic",
     "description": "",
@@ -1607,6 +1676,7 @@
   {
     "name": "Chronomancer",
     "id": 282,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Opening Gambit: The next spell you play this turn costs 2 less.",
@@ -1629,6 +1699,7 @@
   {
     "name": "Ancestral Vessel",
     "id": 283,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Dying Wish: Summon a Wind Dervish on this space.",
@@ -1651,6 +1722,7 @@
   {
     "name": "Fusion Banshee",
     "id": 287,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Rush, Blast\nThis cannot attack Generals.",
@@ -1673,6 +1745,7 @@
   {
     "name": "Soulstone Obelysk",
     "id": 288,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Gateway\nOpening Gambit: Remove a minion from the board.\nDying Wish: Summon it on this space for its owner.",
@@ -1695,6 +1768,7 @@
   {
     "name": "Soul Arbiter",
     "id": 289,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "At the end of your turn, minions with modified Attack have their Health modified by the same value instead, and vice versa.",
@@ -1717,6 +1791,7 @@
   {
     "name": "Lilithe Blightchaser",
     "id": 364,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "basic",
     "description": "",
@@ -1744,6 +1819,7 @@
   {
     "name": "Abyssal Crawler",
     "id": 365,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "At the end of your turn, create a Shadow Creep tile under this unit.",
@@ -1767,6 +1843,7 @@
   {
     "name": "Abyssal Juggernaut",
     "id": 366,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "This has +1/+1 for each of your Shadow Creep tiles.",
@@ -1790,6 +1867,7 @@
   {
     "name": "Bloodmoon Priestess",
     "id": 367,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Deathwatch: Summon a Wraithling on a random nearby space.",
@@ -1813,6 +1891,7 @@
   {
     "name": "Shadow Watcher",
     "id": 368,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Deathwatch: This gains +1/+1.",
@@ -1836,6 +1915,7 @@
   {
     "name": "Aphotic Devourer",
     "id": 369,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Opening Gambit: Destroy nearby allied minions and summon Wraithlings on those spaces. This gains +2/+2 for each destroyed.",
@@ -1859,6 +1939,7 @@
   {
     "name": "Blood Siren",
     "id": 370,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Dying Wish: If it's your turn, heal your General for 2. Otherwise deal 2 damage to the enemy General.",
@@ -1882,6 +1963,7 @@
   {
     "name": "Vorpal Reaver",
     "id": 371,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "legendary",
     "description": "Celerity\nDying Wish: Summon six Wraithlings on random spaces.",
@@ -1905,6 +1987,7 @@
   {
     "name": "Wraithling",
     "id": 372,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "token",
     "description": "",
@@ -1927,6 +2010,7 @@
   {
     "name": "Darkspine Elemental",
     "id": 373,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "When this damages a unit, create a Shadow Creep tile on that space.",
@@ -1950,6 +2034,7 @@
   {
     "name": "Gloomchaser",
     "id": 374,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Opening Gambit: Summon a Wraithling on a nearby space.",
@@ -1973,6 +2058,7 @@
   {
     "name": "Shadowdancer",
     "id": 375,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Deathwatch: Deal 1 damage to the enemy General and heal your General for 1.",
@@ -1996,6 +2082,7 @@
   {
     "name": "Nightsorrow Assassin",
     "id": 376,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Opening Gambit: Destroy a nearby minion that costs 3 or less.",
@@ -2019,6 +2106,7 @@
   {
     "name": "Spectral Revenant",
     "id": 377,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "legendary",
     "description": "Rush\nWhen this damages an enemy minion, deal 4 damage to the enemy General.",
@@ -2042,6 +2130,7 @@
   {
     "name": "Black Solus",
     "id": 378,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Opening Gambit: Put two Wraithlings into your action bar.",
@@ -2065,6 +2154,7 @@
   {
     "name": "Reaper of the Nine Moons",
     "id": 379,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Flying\nDying Wish: Teleport the enemy General to this space.",
@@ -2088,6 +2178,7 @@
   {
     "name": "Cassyva Soulreaper",
     "id": 380,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "basic",
     "description": "",
@@ -2115,6 +2206,7 @@
   {
     "name": "Maehv Skinsolder",
     "id": 381,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "basic",
     "description": "",
@@ -2142,6 +2234,7 @@
   {
     "name": "Soul-Scythe",
     "id": 383,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Opening Gambit: Destroy a nearby allied minion to draw two cards.",
@@ -2164,6 +2257,7 @@
   {
     "name": "Elderchain Cultist",
     "id": 384,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Dying Wish: The next minion you play with base cost 4 or more costs 4 less.",
@@ -2186,6 +2280,7 @@
   {
     "name": "Nightsplitter",
     "id": 389,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Opening Gambit: Allied Shadow Creep tiles deal 2 damage to enemies one space away.",
@@ -2208,6 +2303,7 @@
   {
     "name": "Bad Omen",
     "id": 390,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Deathwatch: This gains +1/+0.",
@@ -2230,6 +2326,7 @@
   {
     "name": "Marrowgrinder",
     "id": 391,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "This can move onto allied minions to destroy them. When it does, draw a card and heal your General for 2.",
@@ -2252,6 +2349,7 @@
   {
     "name": "Xerroloth",
     "id": 393,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "At the start of your turn, this deals 3 damage to your General and heals for 3.",
@@ -2274,6 +2372,7 @@
   {
     "name": "Vaath the Immortal",
     "id": 459,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "basic",
     "description": "",
@@ -2301,6 +2400,7 @@
   {
     "name": "Earth Walker",
     "id": 460,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Grow: +1/+1.",
@@ -2324,6 +2424,7 @@
   {
     "name": "Grimrock",
     "id": 461,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Grow: +2/+2.",
@@ -2347,6 +2448,7 @@
   {
     "name": "Kolossus",
     "id": 462,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Grow: +4/+4.",
@@ -2370,6 +2472,7 @@
   {
     "name": "Makantor Warbeast",
     "id": 463,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Frenzy, Rush",
@@ -2393,6 +2496,7 @@
   {
     "name": "Phalanxar",
     "id": 464,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "This moves 1 less space.",
@@ -2416,6 +2520,7 @@
   {
     "name": "Elucidator",
     "id": 465,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Rush\nOpening Gambit: Deal 4 damage to your General.",
@@ -2439,6 +2544,7 @@
   {
     "name": "Unstable Leviathan",
     "id": 466,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "At the end of your turn, deal 4 damage to a random unit. If it is an ally, give it +4/+0.",
@@ -2462,6 +2568,7 @@
   {
     "name": "Kujata",
     "id": 467,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Your minions cost 1 less to play. When you play a minion, deal 1 damage to it.",
@@ -2485,6 +2592,7 @@
   {
     "name": "Primordial Gazer",
     "id": 468,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Opening Gambit: Give a nearby minion +2/+2.",
@@ -2508,6 +2616,7 @@
   {
     "name": "Egg",
     "id": 469,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "token",
     "description": "",
@@ -2530,6 +2639,7 @@
   {
     "name": "Young Silithar",
     "id": 470,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Rebirth",
@@ -2553,6 +2663,7 @@
   {
     "name": "Veteran Silithar",
     "id": 471,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Rebirth",
@@ -2576,6 +2687,7 @@
   {
     "name": "Silithar Elder",
     "id": 472,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "legendary",
     "description": "Rebirth\nAt the end of your turn, summon an Egg of this directly behind it.",
@@ -2599,6 +2711,7 @@
   {
     "name": "Spirit Harvester",
     "id": 473,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "At the end of your turn, deal 1 damage to other minions.",
@@ -2622,6 +2735,7 @@
   {
     "name": "Magma",
     "id": 474,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "token",
     "description": "",
@@ -2644,6 +2758,7 @@
   {
     "name": "Vindicator",
     "id": 475,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "legendary",
     "description": "The next time an allied minion is summoned nearby this, give it Rush. It cannot damage Generals this turn.",
@@ -2667,6 +2782,7 @@
   {
     "name": "Starhorn the Seeker",
     "id": 476,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "basic",
     "description": "",
@@ -2694,6 +2810,7 @@
   {
     "name": "Ragnora the Relentless",
     "id": 477,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "basic",
     "description": "",
@@ -2721,6 +2838,7 @@
   {
     "name": "Timecloak Coiler",
     "id": 480,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "At the end of your turn, give your General +2/+0 until they move or teleport.",
@@ -2743,6 +2861,7 @@
   {
     "name": "Progenitor",
     "id": 482,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Opening Gambit: Summon a Young Silithar Egg nearby your General.",
@@ -2765,6 +2884,7 @@
   {
     "name": "Young Silithar",
     "id": 483,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "token",
     "description": "Frenzy",
@@ -2787,6 +2907,7 @@
   {
     "name": "Generation Scribe",
     "id": 484,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Opening Gambit: Activate the start of turn and end of turn effects of an ally.",
@@ -2809,6 +2930,7 @@
   {
     "name": "Skycarrier",
     "id": 485,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "legendary",
     "description": "Your cards cost 3.",
@@ -2831,6 +2953,7 @@
   {
     "name": "Oropsisaur",
     "id": 486,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "legendary",
     "description": "Grow: +1/+1.\nWhen another allied minion with Grow survives damage, that minion grows.",
@@ -2853,6 +2976,7 @@
   {
     "name": "Rancour",
     "id": 487,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "When your General takes damage, this gains that much attack.",
@@ -2875,6 +2999,7 @@
   {
     "name": "Matron of the Hunt",
     "id": 488,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Opening Gambit: Deal 1 damage to nearby allies and give them \"This can move an additional space\" until the end of the turn.",
@@ -2897,6 +3022,7 @@
   {
     "name": "Spineback",
     "id": 489,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "This can be played on a minion to give it +2/+3.",
@@ -2919,6 +3045,7 @@
   {
     "name": "Faie Bloodwing",
     "id": 568,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "basic",
     "description": "",
@@ -2946,6 +3073,7 @@
   {
     "name": "Fenrir Warmaster",
     "id": 569,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Dying Wish: Summon a Ghost Wolf on this space.",
@@ -2969,6 +3097,7 @@
   {
     "name": "Ghost Wolf",
     "id": 570,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "",
@@ -2991,6 +3120,7 @@
   {
     "name": "Crystal Cloaker",
     "id": 571,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Infiltrate: +2/+0.",
@@ -3014,6 +3144,7 @@
   {
     "name": "Crystal Wisp",
     "id": 572,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Dying Wish: Gain a mana crystal.",
@@ -3037,6 +3168,7 @@
   {
     "name": "Frosthorn Rhyno",
     "id": 573,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "Infiltrate: +1/+0 and Celerity.",
@@ -3060,6 +3192,7 @@
   {
     "name": "Draugar Lord",
     "id": 574,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "Opening Gambit: Transform allied Vespyrs into Ice Drakes until your next turn.",
@@ -3083,6 +3216,7 @@
   {
     "name": "Ice Drake",
     "id": 575,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "",
@@ -3105,6 +3239,7 @@
   {
     "name": "Snowchaser",
     "id": 576,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Infiltrate: Dying Wish: Put a copy of this into your action bar.",
@@ -3128,6 +3263,7 @@
   {
     "name": "Wolfraven",
     "id": 577,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Flying\nThis takes no damage from units with 3 or more Attack.",
@@ -3151,6 +3287,7 @@
   {
     "name": "Borean Bear",
     "id": 578,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "This has +1/+0 for each allied Wall.",
@@ -3174,6 +3311,7 @@
   {
     "name": "Razorback",
     "id": 579,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Opening Gambit: Give other allied minions +2/+0.",
@@ -3197,6 +3335,7 @@
   {
     "name": "Ancient Grove",
     "id": 580,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "legendary",
     "description": "Provoke\nOpening Gambit: Give allied minions \"Dying Wish: Summon a Treant on this space\".",
@@ -3220,6 +3359,7 @@
   {
     "name": "Voice of the Wind",
     "id": 581,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "legendary",
     "description": "When you play a minion, summon a Winter Maerid on a random nearby space.",
@@ -3243,6 +3383,7 @@
   {
     "name": "Treant",
     "id": 582,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "Provoke",
@@ -3265,6 +3406,7 @@
   {
     "name": "Hearth-Sister",
     "id": 583,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Opening Gambit: This switches positions with another minion.",
@@ -3288,6 +3430,7 @@
   {
     "name": "Winter Maerid",
     "id": 584,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "",
@@ -3310,6 +3453,7 @@
   {
     "name": "Glacial Elemental",
     "id": 585,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "When you summon a Vespyr, deal 2 damage to a random enemy minion.",
@@ -3333,6 +3477,7 @@
   {
     "name": "Fox Ravager",
     "id": 586,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "",
@@ -3355,6 +3500,7 @@
   {
     "name": "Whyte Wyrm",
     "id": 587,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "",
@@ -3377,6 +3523,7 @@
   {
     "name": "Seismic Elemental",
     "id": 588,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "",
@@ -3399,6 +3546,7 @@
   {
     "name": "Frost Well",
     "id": 589,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "Provoke\nWall",
@@ -3421,6 +3569,7 @@
   {
     "name": "Frigid Spines",
     "id": 590,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "Wall",
@@ -3443,6 +3592,7 @@
   {
     "name": "Ice Barrier",
     "id": 591,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "Wall\nWhen a nearby minion damages this, Stun that minion.",
@@ -3465,6 +3615,7 @@
   {
     "name": "Arctic Displacer",
     "id": 592,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Airdrop\nOpening Gambit: Stun a nearby minion.",
@@ -3488,6 +3639,7 @@
   {
     "name": "Kara Winterblade",
     "id": 593,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "basic",
     "description": "",
@@ -3515,6 +3667,7 @@
   {
     "name": "Ilena Cryobyte",
     "id": 594,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "basic",
     "description": "",
@@ -3542,6 +3695,7 @@
   {
     "name": "Bubblesmith",
     "id": 596,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Opening Gambit: Give your General \"The next time this would take damage, reduce that damage to 1\".",
@@ -3564,6 +3718,7 @@
   {
     "name": "Fylgja",
     "id": 597,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Opening Gambit: Both players lose a mana crystal.",
@@ -3586,6 +3741,7 @@
   {
     "name": "Embla, Forever",
     "id": 598,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "legendary",
     "description": "Opening Gambit: Stun all enemies. You accrue mana crystals beyond 9.",
@@ -3608,6 +3764,7 @@
   {
     "name": "Memento",
     "id": 600,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "Wall\nDying Wish: Draw a card.",
@@ -3630,6 +3787,7 @@
   {
     "name": "Sleet Dasher",
     "id": 601,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "When this destroys an enemy, activate it.",
@@ -3652,6 +3810,7 @@
   {
     "name": "Disciple of Yggdra",
     "id": 602,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "legendary",
     "description": "When an enemy is Stunned, transform this into Yggdra's Voracity.",
@@ -3674,6 +3833,7 @@
   {
     "name": "Yggdra's Voracity",
     "id": 603,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "token",
     "description": "When an enemy is Stunned, fully heal this.",
@@ -3696,6 +3856,7 @@
   {
     "name": "Permafrost Paragon",
     "id": 604,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Allied Walls joined to this have +1/+0 for each allied Wall joined to this.",
@@ -3718,6 +3879,7 @@
   {
     "name": "Thicket Augur",
     "id": 605,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Provoke\nOpening Gambit: Give nearby allied minions \"Dying Wish: Summon a Treant on this space\".",
@@ -3740,6 +3902,7 @@
   {
     "name": "Dragonlark",
     "id": 11160,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Flying",
@@ -3763,6 +3926,7 @@
   {
     "name": "Silvertongue Corsair",
     "id": 11161,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When this damages the enemy General, shuffle a card from your opponent's deck into yours for each damage it dealt.",
@@ -3786,6 +3950,7 @@
   {
     "name": "Saberspine Tiger",
     "id": 11162,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Rush",
@@ -3809,6 +3974,7 @@
   {
     "name": "Blaze Hound",
     "id": 11163,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "This card costs 1 less to play if the enemy General took damage this turn.",
@@ -3832,6 +3998,7 @@
   {
     "name": "Sand Burrower",
     "id": 11164,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "This cannot be attacked while at full Health.",
@@ -3855,6 +4022,7 @@
   {
     "name": "Repulsor Beast",
     "id": 11165,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Teleport a nearby enemy minion to any space.",
@@ -3878,6 +4046,7 @@
   {
     "name": "Fire Spitter",
     "id": 11166,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Ranged\nThis can only attack Generals.",
@@ -3901,6 +4070,7 @@
   {
     "name": "Komodo Scavenger",
     "id": 11167,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "This gains Attack equal to the cost of the next artifact you equip.",
@@ -3924,6 +4094,7 @@
   {
     "name": "Planar Scout",
     "id": 11168,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Airdrop",
@@ -3947,6 +4118,7 @@
   {
     "name": "Ephemeral Shroud",
     "id": 11169,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Dispel a nearby space.",
@@ -3970,6 +4142,7 @@
   {
     "name": "Vale Hunter",
     "id": 11170,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Ranged",
@@ -3993,6 +4166,7 @@
   {
     "name": "Twilight Sorcerer",
     "id": 11171,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Put a copy of a random spell you have played into your action bar.",
@@ -4016,6 +4190,7 @@
   {
     "name": "Brightmoss Golem",
     "id": 11172,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "",
@@ -4039,6 +4214,7 @@
   {
     "name": "Bloodshard Golem",
     "id": 11173,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "",
@@ -4062,6 +4238,7 @@
   {
     "name": "Dragonbone Golem",
     "id": 11174,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "",
@@ -4085,6 +4262,7 @@
   {
     "name": "Stormmetal Golem",
     "id": 11175,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "",
@@ -4108,6 +4286,7 @@
   {
     "name": "Sun Seer",
     "id": 11176,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "When this deals damage, heal your General for the amount dealt.",
@@ -4131,6 +4310,7 @@
   {
     "name": "Manaforger",
     "id": 11177,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Your spells cost 1 less. (3 per turn)",
@@ -4154,6 +4334,7 @@
   {
     "name": "Prismatic Illusionist",
     "id": 11178,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "When you play a spell, summon an Illusion on a random nearby space.",
@@ -4177,6 +4358,7 @@
   {
     "name": "Alcuin Loremaster",
     "id": 11179,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Opening Gambit: Put a copy of the most recently played spell into your action bar.",
@@ -4200,6 +4382,7 @@
   {
     "name": "Owlbeast Sage",
     "id": 11180,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "When you play a spell, other allied Arcanysts gain +0/+2.",
@@ -4223,6 +4406,7 @@
   {
     "name": "Lightbender",
     "id": 11181,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Dispel nearby spaces.",
@@ -4246,6 +4430,7 @@
   {
     "name": "Serpenti",
     "id": 11182,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Frenzy",
@@ -4269,6 +4454,7 @@
   {
     "name": "Illusion",
     "id": 11183,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "",
@@ -4291,6 +4477,7 @@
   {
     "name": "MECHAZ0R!!",
     "id": 11184,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Airdrop, Frenzy, Ranged, Veil",
@@ -4313,6 +4500,7 @@
   {
     "name": "Helm of MECHAZ0R",
     "id": 11185,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Dying Wish: Progress your Mechaz0r build by 20%.",
@@ -4336,6 +4524,7 @@
   {
     "name": "Wings of MECHAZ0R",
     "id": 11186,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Airdrop\nDying Wish: Progress your Mechaz0r build by 20%.",
@@ -4359,6 +4548,7 @@
   {
     "name": "Cannon of MECHAZ0R",
     "id": 11187,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Ranged\nDying Wish: Progress your Mechaz0r build by 20%.",
@@ -4382,6 +4572,7 @@
   {
     "name": "Sword of MECHAZ0R",
     "id": 11188,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Frenzy\nDying Wish: Progress your Mechaz0r build by 20%.",
@@ -4405,6 +4596,7 @@
   {
     "name": "Chassis of MECHAZ0R",
     "id": 11189,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Veil\nDying Wish: Progress your Mechaz0r build by 20%.",
@@ -4428,6 +4620,7 @@
   {
     "name": "Shield Oracle",
     "id": 11190,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When the ally in front of this would take damage, this takes that damage instead.",
@@ -4451,6 +4644,7 @@
   {
     "name": "Swamp Entangler",
     "id": 11191,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Provoke",
@@ -4474,6 +4668,7 @@
   {
     "name": "Rock Pulverizer",
     "id": 11192,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Provoke",
@@ -4497,6 +4692,7 @@
   {
     "name": "Primus Shieldmaster",
     "id": 11193,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Provoke",
@@ -4520,6 +4716,7 @@
   {
     "name": "Cinderbeast",
     "id": 11194,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "At the start of each turn, deal 1 damage to both Generals.",
@@ -4543,6 +4740,7 @@
   {
     "name": "Bluetip Scorpion",
     "id": 11195,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "This deals double damage to minions.",
@@ -4566,6 +4764,7 @@
   {
     "name": "Crimson Oculus",
     "id": 11196,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "When your opponent summons a minion, this gains +1/+1.",
@@ -4589,6 +4788,7 @@
   {
     "name": "Thorn Needler",
     "id": 11197,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "When this takes damage, it gains +2/+0.",
@@ -4612,6 +4812,7 @@
   {
     "name": "Rogue Warden",
     "id": 11198,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Ranged\nThis has +1/+0 for each nearby ally.",
@@ -4635,6 +4836,7 @@
   {
     "name": "Putrid Dreadflayer",
     "id": 11199,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Dying Wish: Deal 4 damage to nearby enemies.",
@@ -4658,6 +4860,7 @@
   {
     "name": "Young Flamewing",
     "id": 11200,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Flying",
@@ -4681,6 +4884,7 @@
   {
     "name": "Storm Aratha",
     "id": 11201,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Flying\nWhen this attacks an enemy, deal 3 damage to enemies nearby that enemy.",
@@ -4704,6 +4908,7 @@
   {
     "name": "Whistling Blade",
     "id": 11202,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Veil, Provoke",
@@ -4727,6 +4932,7 @@
   {
     "name": "Primus Fist",
     "id": 11203,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Give nearby allied minions +1/+0.",
@@ -4750,6 +4956,7 @@
   {
     "name": "Golem Metallurgist",
     "id": 11204,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Your Golems cost 1 less to play.",
@@ -4773,6 +4980,7 @@
   {
     "name": "Golem Vanguard",
     "id": 11205,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Provoke\nOther allied Golems have Provoke.",
@@ -4796,6 +5004,7 @@
   {
     "name": "Piercing Mantis",
     "id": 11206,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Frenzy",
@@ -4819,6 +5028,7 @@
   {
     "name": "Frostbone Naga",
     "id": 11207,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Deal 2 damage to nearby units.",
@@ -4842,6 +5052,7 @@
   {
     "name": "Archon Spellbinder",
     "id": 11208,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Your opponent's spells cost 1 more to play.",
@@ -4865,6 +5076,7 @@
   {
     "name": "Silhouette Tracer",
     "id": 11209,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Teleport your General up to 3 spaces.",
@@ -4888,6 +5100,7 @@
   {
     "name": "Sarlac the Eternal",
     "id": 11210,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Dying Wish: Summon a copy of this behind your General.",
@@ -4911,6 +5124,7 @@
   {
     "name": "Dark Nemesis",
     "id": 11211,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "At the start of your turn, this gains +4/+0 and deals 4 damage to the enemy General.",
@@ -4934,6 +5148,7 @@
   {
     "name": "Mirkblood Devourer",
     "id": 11212,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Give allied minions summoned nearby this +1/+1.",
@@ -4957,6 +5172,7 @@
   {
     "name": "Skyrock Golem",
     "id": 11213,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "",
@@ -4980,6 +5196,7 @@
   {
     "name": "Sojourner",
     "id": 11214,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Put a random card into your action bar.",
@@ -5003,6 +5220,7 @@
   {
     "name": "Azure Horn Shaman",
     "id": 11215,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Dying Wish: Give nearby allied minions +0/+4.",
@@ -5026,6 +5244,7 @@
   {
     "name": "Flameblood Warlock",
     "id": 11216,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Deal 3 damage to both Generals.",
@@ -5049,6 +5268,7 @@
   {
     "name": "Bloodtear Alchemist",
     "id": 11217,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Deal 1 damage to another unit.",
@@ -5072,6 +5292,7 @@
   {
     "name": "Crossbones",
     "id": 11218,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Dying Wish: The next card your opponent plays costs 1 more.",
@@ -5095,6 +5316,7 @@
   {
     "name": "Sworn Avenger",
     "id": 11219,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Ranged\nWhen your General takes damage, this gains +1/+0.",
@@ -5118,6 +5340,7 @@
   {
     "name": "Sworn Defender",
     "id": 11220,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Provoke\nOpening Gambit: This gains +0/+1 for each nearby enemy.",
@@ -5141,6 +5364,7 @@
   {
     "name": "Red Synja",
     "id": 11221,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When your General takes damage, this deals 7 damage to a random nearby enemy minion.",
@@ -5164,6 +5388,7 @@
   {
     "name": "Rust Crawler",
     "id": 11222,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Destroy a random artifact equipped to the enemy General.",
@@ -5187,6 +5412,7 @@
   {
     "name": "Dagger Kiri",
     "id": 11223,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Celerity",
@@ -5210,6 +5436,7 @@
   {
     "name": "Dancing Blades",
     "id": 11224,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Deal 3 damage to the minion directly in front of this.",
@@ -5233,6 +5460,7 @@
   {
     "name": "Venom Toth",
     "id": 11225,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "When your opponent summons a minion, deal 1 damage to the enemy General.",
@@ -5256,6 +5484,7 @@
   {
     "name": "Artifact Hunter",
     "id": 11226,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Opening Gambit: Draw an artifact.",
@@ -5279,6 +5508,7 @@
   {
     "name": "Chaos Elemental",
     "id": 11227,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "When this survives damage, it teleports to a random space.",
@@ -5302,6 +5532,7 @@
   {
     "name": "Jax Truesight",
     "id": 11228,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Ranged\nOpening Gambit: Summon a Mini-Jax on each corner space of the battlefield.",
@@ -5325,6 +5556,7 @@
   {
     "name": "Mindwarper",
     "id": 11229,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Players replace cards from their opponent's deck.",
@@ -5348,6 +5580,7 @@
   {
     "name": "Pandora",
     "id": 11230,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "At the end of your turn, summon a random Spirit on a random nearby space.",
@@ -5371,6 +5604,7 @@
   {
     "name": "Serenity",
     "id": 11231,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Flying",
@@ -5393,6 +5627,7 @@
   {
     "name": "Rage",
     "id": 11232,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Frenzy",
@@ -5415,6 +5650,7 @@
   {
     "name": "Wrath",
     "id": 11233,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Celerity",
@@ -5437,6 +5673,7 @@
   {
     "name": "Envy",
     "id": 11234,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Ranged",
@@ -5459,6 +5696,7 @@
   {
     "name": "Fear",
     "id": 11235,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Provoke",
@@ -5481,6 +5719,7 @@
   {
     "name": "Mini-Jax",
     "id": 11236,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Ranged",
@@ -5503,6 +5742,7 @@
   {
     "name": "Lux Ignis",
     "id": 11237,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Ranged\nAt the end of your turn, heal nearby allies for 2.",
@@ -5526,6 +5766,7 @@
   {
     "name": "Syvrel the Exile",
     "id": 11238,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Ranged\nWhen this damages an enemy minion, teleport that minion to the space in front of this.",
@@ -5549,6 +5790,7 @@
   {
     "name": "Spelljammer",
     "id": 11239,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: Until your next turn, both players draw 2 fewer cards at the end of their turn.",
@@ -5572,6 +5814,7 @@
   {
     "name": "Dioltas",
     "id": 11240,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Dying Wish: Summon a Tombstone on a random space nearby your General.",
@@ -5595,6 +5838,7 @@
   {
     "name": "Tombstone",
     "id": 11241,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Provoke",
@@ -5617,6 +5861,7 @@
   {
     "name": "Hailstone Golem",
     "id": 11242,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "",
@@ -5640,6 +5885,7 @@
   {
     "name": "Maw",
     "id": 11243,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Deal 2 damage to a nearby ally to gain +2/+0.",
@@ -5663,6 +5909,7 @@
   {
     "name": "Deathblighter",
     "id": 11244,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Prevent all healing.",
@@ -5686,6 +5933,7 @@
   {
     "name": "Healing Mystic",
     "id": 11245,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Heal another unit for 2.",
@@ -5709,6 +5957,7 @@
   {
     "name": "Void Hunter",
     "id": 11246,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Dying Wish: Draw 2 cards.",
@@ -5732,6 +5981,7 @@
   {
     "name": "Ash Mephyt",
     "id": 11247,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Airdrop\nOpening Gambit: Summon two exact copies of this on any two spaces.",
@@ -5755,6 +6005,7 @@
   {
     "name": "First Sword of Akrane",
     "id": 11248,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Other allies have +1/+0.",
@@ -5778,6 +6029,7 @@
   {
     "name": "The High Hand",
     "id": 11249,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: This gains +1/+1 for each card in your opponent's action bar.",
@@ -5801,6 +6053,7 @@
   {
     "name": "Eclipse",
     "id": 11250,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "When this takes damage, deal that much damage to the enemy General.",
@@ -5824,6 +6077,7 @@
   {
     "name": "Lady Locke",
     "id": 11251,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Provoke\nOpening Gambit: Other minions you summon this turn gain +1/+1. Other minions you play this turn gain Provoke.",
@@ -5847,6 +6101,7 @@
   {
     "name": "Morbius",
     "id": 11252,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Opening Gambit: Spend your remaining mana. This gains +1/+1 for each mana spent.",
@@ -5870,6 +6125,7 @@
   {
     "name": "Captain Hank Hart",
     "id": 11253,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Ranged\nWhen this deals damage, it heals for the amount dealt.",
@@ -5893,6 +6149,7 @@
   {
     "name": "Rook",
     "id": 11254,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: This moves forward until a unit is in front of it. Deal damage equal to the number of spaces moved to that unit.",
@@ -5916,6 +6173,7 @@
   {
     "name": "Purgatos, The Realmkeeper",
     "id": 11255,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "When this attacks, heal your General for 2. When this counterattacks, deal 2 damage to the enemy General.",
@@ -5939,6 +6197,7 @@
   {
     "name": "Songweaver",
     "id": 11256,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "After you play a minion, spell, and artifact in the same turn, draw 3 cards.",
@@ -5962,6 +6221,7 @@
   {
     "name": "Aethermaster",
     "id": 11257,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "You can replace an additional card each turn.",
@@ -5985,6 +6245,7 @@
   {
     "name": "Zen'Rui, the Blightspawned",
     "id": 11258,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: Destroy a nearby enemy minion with 2 or less attack and summon a 2/2 copy of it on its space.",
@@ -6008,6 +6269,7 @@
   {
     "name": "Emerald Rejuvenator",
     "id": 11259,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Heal your General for 4.",
@@ -6031,6 +6293,7 @@
   {
     "name": "Zurael, the Lifegiver",
     "id": 11260,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Airdrop, Flying\nOpening Gambit: Summon other allied minions that were destroyed since your last turn on random spaces.",
@@ -6054,6 +6317,7 @@
   {
     "name": "Paddo",
     "id": 11261,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Airdrop\nOpening Gambit: Teleport nearby units to random spaces.",
@@ -6077,6 +6341,7 @@
   {
     "name": "Black Locust",
     "id": 11262,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Flying\nAt the end of your turn, summon a copy of this on a random nearby space.",
@@ -6100,6 +6365,7 @@
   {
     "name": "Wind Runner",
     "id": 11263,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "After this moves or teleports, give nearby allied minions +1/+1.",
@@ -6123,6 +6389,7 @@
   {
     "name": "Mogwai",
     "id": 11264,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Opening Gambit: This gains Attack equal to the highest Attack among allies.",
@@ -6146,6 +6413,7 @@
   {
     "name": "Ghost Lynx",
     "id": 11265,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Draw a card at the end of your turn.",
@@ -6169,6 +6437,7 @@
   {
     "name": "Grailmaster",
     "id": 11266,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When you summon a minion, this gains a new random keyword from Celerity, Flying, Frenzy, Provoke, and Ranged.",
@@ -6192,6 +6461,7 @@
   {
     "name": "Flame Acolyte",
     "id": 11267,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When you play a spell, summon a Spellspark on a random nearby space.",
@@ -6215,6 +6485,7 @@
   {
     "name": "Spellspark",
     "id": 11268,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Rush",
@@ -6237,6 +6508,7 @@
   {
     "name": "Khymera",
     "id": 11269,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "When this takes damage, summon a random token minion on a random nearby space.",
@@ -6260,6 +6532,7 @@
   {
     "name": "Jaxi",
     "id": 11270,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Dying Wish: Summon a Mini-Jax on this space.",
@@ -6283,6 +6556,7 @@
   {
     "name": "Sun Elemental",
     "id": 11271,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "At the end of your turn, this gains +2/-1.",
@@ -6306,6 +6580,7 @@
   {
     "name": "Prophet of the White Palm",
     "id": 11272,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Give all units \"This takes no damage from spells\" until your next turn.",
@@ -6329,6 +6604,7 @@
   {
     "name": "Araki Headhunter",
     "id": 11273,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "When you play a minion with Opening Gambit, this gains +2/+0.",
@@ -6352,6 +6628,7 @@
   {
     "name": "Keeper of the Vale",
     "id": 11274,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: Put a 1 cost 1/1 copy of another allied minion into your action bar.",
@@ -6375,6 +6652,7 @@
   {
     "name": "White Widow",
     "id": 11275,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When you replace a card, deal 1 damage to the enemy General and 1 damage to a random enemy minion.",
@@ -6398,6 +6676,7 @@
   {
     "name": "Wings of Paradise",
     "id": 11276,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Flying\nWhen you replace a card, this gains +2/+0 this turn.",
@@ -6421,6 +6700,7 @@
   {
     "name": "Astral Crusader",
     "id": 11277,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "At the start of each turn, switch the positions of both Generals.",
@@ -6444,6 +6724,7 @@
   {
     "name": "Dreamgazer",
     "id": 11278,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When you replace this card, summon it on the space directly behind your General and deal 2 damage to your General.",
@@ -6467,6 +6748,7 @@
   {
     "name": "Bonereaper",
     "id": 11279,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Provoke\nAt the end of your turn, deal 2 damage to nearby enemy minions.",
@@ -6490,6 +6772,7 @@
   {
     "name": "Hollow Grovekeeper",
     "id": 11280,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Frenzy\nOpening Gambit: Give nearby allied minions Provoke.",
@@ -6513,6 +6796,7 @@
   {
     "name": "Tethermancer",
     "id": 11281,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Refresh all Mana Spring tiles.",
@@ -6536,6 +6820,7 @@
   {
     "name": "War Talon",
     "id": 11282,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When this deals damage while attacking or counterattacking an enemy minion, excess damage is dealt to the enemy General.",
@@ -6559,6 +6844,7 @@
   {
     "name": "Owlbeast Adept",
     "id": 11283,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When you play a spell, this gains +0/+1. When your opponent plays a spell, this gains +1/+0.",
@@ -6581,6 +6867,7 @@
   {
     "name": "Chew-e",
     "id": 11284,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "After this destroys a minion, it fully heals, gains Attack equal to the Attack that minion had, and gains the ability of that minion.",
@@ -6603,6 +6890,7 @@
   {
     "name": "Riftwalker",
     "id": 11285,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Deal 2 damage to the nearest unit in front, behind, above, and below this.",
@@ -6625,6 +6913,7 @@
   {
     "name": "Worldcore Golem",
     "id": 11286,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "This card costs 1 less for each enemy minion and 1 more for each allied minion.",
@@ -6647,6 +6936,7 @@
   {
     "name": "Mana Artificer",
     "id": 11287,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Dying Wish: Create a Mana Spring tile on this space.",
@@ -6669,6 +6959,7 @@
   {
     "name": "Capricious Marauder",
     "id": 11288,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "After this attacks an enemy, destroy enemy minions diagonal from that enemy.",
@@ -6691,6 +6982,7 @@
   {
     "name": "Dezark",
     "id": 11290,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "At the end of your turn, draw an additional card.",
@@ -6713,6 +7005,7 @@
   {
     "name": "Boulder Breacher",
     "id": 11291,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: Deal 3 damage to other allied Golems and all units nearby them.",
@@ -6735,6 +7028,7 @@
   {
     "name": "Pummy the Stormchaser",
     "id": 11292,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Airdrop\nAfter this attacks, deal 2 damage to joined enemies and switch positions with the farthest joined enemy minion.",
@@ -6757,6 +7051,7 @@
   {
     "name": "Metaltooth",
     "id": 11293,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Frenzy\nThis has Rush if you control another Mech.",
@@ -6779,6 +7074,7 @@
   {
     "name": "Decapotheosis",
     "id": 11294,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Veil\nAfter this takes damage, summon an exact copy of it on a random nearby space.",
@@ -6801,6 +7097,7 @@
   {
     "name": "Owlbeast Prophet",
     "id": 11295,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: If you have played a spell this turn, deal 2 damage to a unit.",
@@ -6823,6 +7120,7 @@
   {
     "name": "Psionic Resonator",
     "id": 11296,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "When you replace a card or play a spell, deal 1 damage to enemies in the same column as this.",
@@ -6845,6 +7143,7 @@
   {
     "name": "Nebula",
     "id": 11297,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Airdrop\nThis has Rush if you control another Golem.",
@@ -6867,6 +7166,7 @@
   {
     "name": "Double Agent",
     "id": 11298,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Draw a copy of a card from your opponent's deck and reveal it.\nDying Wish: Shuffle this into your opponent's deck.",
@@ -6889,6 +7189,7 @@
   {
     "name": "Isbee's Monument",
     "id": 11299,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "At the end of each turn, this gains -0/-2 and heals both Generals for 2.",
@@ -6911,6 +7212,7 @@
   {
     "name": "Temporal Sage, Lily",
     "id": 11300,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: Teleport the unit directly in front of this 1 space in that direction. If a unit is on that space, deal 2 damage to both of them instead.",
@@ -6933,6 +7235,7 @@
   {
     "name": "Krazed",
     "id": 11302,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "This costs 1 mana and has Veil and Frenzy if you have 9+ mana crystals.",
@@ -6957,6 +7260,7 @@
   {
     "name": "Slothguard Letharus",
     "id": 11303,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Provoke\nOpening Gambit: Create a Ruby Aura, Emerald Aura, and Sapphire Aura nearby.",
@@ -6979,6 +7283,7 @@
   {
     "name": "Synchronic Abomination",
     "id": 11304,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "When there are 8 units nearby this, destroy them.",
@@ -7001,6 +7306,7 @@
   {
     "name": "Refurbysher",
     "id": 11306,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Restore 1 durability to your artifacts.",
@@ -7023,6 +7329,7 @@
   {
     "name": "Deja-Vu Engineer",
     "id": 11307,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Opening Gambit: Summon a 1/1 copy of the last destroyed minion with Dying Wish directly behind this.",
@@ -7045,6 +7352,7 @@
   {
     "name": "Eternity Sage",
     "id": 11308,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "legendary",
     "description": "Opening Gambit: Equip an Eternity Core.\nDying Wish: Destroy a random allied artifact to summon this on this space.",
@@ -7067,6 +7375,7 @@
   {
     "name": "Arcane Amplifier",
     "id": 11309,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Spells you play that deal damage deal +1 damage.",
@@ -7089,6 +7398,7 @@
   {
     "name": "Verdmother",
     "id": 11310,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Opening Gambit: Put a Verdkin into your action bar.",
@@ -7111,6 +7421,7 @@
   {
     "name": "Verdkin",
     "id": 11311,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Provoke\nDispel any unit that deals damage to this.",
@@ -7133,6 +7444,7 @@
   {
     "name": "Emissary of Chaos",
     "id": 11312,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "epic",
     "description": "Opening Gambit and Dying Wish: Shuffle the base mana costs of cards in each action bar.",
@@ -7155,6 +7467,7 @@
   {
     "name": "Manabinder",
     "id": 11313,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Players have 1 less mana.",
@@ -7177,6 +7490,7 @@
   {
     "name": "Tempting Mantella",
     "id": 11314,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "common",
     "description": "Provoke\nWhen a minion damages this, destroy that minion.",
@@ -7199,6 +7513,7 @@
   {
     "name": "Battlefield Warden",
     "id": 11316,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "Minions cannot be played on this row or column.",
@@ -7221,6 +7536,7 @@
   {
     "name": "Recombobulus",
     "id": 11320,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "rare",
     "description": "At the end of your turn, if you have any unspent mana, this gains +1/+2.",
@@ -7243,6 +7559,7 @@
   {
     "name": "Afterglow",
     "id": 20402,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "token",
     "description": "Fading\nHeal an allied minion for 2.",
@@ -7259,6 +7576,7 @@
   {
     "name": "Sundrop Elixir",
     "id": 20404,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Heal a unit for 5.",
@@ -7276,6 +7594,7 @@
   {
     "name": "Tempest",
     "id": 20405,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Deal 2 damage to all units.",
@@ -7293,6 +7612,7 @@
   {
     "name": "Auryn Nexus",
     "id": 20406,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Give a minion +0/+4.",
@@ -7310,6 +7630,7 @@
   {
     "name": "Lasting Judgement",
     "id": 20407,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Give a minion +3/-3.",
@@ -7327,6 +7648,7 @@
   {
     "name": "War Surge",
     "id": 20408,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Give allied minions +1/+1.",
@@ -7344,6 +7666,7 @@
   {
     "name": "Martyrdom",
     "id": 20409,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Destroy a minion and heal its owner's General for the amount of Health that minion had.",
@@ -7361,6 +7684,7 @@
   {
     "name": "Lionheart Blessing",
     "id": 20410,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Give an allied minion \"Zeal: When this deals damage, draw a card\".",
@@ -7378,6 +7702,7 @@
   {
     "name": "Sun Bloom",
     "id": 20411,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Dispel spaces in a 2x2 area.",
@@ -7395,6 +7720,7 @@
   {
     "name": "True Strike",
     "id": 20412,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Deal 2 damage to a minion.",
@@ -7412,6 +7738,7 @@
   {
     "name": "Circle of Life",
     "id": 20413,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "legendary",
     "description": "Deal 5 damage to a minion and heal your General for 5.",
@@ -7429,6 +7756,7 @@
   {
     "name": "Beam Shock",
     "id": 20414,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Stun a unit.",
@@ -7446,6 +7774,7 @@
   {
     "name": "Holy Immolation",
     "id": 20415,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Heal an allied minion for 4 and deal 4 damage to enemies nearby it.",
@@ -7463,6 +7792,7 @@
   {
     "name": "Divine Bond",
     "id": 20416,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Give a minion: \"This has Attack equal to its Health\".",
@@ -7480,6 +7810,7 @@
   {
     "name": "Aegis Barrier",
     "id": 20417,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Give an allied minion a Shield.",
@@ -7497,6 +7828,7 @@
   {
     "name": "Aerial Rift",
     "id": 20418,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Shuffle a copy of the last spell you played into your deck. Draw a card.",
@@ -7514,6 +7846,7 @@
   {
     "name": "Magnetize",
     "id": 20419,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Teleport a minion to the space directly in front of your General.",
@@ -7531,6 +7864,7 @@
   {
     "name": "Decimate",
     "id": 20420,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "legendary",
     "description": "Destroy minions that are not nearby a General.",
@@ -7548,6 +7882,7 @@
   {
     "name": "Saberspine Seal",
     "id": 20421,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Give a unit +2/+0 this turn.",
@@ -7565,6 +7900,7 @@
   {
     "name": "Mist Dragon Seal",
     "id": 20422,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Give an allied minion +1/+1 and teleport it to any space.",
@@ -7582,6 +7918,7 @@
   {
     "name": "Phoenix Fire",
     "id": 20423,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Deal 3 damage to a unit.",
@@ -7599,6 +7936,7 @@
   {
     "name": "Kage Lightning",
     "id": 20424,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "basic",
     "description": "Deal 6 damage to a minion.",
@@ -7615,6 +7953,7 @@
   {
     "name": "Twin Strike",
     "id": 20425,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Deal 2 damage to exactly two enemy minions. Draw a card at the end of your turn.",
@@ -7632,6 +7971,7 @@
   {
     "name": "Eight Gates",
     "id": 20426,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "legendary",
     "description": "Spells you play this turn that deal damage deal +2 damage.",
@@ -7649,6 +7989,7 @@
   {
     "name": "Spiral Technique",
     "id": 20427,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "legendary",
     "description": "Deal 8 damage to a unit.",
@@ -7666,6 +8007,7 @@
   {
     "name": "Mana Vortex",
     "id": 20428,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "The next spell you play this turn costs 1 less. Draw a card at the end of your turn.",
@@ -7683,6 +8025,7 @@
   {
     "name": "Assassination Protocol",
     "id": 20429,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Activate an allied minion. It cannot damage Generals this turn.",
@@ -7700,6 +8043,7 @@
   {
     "name": "Onyx Bear Seal",
     "id": 20430,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "Transform a minion into a Panddo.",
@@ -7717,6 +8061,7 @@
   {
     "name": "Ghost Lightning",
     "id": 20431,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Deal 1 damage to enemy minions.",
@@ -7734,6 +8079,7 @@
   {
     "name": "Deathstrike Seal",
     "id": 20432,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Give an allied minion \"After this damages a minion, destroy that minion\".",
@@ -7751,6 +8097,7 @@
   {
     "name": "Ancestral Divination",
     "id": 20433,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "When you play a minion this turn, draw a card.",
@@ -7768,6 +8115,7 @@
   {
     "name": "Juxtaposition",
     "id": 20434,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "Switch the positions of two minions with the same owner.",
@@ -7785,6 +8133,7 @@
   {
     "name": "Gotatsu",
     "id": 20435,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Deal 1 damage to a minion. Draw a card at the end of your turn.",
@@ -7802,6 +8151,7 @@
   {
     "name": "Heaven's Eclipse",
     "id": 20436,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Draw three spells.",
@@ -7819,6 +8169,7 @@
   {
     "name": "Mist Walking",
     "id": 20437,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Teleport your General up to 2 spaces.",
@@ -7836,6 +8187,7 @@
   {
     "name": "Killing Edge",
     "id": 20438,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Give an allied minion +4/+2. If it has Backstab, draw a card at the end of your turn.",
@@ -7853,6 +8205,7 @@
   {
     "name": "Dominate Will",
     "id": 20439,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Take control of an enemy minion nearby your General.",
@@ -7870,6 +8223,7 @@
   {
     "name": "Siphon Energy",
     "id": 20440,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Dispel a minion.",
@@ -7887,6 +8241,7 @@
   {
     "name": "Syzygy",
     "id": 20441,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Give an allied minion +3/+0, another +0/+3, and another Blast this turn.",
@@ -7904,6 +8259,7 @@
   {
     "name": "Blindscorch",
     "id": 20442,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Set a minion's Attack to 0 until your next turn.",
@@ -7921,6 +8277,7 @@
   {
     "name": "Cosmic Flesh",
     "id": 20443,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Give a minion +1/+3 and Provoke.",
@@ -7938,6 +8295,7 @@
   {
     "name": "Aurora's Tears",
     "id": 20444,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "For each artifact equipped to your General, give your General +2/+0 this turn.",
@@ -7955,6 +8313,7 @@
   {
     "name": "Entropic Decay",
     "id": 20445,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Destroy all minions on the same row as your General.",
@@ -7972,6 +8331,7 @@
   {
     "name": "Time Maelstrom",
     "id": 20446,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "legendary",
     "description": "Destroy minions that were summoned since your last turn. End your turn.",
@@ -7989,6 +8349,7 @@
   {
     "name": "Sand Trap",
     "id": 20447,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Give a minion \"This cannot move\". Draw a card.",
@@ -8006,6 +8367,7 @@
   {
     "name": "Scion's First Wish",
     "id": 20448,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Give a minion +1/+1. Draw a card.",
@@ -8023,6 +8385,7 @@
   {
     "name": "Scion's Second Wish",
     "id": 20449,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Heal your General for 2. Draw two cards.",
@@ -8040,6 +8403,7 @@
   {
     "name": "Scion's Third Wish",
     "id": 20450,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "This turn, give your General +3/+0 and \"This can move up to 3 spaces. Reduce damage this takes by 3\".",
@@ -8057,6 +8421,7 @@
   {
     "name": "Rasha's Curse",
     "id": 20451,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Destroy a random artifact equipped to the enemy General. Summon a Wind Dervish nearby them.",
@@ -8074,6 +8439,7 @@
   {
     "name": "Star's Fury",
     "id": 20453,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "legendary",
     "description": "Summon a Wind Dervish on the space in front of each enemy.",
@@ -8091,6 +8457,7 @@
   {
     "name": "Bone Swarm",
     "id": 20454,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Deal 2 damage to the enemy General and enemy minions nearby them.",
@@ -8108,6 +8475,7 @@
   {
     "name": "Fountain of Youth",
     "id": 20455,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Transform a minion into a copy of itself.",
@@ -8125,6 +8493,7 @@
   {
     "name": "Inner Oasis",
     "id": 20456,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Give allied minions +0/+3. Draw a Card.",
@@ -8142,6 +8511,7 @@
   {
     "name": "Wraithling Fury",
     "id": 20457,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Give a Wraithling +4/+4 and Flying.",
@@ -8159,6 +8529,7 @@
   {
     "name": "Daemonic Lure",
     "id": 20458,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Deal 1 damage to an enemy minion and teleport it to any space.",
@@ -8176,6 +8547,7 @@
   {
     "name": "Nether Summoning",
     "id": 20459,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "legendary",
     "description": "Summon non-token minions that were destroyed this turn on random spaces nearby your General.",
@@ -8193,6 +8565,7 @@
   {
     "name": "Shadow Nova",
     "id": 20460,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Create Shadow Creep tiles on a 2x2 area.",
@@ -8210,6 +8583,7 @@
   {
     "name": "Void Pulse",
     "id": 20461,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Deal 1 damage to a unit and heal your General for 2.",
@@ -8227,6 +8601,7 @@
   {
     "name": "Deathfire Crescendo",
     "id": 20462,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "legendary",
     "description": "Give a minion \"Deathwatch: This gains +2/+2\".",
@@ -8244,6 +8619,7 @@
   {
     "name": "Breath Of The Unborn",
     "id": 20463,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Deal 2 damage to enemy minions and fully heal allied minions.",
@@ -8261,6 +8637,7 @@
   {
     "name": "Rite Of The Undervault",
     "id": 20464,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Draw until you have 6 cards in your action bar.",
@@ -8278,6 +8655,7 @@
   {
     "name": "Darkfire Sacrifice",
     "id": 20465,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Destroy an allied minion. The next minion you play costs 2 less.",
@@ -8295,6 +8673,7 @@
   {
     "name": "Ritual Banishing",
     "id": 20466,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Destroy an allied minion to destroy an enemy minion.",
@@ -8312,6 +8691,7 @@
   {
     "name": "Dark Terminus",
     "id": 20467,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Destroy a minion and summon a Wraithling on that space.",
@@ -8329,6 +8709,7 @@
   {
     "name": "Dark Seed",
     "id": 20468,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Deal damage to the enemy General equal to the number of cards in the opponent's action bar.",
@@ -8346,6 +8727,7 @@
   {
     "name": "Grasp of Agony",
     "id": 20469,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Give a minion \"Dying Wish: Deal 3 damage to nearby allies\".",
@@ -8363,6 +8745,7 @@
   {
     "name": "Shadow Reflection",
     "id": 20470,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Give a minion +5/+0.",
@@ -8380,6 +8763,7 @@
   {
     "name": "Soulshatter Pact",
     "id": 20471,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Give allied minions +2/+0 until your next turn.",
@@ -8397,6 +8781,7 @@
   {
     "name": "Wraithling Swarm",
     "id": 20472,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Summon three joined Wraithlings.",
@@ -8414,6 +8799,7 @@
   {
     "name": "Consuming Rebirth",
     "id": 20473,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Destroy an allied minion. At the end of your turn, summon it on that space and give it +1/+1.",
@@ -8431,6 +8817,7 @@
   {
     "name": "Fractal Replication",
     "id": 20474,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Summon two exact copies of an allied minion nearby it.",
@@ -8448,6 +8835,7 @@
   {
     "name": "Dampening Wave",
     "id": 20475,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Give a minion \"This cannot counterattack\".",
@@ -8465,6 +8853,7 @@
   {
     "name": "Flash Reincarnation",
     "id": 20476,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "At the start of your next turn, gain 2 mana that turn. It can exceed the mana limit.",
@@ -8482,6 +8871,7 @@
   {
     "name": "Diretide Frenzy",
     "id": 20477,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Give a minion +1/+0 and Frenzy.",
@@ -8499,6 +8889,7 @@
   {
     "name": "Tremor",
     "id": 20478,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Stun enemies in a 2x2 area.",
@@ -8516,6 +8907,7 @@
   {
     "name": "Mana Burn",
     "id": 20479,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Dispel spaces nearby your General.",
@@ -8533,6 +8925,7 @@
   {
     "name": "Greater Fortitude",
     "id": 20480,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Give a minion +2/+2.",
@@ -8550,6 +8943,7 @@
   {
     "name": "Earth Sphere",
     "id": 20481,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Heal your General for 9.",
@@ -8567,6 +8961,7 @@
   {
     "name": "Bounded Lifeforce",
     "id": 20482,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "legendary",
     "description": "Your General becomes 10/10.",
@@ -8584,6 +8979,7 @@
   {
     "name": "Amplification",
     "id": 20483,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Give a minion \"Grow: +2/+2\".\nGrow allies with Grow.",
@@ -8601,6 +8997,7 @@
   {
     "name": "Metamorphosis",
     "id": 20484,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Transform enemy minions into Magma until the end of the next turn.",
@@ -8618,6 +9015,7 @@
   {
     "name": "Plasma Storm",
     "id": 20485,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Destroy minions with 3 or less Attack in a 3x3 area.",
@@ -8635,6 +9033,7 @@
   {
     "name": "Chrysalis Burst",
     "id": 20486,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "legendary",
     "description": "Summon an Egg of each allied minion on the space directly behind that minion.",
@@ -8652,6 +9051,7 @@
   {
     "name": "Natural Selection",
     "id": 20487,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Destroy a minion with the lowest Attack.",
@@ -8669,6 +9069,7 @@
   {
     "name": "Mind Steal",
     "id": 20488,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Your action bar becomes a copy of your opponent's action bar.",
@@ -8686,6 +9087,7 @@
   {
     "name": "Egg Morph",
     "id": 20489,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Transform a minion into an Egg of itself. If it is already an Egg, hatch it instead.",
@@ -8703,6 +9105,7 @@
   {
     "name": "Kinetic Equilibrium",
     "id": 20490,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Deal 2 damage to minions in a 3x3 area and give allied minions in that area +2/+0.",
@@ -8720,6 +9123,7 @@
   {
     "name": "Bonechill Barrier",
     "id": 20491,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Summon three joined Ice Barriers.",
@@ -8737,6 +9141,7 @@
   {
     "name": "Gravity Well",
     "id": 20492,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "Summon four joined Frost Wells.",
@@ -8754,6 +9159,7 @@
   {
     "name": "Blazing Spines",
     "id": 20493,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Summon two joined Frigid Spines.",
@@ -8771,6 +9177,7 @@
   {
     "name": "Chromatic Cold",
     "id": 20494,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Dispel a space. If there is an enemy on that space, deal 2 damage to it.",
@@ -8788,6 +9195,7 @@
   {
     "name": "Flash Freeze",
     "id": 20495,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Deal 1 damage to a minion and Stun it.",
@@ -8805,6 +9213,7 @@
   {
     "name": "Frostfire",
     "id": 20496,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Give a minion +3/+0. If it is Vespyr, give it +3/+3 instead.",
@@ -8822,6 +9231,7 @@
   {
     "name": "Avalanche",
     "id": 20497,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Deal 4 damage to units on your starting side of the battlefield and Stun them.",
@@ -8839,6 +9249,7 @@
   {
     "name": "Boundless Courage",
     "id": 20498,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "This turn, give a unit +2/+0 and \"This takes no damage\".",
@@ -8856,6 +9267,7 @@
   {
     "name": "Mesmerize",
     "id": 20499,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Deal 3 damage to enemy minions on a column and Stun them.",
@@ -8873,6 +9285,7 @@
   {
     "name": "Mark of Solitude",
     "id": 20500,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Give a minion \"This cannot attack Generals\". It becomes 6/6.",
@@ -8890,6 +9303,7 @@
   {
     "name": "Aspect of the Fox",
     "id": 20501,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Transform a minion into a Fox Ravager.",
@@ -8907,6 +9321,7 @@
   {
     "name": "Aspect of the Wyrm",
     "id": 20502,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "Put a copy of a minion into its owner's action bar and transform that minion into a Whyte Wyrm.",
@@ -8924,6 +9339,7 @@
   {
     "name": "Aspect of the Mountains",
     "id": 20503,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "legendary",
     "description": "Transform a minion into a Seismic Elemental and deal 5 damage to enemy minions nearby it.",
@@ -8941,6 +9357,7 @@
   {
     "name": "Polarity",
     "id": 20504,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Swap a minion's Attack and Health.",
@@ -8958,6 +9375,7 @@
   {
     "name": "Hailstone Prison",
     "id": 20505,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Return a minion to its owner's action bar.",
@@ -8975,6 +9393,7 @@
   {
     "name": "Spirit of the Wild",
     "id": 20506,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "legendary",
     "description": "Activate allies on your opponent's starting side of the battlefield.",
@@ -8992,6 +9411,7 @@
   {
     "name": "Cryogenesis",
     "id": 20507,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "Deal 4 damage to a minion. Draw a Vespyr.",
@@ -9009,6 +9429,7 @@
   {
     "name": "Blink",
     "id": 20521,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "token",
     "description": "Fading\nTeleport an allied minion up to 2 spaces.",
@@ -9025,6 +9446,7 @@
   {
     "name": "Backstep",
     "id": 20522,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "Teleport an allied minion to the space directly behind your General. Put a Blink into your action bar.",
@@ -9041,6 +9463,7 @@
   {
     "name": "Bluster",
     "id": 20524,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Each allied minion deals 1 damage to each enemy minion nearby it.",
@@ -9057,6 +9480,7 @@
   {
     "name": "New Moon Hex",
     "id": 20525,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "legendary",
     "description": "Equip a Hex Charm artifact to the enemy General.",
@@ -9073,6 +9497,7 @@
   {
     "name": "Augury",
     "id": 20527,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Draw a card. You can replace two additional cards this turn.",
@@ -9089,6 +9514,7 @@
   {
     "name": "Eonbound Phalanx",
     "id": 20528,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Summon a column of Recruits. They have Shield until the start of your next turn.",
@@ -9105,6 +9531,7 @@
   {
     "name": "Cataclysm",
     "id": 20529,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "You can only play this card if you've played at least three other cards this turn. Deal 5 damage to all minions.",
@@ -9121,6 +9548,7 @@
   {
     "name": "Immortal Resolve",
     "id": 20530,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Give your General +1/+0 this turn, heal your General for 2, and shuffle a copy of this into your deck.",
@@ -9137,6 +9565,7 @@
   {
     "name": "Blood Rage",
     "id": 20531,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Give a friendly minion +1/+1 for each time damage was dealt this turn.",
@@ -9153,6 +9582,7 @@
   {
     "name": "Sphere of Darkness",
     "id": 20533,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Create a Shadow Creep tile.",
@@ -9169,6 +9599,7 @@
   {
     "name": "Drain Morale",
     "id": 20534,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Give all minions -1/-0.",
@@ -9185,6 +9616,7 @@
   {
     "name": "Mementos",
     "id": 20536,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Summon two joined Mementos.",
@@ -9201,6 +9633,7 @@
   {
     "name": "Pandamonium",
     "id": 20542,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Transform all minions into Panddo until the end of the turn.",
@@ -9217,6 +9650,7 @@
   {
     "name": "Equality Constraint",
     "id": 20543,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Set a minion's Health equal to its Attack.",
@@ -9233,6 +9667,7 @@
   {
     "name": "Synaptic Arbitrage",
     "id": 20544,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Your opponent takes control of an allied minion. You take control of enemy minions with less Attack nearby it.",
@@ -9249,6 +9684,7 @@
   {
     "name": "Void Steal",
     "id": 20545,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "Give an enemy minion -3/-0. Give allied minions nearby it +3/+0.",
@@ -9265,6 +9701,7 @@
   {
     "name": "Penance",
     "id": 20548,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Deal damage to all minions equal to an allied non-Structure minion's Health.",
@@ -9281,6 +9718,7 @@
   {
     "name": "Counterpoise",
     "id": 20549,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Give a minion -2/+2.\nGive a minion +2/-2.",
@@ -9297,6 +9735,7 @@
   {
     "name": "Predation",
     "id": 20551,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "An ally and an enemy minion nearby it deal damage to each other equal to their attack.",
@@ -9313,6 +9752,7 @@
   {
     "name": "Solidify",
     "id": 20552,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Give your transformed and token minions +1/+1 and Provoke until your next turn.",
@@ -9329,6 +9769,7 @@
   {
     "name": "Firewhirl",
     "id": 20557,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Teleport units in a 3x3 area 2 spaces clockwise around the center space and deal 1 damage to them.",
@@ -9345,6 +9786,7 @@
   {
     "name": "Dark Bargain",
     "id": 20558,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Bargain:\n- Summon Wraithlings directly above and below your General.\n- Deal 3 damage to an enemy minion.\n- Heal your General for 4.",
@@ -9361,6 +9803,7 @@
   {
     "name": "Skywind Glaives",
     "id": 30101,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Your General has +1/+0.\nAllied minions nearby your General have +2/+0.",
@@ -9378,6 +9821,7 @@
   {
     "name": "Sunstone Bracers",
     "id": 30102,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "Your General has +1/+0.",
@@ -9395,6 +9839,7 @@
   {
     "name": "Arclyte Regalia",
     "id": 30103,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Your General has +2/+0.\nThe first time your General takes damage with this equipped each turn, reduce that damage by 2.",
@@ -9412,6 +9857,7 @@
   {
     "name": "Mask of Shadows",
     "id": 30104,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "Your General has +1/+0 and Backstab: 3.",
@@ -9429,6 +9875,7 @@
   {
     "name": "Cyclone Mask",
     "id": 30105,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Your General has Ranged.",
@@ -9446,6 +9893,7 @@
   {
     "name": "Bloodrage Mask",
     "id": 30106,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "common",
     "description": "When you play a spell, your General gains +1/+0 until your next turn.",
@@ -9463,6 +9911,7 @@
   {
     "name": "Staff Of Y'kir",
     "id": 30107,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Your General has +2/+0.\nWhen this is destroyed, shuffle a copy of it into your deck.",
@@ -9480,6 +9929,7 @@
   {
     "name": "Wildfire Ankh",
     "id": 30108,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "Your General has Blast.",
@@ -9497,6 +9947,7 @@
   {
     "name": "Hexblade",
     "id": 30109,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "Your General has +3/+0.\nWhen your General damages an enemy, set that enemy's Attack to 1 until the end of the next turn.",
@@ -9514,6 +9965,7 @@
   {
     "name": "Soul Grimoire",
     "id": 30110,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "epic",
     "description": "Your General has an additional +2/+0 for each unit that is destroyed.",
@@ -9531,6 +9983,7 @@
   {
     "name": "Horn of the Forsaken",
     "id": 30111,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
     "description": "When this is equipped and destroyed, summon a Wraithling directly above, below, in front and behind your General.",
@@ -9548,6 +10001,7 @@
   {
     "name": "Spectral Blade",
     "id": 30112,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Your General has +2/+0.\nWhen your General destroys a minion, heal your General for 2.",
@@ -9565,6 +10019,7 @@
   {
     "name": "Adamantite Claws",
     "id": 30113,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
     "description": "Timeless\nYour General has +3/+0.",
@@ -9582,6 +10037,7 @@
   {
     "name": "Twin Fang",
     "id": 30114,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "epic",
     "description": "Your General has an additional +2/+0 for each time an ally takes damage.",
@@ -9599,6 +10055,7 @@
   {
     "name": "Iridium Scale",
     "id": 30115,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Your General has Frenzy.",
@@ -9616,6 +10073,7 @@
   {
     "name": "Snowpiercer",
     "id": 30116,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Your General has +3/+0.\nWhen your General attacks a minion, deal 1 damage to the enemy General.",
@@ -9633,6 +10091,7 @@
   {
     "name": "Coldbiter",
     "id": 30117,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "At the end of your turn, your General deals 2 damage to nearby enemy minions.",
@@ -9650,6 +10109,7 @@
   {
     "name": "Winterblade",
     "id": 30118,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "Your General has +1/+0.\nWhen this is destroyed, give your General \"This takes no damage\" until your next turn.",
@@ -9667,6 +10127,7 @@
   {
     "name": "Mercurian Pendant",
     "id": 30119,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "epic",
     "description": "3 durability: Provoke\n2 durability: Frenzy\n1 durability: Celerity",
@@ -9683,6 +10144,7 @@
   {
     "name": "Equinox Hourglass",
     "id": 30120,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "legendary",
     "description": "Timeless\nWhen this is equipped and at the start of your turn, summon Wind Dervishes directly in front of and directly behind your General.",
@@ -9699,6 +10161,7 @@
   {
     "name": "Mjllenniumnir",
     "id": 30121,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "epic",
     "description": "Timeless\nAt the end of your turn, deal 1 damage to the enemy General.",
@@ -9715,6 +10178,7 @@
   {
     "name": "Infernal Pact",
     "id": 30123,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "Timeless\nAt the end of your turn, take 2 damage and draw two cards.",
@@ -9731,6 +10195,7 @@
   {
     "name": "Hex Charm",
     "id": 30124,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "token",
     "description": "This does not lose durability during your opponent's turn. At the start of your turn, your General takes 1 damage and creates an enemy Shadow Creep tile under it.",
@@ -9747,6 +10212,7 @@
   {
     "name": "Dynasty Standard",
     "id": 30126,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "epic",
     "description": "Timeless\nAfter you play a nonzero cost spell, summon a Recruit directly behind your General with Attack and Health equal to the cost of that spell.",
@@ -9763,6 +10229,7 @@
   {
     "name": "Godhammer",
     "id": 30127,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Timeless\nAllied minions have \"Grow: +1/+1\".",
@@ -9779,6 +10246,7 @@
   {
     "name": "Shimmering Sensu",
     "id": 30128,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Timeless\nAt the end of your turn, if you've played a minion and a spell, draw a card.",
@@ -9795,6 +10263,7 @@
   {
     "name": "Eternity Core",
     "id": 30132,
+    "cardSet": "Core Set",
     "faction": "neutral",
     "rarity": "token",
     "description": "Timeless\nYour General has +1/+0",
@@ -9811,6 +10280,7 @@
   {
     "name": "Sunbond Pavise",
     "id": 30133,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "rare",
     "description": "Allied minions directly above and below your General have +2/+0 and Provoke.",
@@ -9827,6 +10297,7 @@
   {
     "name": "Mindlathe",
     "id": 30134,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "legendary",
     "description": "After your General damages a minion, activate and take control of it until the end of your turn.",
@@ -9843,6 +10314,7 @@
   {
     "name": "Iceshatter Gauntlet",
     "id": 30135,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "rare",
     "description": "When your General attacks a Stunned minion, destroy it before it counterattacks.",
@@ -9859,6 +10331,7 @@
   {
     "name": "Mask of Dominion",
     "id": 30136,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "rare",
     "description": "Your General has +2/+0 while a unit is directly behind them. When your General moves, the unit directly behind them moves to the space they were in.",
@@ -9875,6 +10348,7 @@
   {
     "name": "Skinsolder Amulet",
     "id": 30137,
+    "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
     "description": "When this is equipped and at the start of your turn, put a Malice into your action bar.",
@@ -9891,6 +10365,7 @@
   {
     "name": "Obdurator",
     "id": 30142,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "common",
     "description": "Your Dervishes have +0/+1.\nWhen you summon a Dervish with 2 or less base Attack, transform it into an Iron Dervish.",
@@ -9905,8 +10380,145 @@
     "factionId": 3
   },
   {
+    "name": "Mana",
+    "id": 40001,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "basic",
+    "description": "Gain +1 mana this turn.",
+    "relatedCards": [],
+    "resource": {
+      "idle": "resources/card_gifs/tileManaIdle.gif",
+      "occupied": "resources/card_gifs/tileManaDepleted.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Shadow Creep",
+    "id": 40011,
+    "cardSet": "Core Set",
+    "faction": "abyssian",
+    "rarity": "basic",
+    "description": "Deals 2 damage to enemies standing on this space at the end of owner's turn.",
+    "relatedCards": [],
+    "resource": {
+      "apply": "resources/card_gifs/fxShadowCreepSpawn.gif",
+      "idle": "resources/card_gifs/fxShadowCreepIdle.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 4
+  },
+  {
+    "name": "Ruby Aura",
+    "id": 40016,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "basic",
+    "description": "Units on this space have +1/-1.",
+    "relatedCards": [40018, 40017],
+    "resource": {
+      "apply": "resources/card_gifs/fxRedTileSpawn.gif",
+      "idle": "resources/card_gifs/fxRedTileIdle.gif",
+      "active": "resources/card_gifs/fxRedTileSpawn.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Sapphire Aura",
+    "id": 40017,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "basic",
+    "description": "Units on this space cannot counterattack and cannot be counterattacked.",
+    "relatedCards": [40018, 40016],
+    "resource": {
+      "apply": "resources/card_gifs/fxBlueTileSpawn.gif",
+      "idle": "resources/card_gifs/fxBlueTileIdle.gif",
+      "active": "resources/card_gifs/fxBlueTileSpawn.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Emerald Aura",
+    "id": 40018,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "basic",
+    "description": "Units on this space deal 1 less damage to minions and take 1 less damage from minions.",
+    "relatedCards": [40016, 40017],
+    "resource": {
+      "apply": "resources/card_gifs/fxGreenTileSpawn.gif",
+      "idle": "resources/card_gifs/fxGreenTileIdle.gif",
+      "active": "resources/card_gifs/fxGreenTileSpawn.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
+    "name": "Shadow Creep",
+    "id": 40019,
+    "cardSet": "Core Set",
+    "faction": "abyssian",
+    "rarity": "basic",
+    "description": "Deals 2 damage to enemies standing on this space at the end of owner's turn.",
+    "relatedCards": [],
+    "resource": {
+      "apply": "resources/card_gifs/fxShadowCreepSpawn.gif",
+      "idle": "resources/card_gifs/fxShadowCreepIdle.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 4
+  },
+  {
+    "name": "Checkpoint XX",
+    "id": 40026,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "basic",
+    "description": "Step on this tile to clear this checkpoint. The General that clears all checkpoints wins!.",
+    "relatedCards": [],
+    "resource": {
+      "apply": "resources/card_gifs/fxHolyTileSpawn.gif",
+      "idle": "resources/card_gifs/fxHolyTileIdle.gif"
+    },
+    "mana": 0,
+    "attack": 0,
+    "health": 0,
+    "cardType": "Tile",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
     "name": "Unbounded Energy Amulet",
     "id": 270100,
+    "cardSet": "Core Set",
     "faction": "songhai",
     "rarity": "epic",
     "description": "After your General moves or teleports, summon an Afterimage on the space it moved from.",
@@ -9921,8 +10533,32 @@
     "factionId": 2
   },
   {
+    "name": "Oatling",
+    "id": 270102,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "epic",
+    "description": "Your minions cost 1 more. Minions you play gain +2/+2.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralGoldloverBreathing.gif",
+      "idle": "resources/card_gifs/neutralGoldloverIdle.gif",
+      "walk": "resources/card_gifs/neutralGoldloverRun.gif",
+      "attack": "resources/card_gifs/neutralGoldloverAttack.gif",
+      "damage": "resources/card_gifs/neutralGoldloverHit.gif",
+      "death": "resources/card_gifs/neutralGoldloverDeath.gif"
+    },
+    "mana": 4,
+    "attack": 1,
+    "health": 6,
+    "cardType": "Minion",
+    "tribes": [],
+    "factionId": 100
+  },
+  {
     "name": "Fatebinder",
     "id": 310608,
+    "cardSet": "Core Set",
     "faction": "vetruvian",
     "rarity": "rare",
     "description": "At the end of your turn, give the minion on the opposite horizontal space -2/-2.",
@@ -9945,6 +10581,7 @@
   {
     "name": "Rage Reactor",
     "id": 310609,
+    "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "rare",
     "description": "Timeless\nAt the start of your turn, deal 2 damage to your General and give it +2/+0.",
@@ -9961,6 +10598,7 @@
   {
     "name": "Wanderlust",
     "id": 310610,
+    "cardSet": "Core Set",
     "faction": "vanar",
     "rarity": "common",
     "description": "Teleport all enemies 1 space towards the enemy's starting side of the battlefield.",
@@ -9977,6 +10615,7 @@
   {
     "name": "Halo Bulwark",
     "id": 310611,
+    "cardSet": "Core Set",
     "faction": "lyonar",
     "rarity": "common",
     "description": "At the end of your turn, if you've played at least three cards this turn, transform allied minions directly above and below your General into Silverguard Knights.",
@@ -9989,5 +10628,74 @@
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 1
+  },
+  {
+    "name": "Project Ω",
+    "id": 350000,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "legendary",
+    "description": "When you summon a Mech, double this unit's Attack and Health.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralProjectOmegaBreathing.gif",
+      "idle": "resources/card_gifs/neutralProjectOmegaIdle.gif",
+      "walk": "resources/card_gifs/neutralProjectOmegaRun.gif",
+      "attack": "resources/card_gifs/neutralProjectOmegaAttack.gif",
+      "damage": "resources/card_gifs/neutralProjectOmegaHit.gif",
+      "death": "resources/card_gifs/neutralProjectOmegaDeath.gif"
+    },
+    "mana": 4,
+    "attack": 1,
+    "health": 1,
+    "cardType": "Minion",
+    "tribes": ["Mech"],
+    "factionId": 100
+  },
+  {
+    "name": "S.I.L.V.E.R.",
+    "id": 350001,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "legendary",
+    "description": "When you summon a Mech (including this), each allied Mech gains the basic keywords of each other allied Mech.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralSilverMechBreathing.gif",
+      "idle": "resources/card_gifs/neutralSilverMechIdle.gif",
+      "walk": "resources/card_gifs/neutralSilverMechRun.gif",
+      "attack": "resources/card_gifs/neutralSilverMechAttack.gif",
+      "damage": "resources/card_gifs/neutralSilverMechHit.gif",
+      "death": "resources/card_gifs/neutralSilverMechDeath.gif"
+    },
+    "mana": 6,
+    "attack": 4,
+    "health": 8,
+    "cardType": "Minion",
+    "tribes": ["Mech"],
+    "factionId": 100
+  },
+  {
+    "name": "Null Reverence",
+    "id": 350002,
+    "cardSet": "Core Set",
+    "faction": "neutral",
+    "rarity": "legendary",
+    "description": "Provoke\nAt the end of your turn, Dispel nearby spaces.\nAllied minions with no ability text have +1/+1.",
+    "relatedCards": [],
+    "resource": {
+      "breathing": "resources/card_gifs/neutralEMPBreathing.gif",
+      "idle": "resources/card_gifs/neutralEMPIdle.gif",
+      "walk": "resources/card_gifs/neutralEMPRun.gif",
+      "attack": "resources/card_gifs/neutralEMPAttack.gif",
+      "damage": "resources/card_gifs/neutralEMPHit.gif",
+      "death": "resources/card_gifs/neutralEMPDeath.gif"
+    },
+    "mana": 5,
+    "attack": 3,
+    "health": 5,
+    "cardType": "Minion",
+    "tribes": ["Mech"],
+    "factionId": 100
   }
 ]
