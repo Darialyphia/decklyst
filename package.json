@@ -9,7 +9,6 @@
     "lint": "next lint",
     "test": "dotenv -o -e env.test -- jest --passWithNoTests",
     "prepare": "husky install",
-    "prebuild": "prisma generate",
     "prisma": "dotenv -o -e .env.local prisma",
     "migrate:dev": "dotenv -o -e .env.local prisma migrate dev",
     "migrate:prod": "dotenv -o -e .env.production prisma migrate deploy",
