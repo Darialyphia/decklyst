@@ -1,21 +1,24 @@
-/**
- * Instantiates a single instance PrismaClient and save it on the global object.
- * @link https://www.prisma.io/docs/support/help-articles/nextjs-prisma-client-dev-practices
- */
 import { env } from '@/env/server.mjs'
-import { PrismaClient } from '@prisma/client'
+import { PrismaPg } from '@prisma/adapter-pg'
+import { PrismaClient } from './generated/prisma/client/client'
 
-declare global {
-  // eslint-disable-next-line no-var
-  var prisma: PrismaClient | undefined
+const globalForPrisma = global as unknown as {
+  prisma: PrismaClient
 }
 
-export const prisma: PrismaClient =
-  global.prisma ||
+const adapter = new PrismaPg({
+  connectionString: process.env.DATABASE_URL,
+})
+
+const prisma =
+  globalForPrisma.prisma ||
   new PrismaClient({
-    log: [],
+    adapter,
   })
 
 if (env.NODE_ENV !== 'production') {
+  // @ts-ignore
   global.prisma = prisma
 }
+
+export default prisma
