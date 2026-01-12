@@ -1,8 +1,6 @@
-import { PrismaClient } from '@prisma/client'
+import prisma from '@/server/db/client'
 import fs from 'fs'
 import path from 'path'
-
-const prisma = new PrismaClient()
 
 const usersFile = path.join(__dirname, '.data', 'users.json')
 const decklystFile = path.join(__dirname, '.data', 'decklysts.json')
