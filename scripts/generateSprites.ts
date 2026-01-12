@@ -39,7 +39,7 @@ async function main() {
       const buffer = await res.buffer()
 
       const outputPath = path.join(OUTPUT_PATH, `${card.id}.gif`)
-      await fs.writeFile(path.join(OUTPUT_PATH, `${card.id}.gif`), buffer, 'binary')
+      await fs.writeFile(path.join(OUTPUT_PATH, `${card.id}.gif`), buffer as any, 'binary')
       console.log(`GIF file for ${card.id} (${card.name}) generated`)
       await sharp(outputPath)
         .png()
