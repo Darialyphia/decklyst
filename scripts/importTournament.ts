@@ -8,7 +8,7 @@ import {
   totalCount$,
 } from '@/data/deck'
 import { normalizeDeckcode } from '@/data/deckcode'
-import { PrismaClient } from '@prisma/client'
+import prisma from '@/server/db/client'
 import { parse } from 'csv-parse'
 import * as dotenv from 'dotenv'
 import fs from 'fs'
@@ -71,7 +71,6 @@ const main = async () => {
   const slug = args.name.toLowerCase().replace(/[^a-z0-9]/g, '-')
   const tournamentResults = await loadTournamentResults(args.file)
 
-  const prisma = new PrismaClient()
   const tournamentBot = await prisma.user.upsert({
     where: { email: 'tournament-bot@decklyst.com' },
     create: {

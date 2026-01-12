@@ -1,5 +1,5 @@
 import { cardsById } from '@/data/cards'
-import { PrismaClient } from '@prisma/client'
+import prisma from '@/server/db/client'
 import { stringify } from 'csv-stringify'
 import * as dotenv from 'dotenv'
 import fs from 'fs'
@@ -26,8 +26,6 @@ const main = async () => {
   if (!path.isAbsolute(outFile)) {
     outFile = path.join(__dirname, '..', outFile)
   }
-
-  const prisma = new PrismaClient()
 
   const tournament = await prisma.tournament.findFirst({
     where: { slug },
