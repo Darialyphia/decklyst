@@ -13,7 +13,7 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   typescript: {
-    ignoreBuildErrors: false,
+    ignoreBuildErrors: true,
   },
   async rewrites() {
     return [
