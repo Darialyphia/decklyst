@@ -12,6 +12,9 @@ const nextConfig = {
   output: process.env.NEXT_STANDALONE ? 'standalone' : undefined,
   reactStrictMode: false,
   swcMinify: true,
+  typescript: {
+    ignoreBuildErrors: false,
+  },
   async rewrites() {
     return [
       {
