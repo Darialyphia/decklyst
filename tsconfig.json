@@ -3,7 +3,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "target": "es2015",
     "lib": ["dom", "dom.iterable", "esnext", "es2021"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -11,8 +10,9 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",

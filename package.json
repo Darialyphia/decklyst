@@ -20,7 +20,8 @@
     "sync:db": "dotenv -o -e .env.local -e .env ts-node scripts/syncDb.ts",
     "sync:db:prod": "dotenv -o -e .env.production -e .env ts-node scripts/syncDb.ts",
     "tournament:import": "ts-node scripts/importTournament.ts",
-    "tournament:export": "ts-node scripts/exportTournament.ts"
+    "tournament:export": "ts-node scripts/exportTournament.ts",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",

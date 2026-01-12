@@ -29,7 +29,7 @@ export const deckImageRouter = router({
 
       sharecode = decklyst.sharecode
 
-      let image: Buffer | null = forceRerender
+      let image: any = forceRerender
         ? null
         : await ctx.deckImage.findBySharecode(sharecode, timeout ?? 25000)
 

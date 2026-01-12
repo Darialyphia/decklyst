@@ -1,4 +1,4 @@
-import type { User } from '@prisma/client'
+import type { User } from '@/server/db/generated/prisma/client/browser'
 import cx from 'classnames'
 import Link from 'next/link'
 import type { FC } from 'react'

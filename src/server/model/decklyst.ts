@@ -11,9 +11,9 @@ import {
   totalCount$,
 } from '@/data/deck'
 import { validateDeckcode } from '@/data/deckcode'
-import type { Decklyst, PrismaClient } from '@prisma/client'
 import { difference, identity } from 'lodash'
 import { customAlphabet } from 'nanoid'
+import type { Decklyst, PrismaClient } from '../db/generated/prisma/client/client'
 import type { ModelContext } from './context'
 
 export type DeckSettings = Partial<Pick<Decklyst, 'archetype' | 'privacy' | 'views' | 'tags'>>

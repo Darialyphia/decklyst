@@ -3,8 +3,8 @@ import type { CardData, CardType, Faction, Rarity } from '@/data/cards'
 import { cardsById, rarityCraftingCost, sortCards } from '@/data/cards'
 import type { Deckcode } from '@/data/deckcode'
 import { encodeDeckcode, parseDeckcode, splitDeckcode } from '@/data/deckcode'
+import type { Decklyst, User } from '@/server/db/generated/prisma/client/client'
 import type { WithRequired } from '@/types'
-import type { Decklyst, User } from '@prisma/client'
 import { chain, groupBy, max, memoize, startCase, sumBy } from 'lodash'
 
 export type CardEntry = CardData & { count: number }

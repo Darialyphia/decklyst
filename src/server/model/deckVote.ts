@@ -1,5 +1,5 @@
-import type { Prisma, PrismaClient } from '@prisma/client'
 import { addDays } from 'date-fns'
+import type { Prisma, PrismaClient } from '../db/generated/prisma/client/client'
 import type { ModelContext } from './context'
 
 export const extendDeckVote = (deckVote: PrismaClient['deckVote'], _ctx: ModelContext) => {

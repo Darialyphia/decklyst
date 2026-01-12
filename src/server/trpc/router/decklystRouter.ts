@@ -3,8 +3,13 @@ import { factions } from '@/data/cards'
 import { createDeck, createDeckExpanded } from '@/data/deck'
 import { validateDeckcode } from '@/data/deckcode'
 import { env } from '@/env/server.mjs'
-import type { Decklyst, Prisma, User } from '@prisma/client'
-import { Archetype, Privacy } from '@prisma/client'
+import {
+  Archetype,
+  Privacy,
+  type Decklyst,
+  type Prisma,
+  type User,
+} from '@/server/db/generated/prisma/client/client'
 import { TRPCError } from '@trpc/server'
 import { isEqual, sortBy } from 'lodash'
 import { z } from 'zod'

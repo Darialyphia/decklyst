@@ -4,7 +4,8 @@ import dynamic from 'next/dynamic'
 import type { FC } from 'react'
 import { useEffect, useState } from 'react'
 
-const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr: false })
+//@ts-ignore
+const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr: false }) as any
 
 export const CardTooltip = () => {
   const [renderTooltip, setRenderTooltip] = useState(false)
@@ -18,7 +19,7 @@ export const CardTooltip = () => {
       id="card-tooltip"
       effect="solid"
       offset={{ top: 12, bottom: 12 }}
-      getContent={(cardId) => <CardTooltipContent cardId={+cardId} />}
+      getContent={(cardId: any) => <CardTooltipContent cardId={+cardId} />}
     />
   ) : null
 }

@@ -10,7 +10,8 @@ import { useState } from 'react'
 import { GiBroadsword, GiCircle, GiShield } from 'react-icons/gi'
 import colors from 'tailwindcss/colors'
 
-const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr: false })
+// @ts-ignore
+const ReactTooltip = dynamic(() => import('react-tooltip'), { ssr: false }) as any
 
 export const CardAttack: FC<{ card: CardData }> = ({ card }) => {
   return (
@@ -46,8 +47,8 @@ export const RelatedCardsTooltip = () => (
     arrowColor={colors.gray[500]}
     scrollHide={true}
     resizeHide={true}
-    getContent={(cardIds) => (
-      <RelatedCardTooltipContent cardIds={cardIds?.split(',').map((x) => +x) ?? []} />
+    getContent={(cardIds: any) => (
+      <RelatedCardTooltipContent cardIds={cardIds?.split(',').map((x: any) => +x) ?? []} />
     )}
   />
 )

@@ -1,6 +1,6 @@
-import type { PrismaClient } from '@prisma/client'
 import { differenceInMilliseconds } from 'date-fns'
 import type { Buffer } from 'node:buffer'
+import type { PrismaClient } from '../db/generated/prisma/client/client'
 
 type DeckImage = PrismaClient['deckImage']
 
@@ -45,7 +45,7 @@ export const extendDeckImage = (deckImage: DeckImage) =>
         select: { sharecode: true },
         where: { sharecode },
         data: bytes
-          ? { bytes, renderedAt: new Date() }
+          ? { bytes: bytes as any, renderedAt: new Date() }
           : { bytes: null, renderStartedAt: null, version: null },
       })
       return bytes
