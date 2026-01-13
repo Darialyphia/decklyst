@@ -1,6 +1,6 @@
 import { useDeck } from '@/context/useDeck'
 import { playableMinionOnTheDrawChance, playableMinionOnThePlayChance } from '@/data/deck'
-import { chain, sumBy } from 'lodash'
+import _, { chain, sumBy } from 'lodash'
 import { Fragment, useMemo } from 'react'
 import { FaChevronDown } from 'react-icons/fa'
 
@@ -45,7 +45,7 @@ export const OpeningHandChart = () => {
 
 export const FactionChart = () => {
   const deck = useDeck()
-  const data = chain(deck.cards)
+  const data = _.chain(deck.cards)
     .groupBy((card) => card.faction)
     .reduce(
       (memo, cards, faction) => ({

@@ -1,7 +1,7 @@
 import { colors, lighten } from '@/common/colors'
 import { useDeck } from '@/context/useDeck'
 import type { CardType } from '@/data/cards'
-import { chain, groupBy, sumBy } from 'lodash'
+import _, { chain, groupBy, sumBy } from 'lodash'
 import { PolarAngleAxis, PolarGrid, Radar, RadarChart, ResponsiveContainer } from 'recharts'
 import { gray } from 'tailwindcss/colors'
 
@@ -9,7 +9,7 @@ const order: CardType[] = ['Minion', 'Spell', 'Artifact']
 export const CardTypeChart = () => {
   const { cards, faction } = useDeck()
   const groupedByCardType = groupBy(cards, ({ cardType }) => cardType)
-  const data = chain(order)
+  const data = _.chain(order)
     .map((cardType) => [cardType, groupedByCardType[cardType] ?? []] as const)
     .map(([cardType, cards]) => ({
       name: cardType,

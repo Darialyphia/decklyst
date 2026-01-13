@@ -1,14 +1,14 @@
 import { colors, lighten } from '@/common/colors'
 import { useDeck } from '@/context/useDeck'
 import { RARITY, type Rarity } from '@/data/cards'
-import { chain, sumBy } from 'lodash'
+import _, { chain, sumBy } from 'lodash'
 import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts'
 import { gray } from 'tailwindcss/colors'
 
 export const rarities: Rarity[] = Object.values(RARITY)
 export const CardRarityChart = () => {
   const { cards } = useDeck()
-  const grouped = chain(cards)
+  const grouped = _.chain(cards)
     .filter((card) => card.cardType !== 'General')
     .groupBy((card) => card.rarity)
     .value()
