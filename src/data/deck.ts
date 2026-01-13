@@ -5,7 +5,7 @@ import type { Deckcode } from '@/data/deckcode'
 import { encodeDeckcode, parseDeckcode, splitDeckcode } from '@/data/deckcode'
 import type { Decklyst, User } from '@/server/db/generated/prisma/client/client'
 import type { WithRequired } from '@/types'
-import { chain, groupBy, max, memoize, startCase, sumBy } from 'lodash'
+import _, { chain, groupBy, max, memoize, startCase, sumBy } from 'lodash'
 
 export type CardEntry = CardData & { count: number }
 export type Deck = {
@@ -96,7 +96,7 @@ export const minionCount$ = $((deck) => sumBy(minions$(deck), (card) => card.cou
 export const spellCount$ = $((deck) => sumBy(spells$(deck), (card) => card.count))
 export const artifactCount$ = $((deck) => sumBy(artifacts$(deck), (card) => card.count))
 export const spiritCost$ = $((deck) =>
-  chain(deck.cards)
+  _.chain(deck.cards)
     .groupBy((card) => card.rarity)
     .entries()
     .map(([rarity, cards]) => [rarity as Rarity, sumBy(cards, ({ count }) => count)] as const)

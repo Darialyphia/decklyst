@@ -54,7 +54,6 @@ const diffCards = (leftCards: CardEntry[], rightCards: CardEntry[]): CardDiff[] 
 
 export const createDeckDiff = (left: DeckExpanded, right: DeckExpanded) => {
   const cardTypes = ['Minion', 'Spell', 'Artifact'] as CardType[]
-
   const deckDiff = cardTypes.reduce(
     (acc, cardType) => {
       const cardsPath = `${cardType.toLowerCase()}s` as keyof DeckExpanded
