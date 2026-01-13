@@ -63,7 +63,7 @@ export const DeckbuilderIndexPage: FC = () => {
             <div key={faction} className="mb-16 flex flex-col">
               <h3 className={`text-2xl text-${faction} mb-4 font-mono`}>{startCase(faction)}</h3>
               <div className="ml-8 mr-3 flex justify-around gap-x-2">
-                {generalsByFaction[faction].map((general) => (
+                {generalsByFaction[faction]?.map((general) => (
                   <GeneralLink key={general.id} general={general} />
                 ))}
               </div>

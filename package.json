@@ -5,15 +5,16 @@
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
+    "prebuild": "yarn generate:schema",
     "start": "next start",
     "lint": "next lint",
     "test": "dotenv -o -e env.test -- jest --passWithNoTests",
-    "prepare": "husky install",
     "prisma": "dotenv -o -e .env.local prisma",
     "migrate:dev": "dotenv -o -e .env.local prisma migrate dev",
     "migrate:prod": "dotenv -o -e .env.production prisma migrate deploy",
     "studio:dev": "dotenv -o -e .env.local prisma studio",
     "studio:prod": "dotenv -o -e .env.production prisma studio",
+    "generate:schema": "prisma generate",
     "generate:cards.json": "ts-node scripts/generateCardsJson.ts && yarn prettier --write src/data/carddata.json",
     "generate:sprites": "ts-node  scripts/generateSprites.ts",
     "sync:db": "dotenv -o -e .env.local -e .env ts-node scripts/syncDb.ts",
@@ -51,13 +52,13 @@
     "lodash": "4.17.21",
     "minimist": "^1.2.7",
     "nanoid": "^5.0.6",
-    "next": "13.0.5",
+    "next": "^14.2.35",
     "next-auth": "^4.24.6",
     "next-superjson": "0.0.4",
     "puppeteer": "19.3.0",
     "qrcode.react": "3.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18",
+    "react-dom": "18",
     "react-icons": "4.6.0",
     "react-responsive": "^9.0.2",
     "react-spinners": "0.13.6",
@@ -86,7 +87,7 @@
     "autoprefixer": "10.4.13",
     "dotenv-override-cli": "^4.0.1",
     "eslint": "8.28.0",
-    "eslint-config-next": "13.0.5",
+    "eslint-config-next": "^14.2.35",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.11",
@@ -106,13 +107,6 @@
     "ts-node": "10.9.1",
     "tsconfig-paths": "^4.1.0",
     "webpack": "^5.75.0"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "organize-imports-cli",
-      "eslint --cache --fix"
-    ],
-    "*.{json,css,md}": "prettier --write"
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"

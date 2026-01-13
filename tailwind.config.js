@@ -94,8 +94,11 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    //@ts-ignore
     require('tailwindcss-animate'),
+    //@ts-ignore
     require('@savvywombat/tailwindcss-grid-areas'),
+    //@ts-ignore
     require('@headlessui/tailwindcss')({ prefix: 'ui' }),
   ],
   safelist: [

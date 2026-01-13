@@ -106,7 +106,7 @@ const UserProfilePage: FC<Props> = ({ userId, searchParams }) => {
         privacy,
       },
       {
-        onSuccess(data, variables, context) {
+        onSuccess(data, variables) {
           deck.meta!.privacy = privacy
           refetch()
         },

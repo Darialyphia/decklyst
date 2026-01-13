@@ -54,7 +54,7 @@ export const parseDeckcode = memoize((deckcode: string): Deckcode => {
       .split(',')
       .map((pair) => pair.split(':'))
       .reduce<Deckcode['cards']>(
-        (acc, [count, id]) => (id && +count ? { ...acc, [id]: +count } : acc),
+        (acc, [count, id]) => (id && +(count ?? 0) ? { ...acc, [id]: +(count ?? 0) } : acc),
         {},
       ),
   }
