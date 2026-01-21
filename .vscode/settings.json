@@ -2,5 +2,6 @@
   "jest.autoRun": "off",
   "jest.jestCommandLine": "yarn test",
   "testing.autoRun.mode": "rerun",
-  "testing.openTesting": "openOnTestFailure"
+  "testing.openTesting": "openOnTestFailure",
+  "testing.automaticallyOpenTestResults": "openOnTestFailure"
 }

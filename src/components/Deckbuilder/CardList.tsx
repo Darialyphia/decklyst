@@ -11,6 +11,14 @@ const IGNORED_IDS = [
   20452, // duplicate Rasha's curse,
   30124, // Hex Charm
   20553, // Inner focus has been removed but it's still in the D2 API response :yussy:
+  // the following cards are wrongfully marked as basic rarity instead of token
+  40001,
+  40011,
+  40019,
+  40016,
+  40017,
+  40018,
+  40026
 ]
 export const CardList: FC<{
   onSelectCard: CardHandler
