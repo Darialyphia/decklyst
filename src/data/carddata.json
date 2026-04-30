@@ -2085,7 +2085,7 @@
     "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "rare",
-    "description": "Opening Gambit: Destroy a nearby minion that costs 3 or less.",
+    "description": "Opening Gambit: Destroy a nearby minion with 3 or less Attack.",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f4NightsorrowBreathing.gif",
@@ -2499,7 +2499,7 @@
     "cardSet": "Core Set",
     "faction": "magmar",
     "rarity": "common",
-    "description": "This moves 1 less space.",
+    "description": "",
     "relatedCards": [],
     "resource": {
       "breathing": "resources/card_gifs/f5TankBreathing.gif",
@@ -8586,7 +8586,7 @@
     "cardSet": "Core Set",
     "faction": "abyssian",
     "rarity": "common",
-    "description": "Deal 2 damage to enemy General and heal your General for 3.",
+    "description": "Deal 2 damage to the enemy General and heal your General for 3.",
     "relatedCards": [],
     "resource": {
       "idle": "resources/card_gifs/iconD2VoidPulseIdle.gif",
@@ -9540,7 +9540,7 @@
       "idle": "resources/card_gifs/iconD2AfterblazeIdle.gif",
       "active": "resources/card_gifs/iconD2AfterblazeActive.gif"
     },
-    "mana": 7,
+    "mana": 6,
     "cardType": "Spell",
     "tribes": [],
     "factionId": 1
@@ -10272,7 +10272,7 @@
       "idle": "resources/card_gifs/iconD2OrnateHiogiIdle.gif",
       "active": "resources/card_gifs/iconD2OrnateHiogiActive.gif"
     },
-    "mana": 1,
+    "mana": 0,
     "cardType": "Artifact",
     "tribes": [],
     "factionId": 2

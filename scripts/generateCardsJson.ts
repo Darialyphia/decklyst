@@ -6,7 +6,7 @@ import { scrapedCardsById } from './generateCardsJson/scrapedCards'
 
 const blacklist = [
   20452, // rasha's curse duplicate
-  20553, // Inner focus has been removed but it's still in the D2 API response :yussy:
+  // 20553, // Inner focus has been removed but it's still in the D2 API response :yussy:
 ]
 
 export interface CardJSON {
